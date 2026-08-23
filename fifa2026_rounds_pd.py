@@ -22,7 +22,7 @@ matches = pd.concat(
 # matches is now your clean match dataframe
 print(matches.head())
 
-# Columns are:
+# [5 rows x 25 columns] Columns:
 # id
 # venueName
 # venueCity
