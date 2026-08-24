@@ -39,3 +39,4 @@ print(matches.head())
 # plus the round metadata (stage, roundName, etc.)
 # All extracted cleanly from the CSV.
 
+matches.to_csv("matches.csv", index=False)
