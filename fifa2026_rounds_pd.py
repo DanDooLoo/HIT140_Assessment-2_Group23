@@ -22,7 +22,7 @@ matches = pd.concat(
 # matches is now your clean match dataframe
 print(matches.head())
 
-# Columns are:
+# [5 rows x 25 columns] Columns:
 # id
 # venueName
 # venueCity
@@ -39,3 +39,4 @@ print(matches.head())
 # plus the round metadata (stage, roundName, etc.)
 # All extracted cleanly from the CSV.
 
+# exported to - matches.to_csv("matches.csv", index=False)
