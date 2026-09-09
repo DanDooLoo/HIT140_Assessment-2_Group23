@@ -132,6 +132,6 @@ A full narrated breakdown of the analysis is available on YouTube.
 - TBD......
 
 ### Author
-![alt text](image.png) 
+![alt text](image.png)
 
 Danielle Whitney - Student # S407528
