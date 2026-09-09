@@ -1,12 +1,19 @@
-# HIT140 Assessment 2 – Goalkeeper Aggression Analysis  
-### Group 23 – Danielle
+# HIT140 Assessment 2 – FIFA World Cup 2026 - Analysis
+### Group 23 – Danielle, Gabrielle, Judith, Manuela
 
-## 📌 Project Overview - Analysis Taks 4
-This project investigates whether aggressive goalkeepers — defined by actions outside the penalty area — have significantly different save efficiency compared to less aggressive goalkeepers.  
+## 📌 Project Overview - 
+
+## 🎯 Research Question 1 - Yellow Cards
+During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
+
+## 🎯 Research Question - Analysis 2 - Judith
+
+## 🎯 Research Question - Analysis 3 - Gabby
+
+## 🎯 Research Question 4
+Do goalkeepers with higher aggression have significantly different save efficiency? This project investigates whether aggressive goalkeepers — defined by actions outside the penalty area — have significantly different save efficiency compared to less aggressive goalkeepers.
+
 The analysis uses FIFA World Cup 2026 goalkeeper data.
-
-## 🎯 Research Question
-Do goalkeepers with higher aggression have significantly different save efficiency?
 
 ### Sub‑questions:
 1. Are aggressive keepers more efficient?
