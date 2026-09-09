@@ -24,16 +24,16 @@ Each analytic task must also have a distinct focal point of investigation that d
 
 # 🎯 Analysis Research Questions
 
-## Reasearch Question 1: Yellow Cards
+### Research Question 1 - Yellow Cards
 During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
 
-## Research Question 2: Penalty Shoot Outs
+### Research Question 2 - Penalty Shoot Outs
 add text here.....
 
-### Research Question 3: Possessions
+### Research Question 3 - Possessions
 add text here.........
 
-### Research Question 4: Goalkeeper Aggression vs Save Efficiency
+### Research Question 4 - Goalkeeper Aggression vs Save Efficiency
 Do goalkeepers with higher aggression have significantly different save efficiency?
 
 #### Sub‑questions:
