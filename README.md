@@ -126,7 +126,7 @@ Include:
 
 # 📽️ YouTube Video
 A full narrated breakdown of the analysis is available on YouTube.  
-*(Insert link once uploaded)*
+https://youtu.be/ToZjo_cY3Vo
 
 ## 📂 Repository Structure
 - TBD......
