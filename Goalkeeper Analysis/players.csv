@@ -1,0 +1,1268 @@
+id,feedId,fifaId,firstName,lastName,knownName,shortName,squadId,position,status
+1798,512123,482869,Jaouen,Hadjam,,Jaouen Hadjam,1,DEF,available
+1799,126407,379939,Nabil,Bentaleb,,Nabil Bentaleb,1,MID,available
+1800,475973,433600,Mohamed Amine,Tougai,,Mohamed Amine Tougai,1,DEF,available
+1801,482380,511010,Samir,Chergui,,Samir Chergui,1,DEF,available
+1802,498175,477817,Oussama,Benbot,,Oussama Benbot,1,GK,available
+1803,573379,477795,Farès,Chaïbi,,Farès Chaïbi,1,MID,available
+1804,231961,430698,Houssem,Aouar,,Houssem Aouar,1,MID,available
+1805,480779,441350,Hicham,Boudaoui,,Hicham Boudaoui,1,MID,available
+1806,488355,433679,Ramiz,Zerrouki,,Ramiz Zerrouki,1,MID,available
+1807,562049,433631,Yacine,Titraoui,,Yacine Titraoui,1,MID,available
+1808,581134,512132,Adil,Boulbina,,Adil Boulbina,1,MID,available
+1809,546789,520070,Melvin,Mastil,,Melvin Mastil,1,GK,available
+1810,199673,389879,Luca,Zidane,,Luca Zidane,1,GK,available
+1811,587093,520071,Nadhir,Benbouali,,Nadhir Benbouali,1,FWD,available
+1812,607330,520072,Farès,Ghedjemis,,Farès Ghedjemis,1,FWD,available
+1813,581136,482874,Anis,Hadj Moussa,,Anis Hadj Moussa,1,FWD,available
+1814,570052,494291,Ibrahim,Maza,,Ibrahim Maza,1,FWD,available
+1815,103025,379942,Riyad,Mahrez,,Riyad Mahrez,1,MID,available
+1816,247400,405877,Amine,Gouiri,,Amine Gouiri,1,FWD,available
+1817,533339,477790,Mohammed,Amoura,,Mohammed Amoura,1,FWD,available
+1818,701538,512127,Achref,Abada,,Achref Abada,1,DEF,available
+1819,531602,511009,Rafik,Belghali,,Rafik Belghali,1,DEF,available
+1820,475972,480983,Zineddine,Belaïd,,Zineddine Belaïd,1,DEF,available
+1821,86813,376285,Aïssa,Mandi,,Aïssa Mandi,1,DEF,available
+1822,189791,395113,Ramy,Bensebaini,,Ramy Bensebaini,1,DEF,available
+1823,448514,431858,Rayan,Aït-Nouri,,Rayan Aït-Nouri,1,DEF,available
+1824,209737,402920,Lautaro,Martínez,Lautaro Martínez,Lautaro Martínez,2,FWD,available
+1825,200826,395414,Giovani,Lo Celso,,Giovani Lo Celso,2,MID,available
+1826,218430,402926,Gonzalo,Montiel,,Gonzalo Montiel,2,DEF,available
+1827,224868,418963,Facundo,Medina,,Facundo Medina,2,DEF,available
+1828,221820,402921,Lisandro,Martínez,Lisandro Martínez,Lisandro Martínez,2,DEF,available
+1829,448047,448252,Enzo,Fernández,,Enzo Fernández,2,MID,available
+1830,243016,430628,Alexis,Mac Allister,,Alexis Mac Allister,2,MID,available
+1831,461360,418975,Thiago,Almada,,Thiago Almada,2,MID,available
+1832,218543,389485,Exequiel,Palacios,,Exequiel Palacios,2,MID,available
+1833,543158,463661,Valentín,Barco,,Valentín Barco,2,MID,available
+1834,551493,441422,Nico,Paz,,Nico Paz,2,MID,available
+1835,119141,428882,Rodrigo,De Paul,,Rodrigo De Paul,2,MID,available
+1836,91080,332847,Leandro,Paredes,,Leandro Paredes,2,MID,available
+1837,121537,430624,Juan,Musso,,Juan Musso,2,GK,available
+1838,106921,394824,Gerónimo,Rulli,,Gerónimo Rulli,2,GK,available
+1839,98980,308300,Emiliano,Martínez,Emiliano Martínez,Emiliano Martínez,2,GK,available
+1840,522982,495054,José Manuel,López,,José Manuel López,2,FWD,available
+1841,231004,430631,Nico,González,,Nico González,2,MID,available
+1842,482652,485595,Giuliano,Simeone,,Giuliano Simeone,2,MID,available
+1843,461358,416081,Julián,Alvarez,,Julián Alvarez,2,FWD,available
+1844,19054,229397,Lionel,Messi,,Lionel Messi,2,FWD,available
+1845,86479,308322,Nicolás,Tagliafico,,Nicolás Tagliafico,2,DEF,available
+1846,57410,310116,Nicolás,Otamendi,,Nicolás Otamendi,2,DEF,available
+1847,221586,402925,Nahuel,Molina,,Nahuel Molina,2,DEF,available
+1848,221632,431196,Cristian,Romero,,Cristian Romero,2,DEF,available
+1849,558973,448015,Cristian,Volpato,,Cristian Volpato,3,MID,available
+1850,523760,518200,Tete,Yengi,,Tete Yengi,3,FWD,available
+1851,497838,498806,Mohamed,Touré,,Mohamed Touré,3,FWD,available
+1852,100887,321697,Mathew,Leckie,,Mathew Leckie,3,MID,available
+1853,107692,355775,Jackson,Irvine,,Jackson Irvine,3,MID,available
+1854,440485,430437,Cameron,Devlin,,Cameron Devlin,3,MID,available
+1855,194190,430442,Harry,Souttar,,Harry Souttar,3,DEF,available
+1856,247333,404319,Ajdin,Hrustic,,Ajdin Hrustic,3,MID,available
+1857,150925,406606,Awer,Mabil,,Awer Mabil,3,MID,available
+1858,234483,430440,Aiden,O'Neill,,Aiden O'Neill,3,MID,available
+1859,431915,430452,Connor,Metcalfe,,Connor Metcalfe,3,MID,available
+1860,550966,498421,Paul,Okon-Engstler,,Paul Okon-Engstler,3,MID,available
+1861,568146,494557,Patrick,Beach,,Patrick Beach,3,GK,available
+1862,131852,331135,Paul,Izzo,,Paul Izzo,3,GK,available
+1863,131897,339117,Mathew,Ryan,,Mathew Ryan,3,GK,available
+1864,439197,430450,Jacob,Italiano,,Jacob Italiano,3,DEF,available
+1865,497906,491166,Nishan,Velupillay,,Nishan Velupillay,3,FWD,available
+1866,553560,486306,Nestory,Irankunda,,Nestory Irankunda,3,FWD,available
+1867,597462,504931,Lucas,Herrington,,Lucas Herrington,3,DEF,available
+1868,440407,494411,Kai,Trewin,,Kai Trewin,3,DEF,available
+1869,149455,339112,Jason,Geria,,Jason Geria,3,DEF,available
+1870,156290,349342,Aziz,Behich,,Aziz Behich,3,DEF,available
+1871,149037,331149,Milos,Degenek,,Milos Degenek,3,DEF,available
+1872,122411,382312,Cameron,Burgess,,Cameron Burgess,3,DEF,available
+1873,497908,448014,Alessandro,Circati,,Alessandro Circati,3,DEF,available
+1874,465797,423522,Jordan,Bos,,Jordan Bos,3,DEF,available
+1875,204561,385531,Xaver,Schlager,Xaver Schlager,Xaver Schlager,4,MID,available
+1876,546410,520036,Paul,Wanner,,Paul Wanner,4,MID,available
+1877,486206,463286,Patrick,Wimmer,,Patrick Wimmer,4,MID,available
+1878,228564,463283,Romano,Schmid,,Romano Schmid,4,MID,available
+1879,101338,358241,Marcel,Sabitzer,,Marcel Sabitzer,4,MID,available
+1880,478196,441088,Nicolas,Seiwald,,Nicolas Seiwald,4,MID,available
+1881,210159,385248,Florian,Grillitsch,,Florian Grillitsch,4,MID,available
+1882,168083,375600,Alessandro,Schöpf,,Alessandro Schöpf,4,MID,available
+1883,109126,385259,Konrad,Laimer,,Konrad Laimer,4,MID,available
+1884,478912,463800,Carney,Chukwuemeka,,Carney Chukwuemeka,4,MID,available
+1885,625337,520034,Florian,Wiegele,,Florian Wiegele,4,GK,available
+1886,208766,441065,Patrick,Pentz,,Patrick Pentz,4,GK,available
+1887,162839,371739,Alexander,Schlager,Alexander Schlager,Alexander Schlager,4,GK,available
+1888,429414,430100,Sasa,Kalajdzic,,Sasa Kalajdzic,4,FWD,available
+1889,62480,401131,Michael,Gregoritsch,,Michael Gregoritsch,4,FWD,available
+1890,41464,299200,Marko,Arnautovic,,Marko Arnautovic,4,FWD,available
+1891,454490,491269,Michael,Svoboda,,Michael Svoboda,4,DEF,available
+1892,442299,520035,David,Affengruber,,David Affengruber,4,DEF,available
+1893,225335,463287,Marco,Friedl,,Marco Friedl,4,DEF,available
+1894,160158,463288,Phillipp,Mwene,,Phillipp Mwene,4,DEF,available
+1895,191803,441067,Stefan,Posch,,Stefan Posch,4,DEF,available
+1896,135720,405263,Kevin,Danso,,Kevin Danso,4,DEF,available
+1897,442305,463282,Alexander,Prass,,Alexander Prass,4,DEF,available
+1898,199245,372243,Philipp,Lienhart,,Philipp Lienhart,4,DEF,available
+1899,50188,316002,David,Alaba,,David Alaba,4,DEF,available
+1900,491011,497902,Diego,Moreira,,Diego Moreira,5,MID,available
+1901,116216,448355,Leandro,Trossard,,Leandro Trossard,5,MID,available
+1902,613221,494025,Matias,Fernandez-Pardo,,Matias Fernandez-Pardo,5,FWD,available
+1903,167763,448343,Hans,Vanaken,,Hans Vanaken,5,MID,available
+1904,549939,499803,Mike,Penders,,Mike Penders,5,GK,available
+1905,60772,358106,Thibaut,Courtois,,Thibaut Courtois,5,GK,available
+1906,61366,358120,Kevin,De Bruyne,,Kevin De Bruyne,5,MID,available
+1907,166989,401444,Youri,Tielemans,,Youri Tielemans,5,MID,available
+1908,449871,448364,Amadou,Onana,,Amadou Onana,5,MID,available
+1909,422181,495349,Nicolas,Raskin,,Nicolas Raskin,5,MID,available
+1910,465247,495348,Senne,Lammens,,Senne Lammens,5,GK,available
+1911,465716,448362,Charles,De Ketelaere,,Charles De Ketelaere,5,MID,available
+1912,437746,433092,Alexis,Saelemaekers,,Alexis Saelemaekers,5,MID,available
+1913,219002,448377,Dodi,Lukébakio,,Dodi Lukébakio,5,FWD,available
+1914,248875,448341,Jérémy,Doku,,Jérémy Doku,5,MID,available
+1915,66749,358112,Romelu,Lukaku,,Romelu Lukaku,5,FWD,available
+1916,538078,514166,Nathan,Ngoy,,Nathan Ngoy,5,DEF,available
+1917,550957,506088,Joaquin,Seys,,Joaquin Seys,5,DEF,available
+1918,161049,448360,Brandon,Mechele,,Brandon Mechele,5,DEF,available
+1919,248881,448366,Koni,De Winter,,Koni De Winter,5,DEF,available
+1920,41189,290821,Axel,Witsel,,Axel Witsel,5,MID,available
+1921,532091,448369,Zeno,Debast,,Zeno Debast,5,DEF,available
+1922,93605,358122,Thomas,Meunier,,Thomas Meunier,5,DEF,available
+1923,465189,448346,Arthur,Theate,,Arthur Theate,5,DEF,available
+1924,166477,411443,Timothy,Castagne,,Timothy Castagne,5,DEF,available
+1925,465730,448373,Maxim,De Cuyper,,Maxim De Cuyper,5,DEF,available
+1926,638649,522842,Mladen,Jurkas,,Mladen Jurkas,6,GK,available
+1927,518093,522846,Ermin,Mahmic,,Ermin Mahmic,6,MID,available
+1928,193790,430194,Dennis,Hadzikadunic,,Dennis Hadzikadunic,6,DEF,available
+1929,209801,430196,Amir,Hadziahmetovic,,Amir Hadziahmetovic,6,MID,available
+1930,585658,483966,Benjamin,Tahirovic,,Benjamin Tahirovic,6,MID,available
+1931,512272,482974,Ivan,Basic,,Ivan Basic,6,MID,available
+1932,484403,489523,Armin,Gigovic,,Armin Gigovic,6,MID,available
+1933,173276,372436,Ivan,Sunjic,,Ivan Sunjic,6,MID,available
+1934,204573,389886,Dzenis,Burnic,,Dzenis Burnic,6,MID,available
+1935,544182,494640,Amar,Memic,,Amar Memic,6,MID,available
+1936,428796,491228,Martin,Zlomislic,,Martin Zlomislic,6,GK,available
+1937,164149,482978,Nikola,Vasilj,,Nikola Vasilj,6,GK,available
+1938,593271,504990,Kerim,Alajbegovic,,Kerim Alajbegovic,6,FWD,available
+1939,539294,485063,Samed,Bazdar,,Samed Bazdar,6,FWD,available
+1940,549127,464566,Esmir,Bajraktarevic,,Esmir Bajraktarevic,6,FWD,available
+1941,132193,482984,Haris,Tabakovic,,Haris Tabakovic,6,FWD,available
+1942,457799,519954,Jovo,Lukic,,Jovo Lukic,6,FWD,available
+1943,42544,300409,Edin,Dzeko,,Edin Dzeko,6,FWD,available
+1944,429256,436743,Ermedin,Demirovic,,Ermedin Demirovic,6,FWD,available
+1945,634897,492367,Nidal,Celik,,Nidal Celik,6,DEF,available
+1946,235756,482969,Nihad,Mujakic,,Nihad Mujakic,6,DEF,available
+1947,241487,489521,Stjepan,Radeljic,,Stjepan Radeljic,6,DEF,available
+1948,186348,489520,Nikola,Katic,,Nikola Katic,6,DEF,available
+1949,522047,484022,Tarik,Muharemovic,,Tarik Muharemovic,6,DEF,available
+1950,463726,482976,Amar,Dedic,,Amar Dedic,6,DEF,available
+1951,111457,376230,Sead,Kolasinac,,Sead Kolasinac,6,DEF,available
+1952,61278,314197,Neymar,da Silva Santos Júnior,Neymar,Neymar,7,MID,available
+1953,219961,433872,Raphael,Dias Belloli,Raphinha,Raphinha,7,MID,available
+1954,208706,430605,Bruno,Guimarães Rodriguez Moura,Bruno Guimarães,Bruno Guimarães,7,MID,available
+1955,53693,335658,Alex Sandro,Lobo da Silva,Alex Sandro,Alex Sandro,7,DEF,available
+1956,116275,396315,Weverton,Pereira da Silva,Weverton,Weverton,7,GK,available
+1957,224024,411726,Lucas,Tolentino Coelho de Lima,Lucas Paquetá,Lucas Paquetá,7,MID,available
+1958,61256,308386,Carlos Henrique,Casimiro,Casemiro,Casemiro,7,MID,available
+1959,513046,335656,Danilo,dos Santos de Oliveira,Danilo Santos,Danilo Santos,7,MID,available
+1960,116643,394456,Fábio Henrique,Tavares,Fabinho,Fabinho,7,MID,available
+1961,116535,308370,Alisson Ramsés,Becker,Alisson Becker,Alisson Becker,7,GK,available
+1962,121160,395427,Ederson,Santana de Moraes,Ederson,Ederson,7,GK,available
+1963,577107,463746,Endrick Felipe,Moreira de Sousa,Endrick,Endrick,7,FWD,available
+1964,499604,475036,Rayan Vitor,Simplício Rocha,Rayan,Rayan,7,FWD,available
+1965,502500,519836,Igor Thiago,Nascimento Rodrigues,Igor Thiago,Igor Thiago,7,FWD,available
+1966,509290,448420,Luiz Henrique André,Rosa da Silva,Luiz Henrique,Luiz Henrique,7,FWD,available
+1967,444145,430597,Gabriel Teodoro,Martinelli Silva,Gabriel Martinelli,Gabriel Martinelli,7,MID,available
+1968,430871,430609,Matheus,Santos Carneiro da Cunha,Matheus Cunha,Matheus Cunha,7,FWD,available
+1969,246333,405742,Vinícius José,Paixão de Oliveira Júnior,Vinícius Júnior,Vinícius Júnior,7,MID,available
+1970,173084,371956,Leonardo,Pereira,Léo Pereira,Léo Pereira,7,DEF,available
+1971,428585,431889,Gleison Bremer,Silva Nascimento,Bremer,Bremer,7,DEF,available
+1972,120537,367981,Douglas,dos Santos Justino de Melo,Douglas Santos,Douglas Santos,7,DEF,available
+1973,100180,335656,Danilo Luiz,da Silva,Danilo,Danilo,7,DEF,available
+1974,430788,430594,Roger,Ibañez da Silva,Roger Ibañez,Roger Ibañez,7,DEF,available
+1975,116406,332946,Marcos,Aoás Corrêa,Marquinhos,Marquinhos,7,DEF,available
+1976,226597,430601,Gabriel,dos Santos Magalhães,Gabriel Magalhães,Gabriel Magalhães,7,DEF,available
+1977,534927,477862,Gilson,Benchimol Tavares,Gilson Benchimol,Gilson Benchimol,8,MID,available
+1978,626513,477849,Hélio Sandro,Oliveira Alves Varela,Hélio Varela,Hélio Varela,8,MID,available
+1979,217119,401894,Jamiro Gregory,Monteiro Alvarenga,Jamiro Monteiro,Jamiro Monteiro,8,MID,available
+1980,445956,477831,Logan Evans,Costa,Logan Costa,Logan Costa,8,DEF,available
+1981,83671,297266,Ianique,dos Santos Tavares,Stopira,Stopira,8,DEF,available
+1982,180183,480966,Laros Michael,d'Encarnação  Duarte,Laros Duarte,Laros Duarte,8,MID,available
+1983,233323,477827,Deroy,d'Encarnação Duarte,Deroy Duarte,Deroy Duarte,8,MID,available
+1984,509046,494314,Telmo Emanuel,Gomes Arcanjo,Telmo Arcanjo,Telmo Arcanjo,8,MID,available
+1985,432149,407114,Márcio Salomão,Brazão da Rosa,Márcio Rosa,Márcio Rosa,8,GK,available
+1986,223244,406281,Carlos Joaquim,Antunes dos Santos,CJ dos Santos,CJ dos Santos,8,GK,available
+1987,149740,364752,Josimar José,Évora Dias,Vozinha,Vozinha,8,GK,available
+1988,433857,433724,Willy Johnson,Semedo Afonso,Willy Semedo,Willy Semedo,8,FWD,available
+1989,119228,373344,Garry,Mendes Rodrigues,Garry Rodrigues,Garry Rodrigues,8,FWD,available
+1990,177840,401893,Nuno Miguel,da Costa Jóia,Nuno da Costa,Nuno da Costa,8,FWD,available
+1991,558499,482782,Dailon,Rocha Livramento do Rosário,Dailon Livramento,Dailon Livramento,8,FWD,available
+1992,437913,477856,Jovane Eduardo,Borges Cabral,Jovane Cabral,Jovane Cabral,8,FWD,available
+1993,61529,355642,Ryan Isaac,Mendes da Graça,Ryan Mendes,Ryan Mendes,8,FWD,available
+1994,195937,409241,Edilson Alberto,Monteiro Sanches Borges,Diney Borges,Diney Borges,8,DEF,available
+1995,563789,477832,Sidny,Lopes Cabral,Sidny Cabral,Sidny Cabral,8,DEF,available
+1996,481300,482780,Kelvin,Spencer Pires,Kelvin Pires,Kelvin Pires,8,DEF,available
+1997,94786,477770,Roberto Carlos,Lopes,Pico Lopes,Pico Lopes,8,DEF,available
+1998,626100,482783,Wagner Fabrício,Cardoso de Pina,Wagner Pina,Wagner Pina,8,DEF,available
+1999,141017,477847,Steven,Moreira,Steven Moreira,Steven Moreira,8,DEF,available
+2000,439071,477852,Kevin Lenini,Gonçalves Pereira de Pina,Kevin Pina,Kevin Pina,8,MID,available
+2001,216198,494313,Jair,Semedo Monteiro,Yannick Semedo,Yannick Semedo,8,MID,available
+2002,534926,477855,João Paulo,Moreira Fernandes,João Paulo,João Paulo,8,MID,available
+2003,538007,493970,Promise,David,Promise David,Promise David,9,FWD,available
+2004,477838,448411,Jacob,Shaffelburg,,Jacob Shaffelburg,9,MID,available
+2005,436806,433635,Stephen,Eustaquio,,Stephen Eustaquio,9,MID,available
+2006,176706,514070,Alfie,Jones,,Alfie Jones,9,DEF,available
+2007,611560,466585,Moïse,Bombito,,Moïse Bombito,9,DEF,available
+2008,479525,441252,Alistair,Johnston,,Alistair Johnston,9,DEF,available
+2009,225059,412144,Alphonso,Davies,,Alphonso Davies,9,DEF,available
+2010,547658,441258,Ismaël,Koné,,Ismaël Koné,9,MID,available
+2011,153647,370986,Jonathan,Osorio,,Jonathan Osorio,9,MID,available
+2012,425625,448390,Mathieu,Choinière,,Mathieu Choinière,9,MID,available
+2013,496694,423941,Nathan,Saliba,,Nathan Saliba,9,MID,available
+2014,618956,485064,Niko,Sigur,,Niko Sigur,9,MID,available
+2015,574473,466687,Ali,Ahmed,,Ali Ahmed,9,MID,available
+2016,515496,463817,Owen,Goodman,,Owen Goodman,9,GK,available
+2017,234433,441255,Dayne,St. Clair,,Dayne St. Clair,9,GK,available
+2018,153575,331732,Maxime,Crépeau,,Maxime Crépeau,9,GK,available
+2019,565686,486929,Tani,Oluwaseyi,,Tani Oluwaseyi,9,FWD,available
+2020,232905,441259,Liam,Millar,,Liam Millar,9,FWD,available
+2021,424622,430138,Tajon,Buchanan,,Tajon Buchanan,9,FWD,available
+2022,185126,390670,Cyle,Larin,,Cyle Larin,9,FWD,available
+2023,421821,441257,Jonathan,David,Jonathan David,Jonathan David,9,FWD,available
+2024,547686,480322,Luc,De Fougerolles,,Luc De Fougerolles,9,DEF,available
+2025,228147,448402,Joel,Waterman,,Joel Waterman,9,DEF,available
+2026,228760,371958,Derek,Cornelius,,Derek Cornelius,9,DEF,available
+2027,221403,431696,Richie,Laryea,,Richie Laryea,9,DEF,available
+2028,244716,418881,Cucho,Hernández,,Cucho Hernández,10,FWD,available
+2029,450655,489849,Juan,Portilla,,Juan Portilla,10,MID,available
+2030,444377,476345,Willer,Ditta,,Willer Ditta,10,DEF,available
+2031,164511,395552,Yerry,Mina,,Yerry Mina,10,DEF,available
+2032,199856,425580,Jorge,Carrascal,,Jorge Carrascal,10,MID,available
+2033,60025,269058,James,Rodríguez,,James Rodríguez,10,MID,available
+2034,230376,470760,Jhon,Arias,Jhon Arias,Jhon Arias,10,MID,available
+2035,420940,405755,Jaminton,Campaz,,Jaminton Campaz,10,MID,available
+2036,126437,356704,Juan Fernando,Quintero,,Juan Fernando Quintero,10,MID,available
+2037,560564,463902,Gustavo,Puerta,,Gustavo Puerta,10,MID,available
+2038,152551,395550,Jefferson,Lerma,,Jefferson Lerma,10,MID,available
+2039,184705,385998,Álvaro,Montero,,Álvaro Montero,10,GK,available
+2040,48844,228686,David,Ospina,,David Ospina,10,GK,available
+2041,148247,360642,Camilo,Vargas,,Camilo Vargas,10,GK,available
+2042,560756,492189,Andrés,Gómez,,Andrés Gómez,10,FWD,available
+2043,432838,428905,Luis,Suárez,,Luis Suárez,10,FWD,available
+2044,120606,369530,Jhon,Córdoba,,Jhon Córdoba,10,FWD,available
+2045,244731,428886,Luis,Díaz,,Luis Díaz,10,MID,available
+2046,102383,315614,Santiago,Arias,Santiago Arias,Santiago Arias,10,DEF,available
+2047,152723,394500,Johan,Mojica,,Johan Mojica,10,DEF,available
+2048,174317,394376,Deiver,Machado,,Deiver Machado,10,DEF,available
+2049,173904,386013,Davinson,Sánchez,,Davinson Sánchez,10,DEF,available
+2050,217532,441622,Jhon,Lucumí,,Jhon Lucumí,10,DEF,available
+2051,247348,431200,Daniel,Muñoz,,Daniel Muñoz,10,DEF,available
+2052,501534,473050,Richard,Ríos,,Richard Ríos,10,MID,available
+2053,514936,470759,Kevin,Castaño,,Kevin Castaño,10,MID,available
+2054,168180,477864,Aaron,Tshibola,,Aaron Tshibola,11,MID,available
+2055,59325,336439,Gaël,Kakuta,,Gaël Kakuta,11,MID,available
+2056,247403,477853,Gédéon,Kalulu,,Gédéon Kalulu,11,DEF,available
+2057,153269,441317,Théo,Bongonda,,Théo Bongonda,11,MID,available
+2058,442335,433161,Edo,Kayembe,Edo Kayembe,Edo Kayembe,11,MID,available
+2059,198381,448128,Charles,Pickel,,Charles Pickel,11,MID,available
+2060,577669,486147,Noah,Sadiki,,Noah Sadiki,11,MID,available
+2061,432489,433076,Samuel,Moutoussamy,,Samuel Moutoussamy,11,MID,available
+2062,586855,494458,Ngal'ayel,Mukau,,Ngal'ayel Mukau,11,MID,available
+2063,469453,486196,Timothy,Fayulu,,Timothy Fayulu,11,GK,available
+2064,538992,514171,Matthieu,Epolo,,Matthieu Epolo,11,GK,available
+2065,196111,441313,Lionel,Mpasi,,Lionel Mpasi,11,GK,available
+2066,598870,510989,Brian,Cipenga,,Brian Cipenga,11,FWD,available
+2067,476892,424119,Nathanaël,Mbuku,,Nathanaël Mbuku,11,FWD,available
+2068,498206,477859,Fiston,Mayele,,Fiston Mayele,11,FWD,available
+2069,223406,426506,Meschack,Elia,,Meschack Elia,11,FWD,available
+2070,83341,336425,Cédric,Bakambu,,Cédric Bakambu,11,FWD,available
+2071,219969,477835,Simon,Banza,,Simon Banza,11,FWD,available
+2072,216646,441316,Yoane,Wissa,,Yoane Wissa,11,FWD,available
+2073,506065,504329,Steve,Kapuadi,,Steve Kapuadi,11,DEF,available
+2074,129505,477829,Dylan,Batubinsika,,Dylan Batubinsika,11,DEF,available
+2075,184449,477833,Joris,Kayembe,Joris Kayembe,Joris Kayembe,11,DEF,available
+2076,180804,403063,Axel,Tuanzebe,,Axel Tuanzebe,11,DEF,available
+2077,149736,356532,Chancel,Mbemba,,Chancel Mbemba,11,DEF,available
+2078,105717,436572,Arthur,Masuaku,,Arthur Masuaku,11,DEF,available
+2079,214590,426357,Aaron,Wan-Bissaka,,Aaron Wan-Bissaka,11,DEF,available
+2080,242514,486260,Christopher,Opéri,,Christopher Opéri,12,DEF,available
+2081,518531,464103,Ange-Yoan,Bonny,,Ange-Yoan Bonny,12,FWD,available
+2082,565940,477777,Oumar,Diakité,,Oumar Diakité,12,FWD,available
+2083,154344,405175,Seko,Fofana,Seko Fofana,Seko Fofana,12,MID,available
+2084,173181,371609,Franck,Kessie,,Franck Kessie,12,MID,available
+2085,210462,430831,Ibrahim,Sangaré,,Ibrahim Sangaré,12,MID,available
+2086,170271,335807,Jean Michaël,Seri,,Jean Michaël Seri,12,MID,available
+2087,424042,430834,Parfait,Guiagon,,Parfait Guiagon,12,MID,available
+2088,545716,486259,Mohamed,Koné,,Mohamed Koné,12,GK,available
+2089,433522,405873,Yahia,Fofana,Yahia Fofana,Yahia Fofana,12,GK,available
+2090,204739,403090,Alban,Lafont,,Alban Lafont,12,GK,available
+2091,611665,506202,Bazoumana,Touré,,Bazoumana Touré,12,FWD,available
+2092,485337,485675,Evann,Guessand,,Evann Guessand,12,FWD,available
+2093,535818,477778,Simon,Adingra,,Simon Adingra,12,FWD,available
+2094,493250,430822,Amad,Diallo,,Amad Diallo,12,FWD,available
+2095,477724,464133,Elye,Wahi,,Elye Wahi,12,FWD,available
+2096,195735,402261,Nicolas,Pépé,,Nicolas Pépé,12,FWD,available
+2097,692871,510922,Yan,Diomande,Yan Diomande,Yan Diomande,12,FWD,available
+2098,244642,407343,Ghislain,Konan,,Ghislain Konan,12,DEF,available
+2099,516939,486268,Emmanuel,Agbadou,,Emmanuel Agbadou,12,DEF,available
+2100,503720,486317,Guéla,Doué,,Guéla Doué,12,DEF,available
+2101,208540,477825,Odilon,Kossounou,,Odilon Kossounou,12,DEF,available
+2102,568420,477802,Ousmane,Diomande,Ousmane Diomande,Ousmane Diomande,12,DEF,available
+2103,478960,430854,Wilfried,Singo,,Wilfried Singo,12,DEF,available
+2104,208553,419172,Evan,Ndicka,,Evan Ndicka,12,DEF,available
+2105,660728,514208,Christ,Inao Oulaï,,Christ Inao Oulaï,12,MID,available
+2106,91651,339987,Mateo,Kovacic,,Mateo Kovacic,13,MID,available
+2107,477424,448180,Josko,Gvardiol,,Josko Gvardiol,13,DEF,available
+2108,229778,448179,Dominik,Kotarski,,Dominik Kotarski,13,GK,available
+2109,522476,482774,Martin,Baturina,,Martin Baturina,13,MID,available
+2110,164570,380005,Mario,Pasalic,Mario Pasalic,Mario Pasalic,13,MID,available
+2111,37055,241559,Luka,Modric,,Luka Modric,13,MID,available
+2112,180151,409191,Nikola,Vlasic,,Nikola Vlasic,13,MID,available
+2113,229774,448164,Kristijan,Jakic,,Kristijan Jakic,13,MID,available
+2114,218373,389753,Nikola,Moro,,Nikola Moro,13,MID,available
+2115,226682,485065,Toni,Fruk,,Toni Fruk,13,MID,available
+2116,464166,448160,Luka,Sucic,Luka Sucic,Luka Sucic,13,MID,available
+2117,459089,514526,Ivor,Pandur,,Ivor Pandur,13,GK,available
+2118,198534,369029,Dominik,Livakovic,,Dominik Livakovic,13,GK,available
+2119,513431,485068,Igor,Matanovic,,Igor Matanovic,13,FWD,available
+2120,460714,389754,Petar,Musa,,Petar Musa,13,FWD,available
+2121,543825,482931,Marco,Pasalic,Marco Pasalic,Marco Pasalic,13,FWD,available
+2122,45034,359381,Ivan,Perisic,,Ivan Perisic,13,FWD,available
+2123,68582,336472,Andrej,Kramaric,,Andrej Kramaric,13,FWD,available
+2124,94273,430070,Ante,Budimir,,Ante Budimir,13,FWD,available
+2125,610799,499290,Luka,Vuskovic,,Luka Vuskovic,13,DEF,available
+2126,204631,389740,Martin,Erlic,,Martin Erlic,13,DEF,available
+2127,421634,448174,Marin,Pongracic,,Marin Pongracic,13,DEF,available
+2128,173271,372424,Duje,Caleta-Car,,Duje Caleta-Car,13,DEF,available
+2129,240992,448171,Josip,Sutalo,,Josip Sutalo,13,DEF,available
+2130,437921,433667,Josip,Stanisic,,Josip Stanisic,13,DEF,available
+2131,581229,485066,Petar,Sucic,Petar Sucic,Petar Sucic,13,MID,available
+2132,106757,407680,Jürgen,Locadia,,Jürgen Locadia,14,FWD,available
+2133,568125,506471,Deveron,Fonville,,Deveron Fonville,14,DEF,available
+2134,240244,511141,Armando,Obispo,,Armando Obispo,14,DEF,available
+2135,204380,466317,Juninho,Bacuna,Juninho Bacuna,Juninho Bacuna,14,MID,available
+2136,433955,466365,Kevin,Felida,,Kevin Felida,14,MID,available
+2137,483575,466370,Tyrick,Bodak,,Tyrick Bodak,14,GK,available
+2138,433643,466382,Trevor,Doornbusch,,Trevor Doornbusch,14,GK,available
+2139,52456,390650,Eloy,Room,,Eloy Room,14,GK,available
+2140,465541,424047,Jeremy,Antonisse,,Jeremy Antonisse,14,FWD,available
+2141,129919,466372,Gervane,Kastaneer,,Gervane Kastaneer,14,FWD,available
+2142,501817,466363,Jearl,Margaritha,,Jearl Margaritha,14,FWD,available
+2143,166365,466352,Kenji,Gorré,,Kenji Gorré,14,FWD,available
+2144,441268,424056,Sontje,Hansen,,Sontje Hansen,14,FWD,available
+2145,120309,466346,Brandley,Kuwas,,Brandley Kuwas,14,FWD,available
+2146,582400,506473,Tyrese,Noslin,,Tyrese Noslin,14,DEF,available
+2147,535640,494989,Livano,Comenencia,,Livano Comenencia,14,DEF,available
+2148,197783,431698,Juriën,Gaari,,Juriën Gaari,14,DEF,available
+2149,492765,485324,Ar'Jany,Martha,,Ar'Jany Martha,14,DEF,available
+2150,445382,466361,Roshon,van Eijma,,Roshon van Eijma,14,DEF,available
+2151,204641,466350,Sherel,Floranus,,Sherel Floranus,14,DEF,available
+2152,450072,485379,Shurandy,Sambo,,Shurandy Sambo,14,DEF,available
+2153,148205,401023,Joshua,Brenet,,Joshua Brenet,14,DEF,available
+2154,165936,398569,Riechedly,Bazoer,,Riechedly Bazoer,14,DEF,available
+2155,74297,466340,Leandro,Bacuna,Leandro Bacuna,Leandro Bacuna,14,DEF,available
+2156,250662,466359,Godfried,Roemeratoe,,Godfried Roemeratoe,14,MID,available
+2157,222677,485347,Tahith,Chong,,Tahith Chong,14,MID,available
+2158,467008,433754,Adam,Hlozek,,Adam Hlozek,15,FWD,available
+2159,240529,441171,Jan,Kuchta,,Jan Kuchta,15,FWD,available
+2160,668409,506775,Hugo,Sochurek,,Hugo Sochurek,15,MID,available
+2161,446467,483936,David,Doudera,,David Doudera,15,MID,available
+2162,593033,523097,Alexandr,Sojka,,Alexandr Sojka,15,MID,available
+2163,477753,433755,David,Zima,,David Zima,15,DEF,available
+2164,179100,441162,Jindrich,Stanek,,Jindrich Stanek,15,GK,available
+2165,465954,486082,Pavel,Sulc,,Pavel Sulc,15,MID,available
+2166,486374,484011,Lukás,Provod,,Lukás Provod,15,MID,available
+2167,195720,433668,Michal,Sadílek,,Michal Sadílek,15,MID,available
+2168,215439,404885,Tomás,Soucek,,Tomás Soucek,15,MID,available
+2169,102742,358003,Vladimír,Darida,,Vladimír Darida,15,MID,available
+2170,465124,486081,Lukás,Cerv,,Lukás Cerv,15,MID,available
+2171,470551,511118,Lukás,Hornícek,,Lukás Hornícek,15,GK,available
+2172,446189,484012,Matej,Kovár,,Matej Kovár,15,GK,available
+2173,472175,484003,Mojmír,Chytil,,Mojmír Chytil,15,FWD,available
+2174,185389,483961,Tomás,Chory,,Tomás Chory,15,FWD,available
+2175,196680,401481,Patrik,Schick,,Patrik Schick,15,FWD,available
+2176,547870,514334,Stepán,Chaloupek,,Stepán Chaloupek,15,DEF,available
+2177,164555,472908,Vladimír,Coufal,,Vladimír Coufal,15,DEF,available
+2178,84979,441166,Jaroslav,Zeleny,,Jaroslav Zeleny,15,DEF,available
+2179,465953,486080,Robin,Hranác,,Robin Hranác,15,DEF,available
+2180,511057,483990,David,Jurásek,,David Jurásek,15,DEF,available
+2181,122689,441167,Tomás,Holes,,Tomás Holes,15,DEF,available
+2182,431248,441170,Ladislav,Krejcí,,Ladislav Krejcí,15,DEF,available
+2183,492878,519985,Denis,Visinsky,,Denis Visinsky,15,MID,available
+2184,448102,448290,Willian,Pacho,,Willian Pacho,16,DEF,available
+2185,448104,424031,Piero,Hincapié,,Piero Hincapié,16,DEF,available
+2186,536661,448312,Nilson,Angulo,,Nilson Angulo,16,MID,available
+2187,486672,428885,Moisés,Caicedo,Moisés Caicedo,Moisés Caicedo,16,MID,available
+2188,479970,424036,Pedro,Vite,,Pedro Vite,16,MID,available
+2189,218147,389784,Alan,Franco,,Alan Franco,16,MID,available
+2190,611134,463495,Kendry,Páez,,Kendry Páez,16,MID,available
+2191,201613,448295,Gonzalo,Valle,,Gonzalo Valle,16,GK,available
+2192,443482,419002,Moisés,Ramírez,,Moisés Ramírez,16,GK,available
+2193,57269,441236,Hernán,Galíndez,,Hernán Galíndez,16,GK,available
+2194,588853,514326,Jeremy,Arévalo,,Jeremy Arévalo,16,FWD,available
+2195,504263,448299,Anthony,Valencia,Anthony Valencia,Anthony Valencia,16,MID,available
+2196,214680,402985,Jordy,Caicedo,Jordy Caicedo,Jordy Caicedo,16,FWD,available
+2197,539200,463468,Alan,Minda,,Alan Minda,16,FWD,available
+2198,604066,448310,Kevin,Rodríguez,,Kevin Rodríguez,16,FWD,available
+2199,241243,405920,John,Yeboah,,John Yeboah,16,MID,available
+2200,453313,419020,Gonzalo,Plata,,Gonzalo Plata,16,FWD,available
+2201,148179,373400,Enner,Valencia,Enner Valencia,Enner Valencia,16,FWD,available
+2202,533524,463489,Yaimar,Medina,,Yaimar Medina,16,DEF,available
+2203,474031,419003,Jackson,Porozo,,Jackson Porozo,16,DEF,available
+2204,244940,402979,Félix,Torres,,Félix Torres,16,DEF,available
+2205,571727,463465,Joel,Ordóñez,,Joel Ordóñez,16,DEF,available
+2206,423667,402974,Ángelo,Preciado,,Ángelo Preciado,16,DEF,available
+2207,204214,389782,Pervis,Estupiñán,,Pervis Estupiñán,16,DEF,available
+2208,445188,419005,Jordy,Alcívar,,Jordy Alcívar,16,MID,available
+2209,553784,463476,Denil,Castillo,,Denil Castillo,16,MID,available
+2210,118748,344654,Mohamed,Salah Hamed Mahrous Ghaly,Mohamed Salah,Mohamed Salah,17,MID,available
+2211,684337,495488,Hamza Mohamed Abdelkarim Elsayed,Selim,Hamza Abdelkarim,Hamza Abdelkarim,17,FWD,available
+2212,600698,483161,Mostafa Mohamed,Zaki Abdelraouf,Mostafa Zico,Mostafa Zico,17,MID,available
+2213,480840,433466,Nabil Emad,Aly El Mahdy,Nabil Emad Dunga,Nabil Emad Dunga,17,MID,available
+2214,193208,407022,Karim Hafez,Ramadan Seif El Din,Karim Hafez,Karim Hafez,17,DEF,available
+2215,498276,430465,Ibrahim Adel Ali Mohamed,Hassan,Ibrahim Adel,Ibrahim Adel,17,MID,available
+2216,509936,433469,Mohanad Mostafa,Ahmed Abdelmonem Lasheen,Mohanad Lasheen,Mohanad Lasheen,17,MID,available
+2217,677009,512079,Mohamed Alaaeldin Soliman,Alaa,Mohamed Alaa,Mohamed Alaa,17,GK,available
+2218,481451,416906,Mostafa Ahmed Abdelaziz,Mohamed Shobeir,Mostafa Shobeir,Mostafa Shobeir,17,GK,available
+2219,422827,395860,El Mahdy Mohamed Soliman,Ibrahim,El Mahdy Soliman,El Mahdy Soliman,17,GK,available
+2220,185408,408948,Mohamed El Sayed Mohamed,El Shenawy Gomaa,Mohamed El Shenawy,Mohamed El Shenawy,17,GK,available
+2221,458310,424106,Haissem Yousry Fouad,Hassan,Haissem Hassan,Haissem Hassan,17,FWD,available
+2222,148508,363863,Mahmoud Ahmed Ibrahim,Hassan,Trezeguet,Trezeguet,17,FWD,available
+2223,438234,430476,Omar Khaled Mohamed Abdelsalam,Marmoush,Omar Marmoush,Omar Marmoush,17,FWD,available
+2224,422850,369267,Yasser Ahmed Ibrahim,El Hanafi,Yasser Ibrahim,Yasser Ibrahim,17,DEF,available
+2225,639458,506124,Tarek Alaa Abdelghaffar Abdel,El Gebaly,Tarek Alaa,Tarek Alaa,17,DEF,available
+2226,510422,483182,Hossam Abdelmaguid Abdelsalam,Abdelmaguid,Hossam Abdelmaguid,Hossam Abdelmaguid,17,DEF,available
+2227,148495,344661,Ramy Hisham Abdel Aziz Mostafa,Rabia,Ramy Rabia,Ramy Rabia,17,DEF,available
+2228,217460,408950,Mohamed Hany Gamal,El Demerdash,Mohamed Hany,Mohamed Hany,17,DEF,available
+2229,422821,430477,Ahmed Mohamed Abou El Fotouh,Mohamed,Ahmed Fatouh,Ahmed Fatouh,17,DEF,available
+2230,510136,416902,Mohamed Abdelmonem El Sayed,Mohamed Ahmed,Mohamed Abdelmonem,Mohamed Abdelmonem,17,DEF,available
+2231,530058,483183,Mahmoud Saber Abdelmohsen,Hassan,Mahmoud Saber,Mahmoud Saber,17,MID,available
+2232,481449,430482,Emam Ashour Metwally,Abdel Ghany,Emam Ashour,Emam Ashour,17,MID,available
+2233,475030,429095,Hamdi Fathy Abdelhalim,Abdel Fattah,Hamdi Fathy,Hamdi Fathy,17,MID,available
+2234,183756,433461,Ahmed Mostafa Mohamed,Sayed,Zizo,Zizo,17,MID,available
+2235,501453,461788,Marwan Attia Fahim,Ghallab,Marwan Attia,Marwan Attia,17,MID,available
+2236,144485,448198,Ivan,Toney,,Ivan Toney,18,FWD,available
+2237,178301,448203,Ollie,Watkins,,Ollie Watkins,18,FWD,available
+2238,232413,473113,Eberechi,Eze,,Eberechi Eze,18,MID,available
+2239,225796,439641,Reece,James,,Reece James,18,DEF,available
+2240,441428,463809,Jarell,Quansah,,Jarell Quansah,18,DEF,available
+2241,244855,448202,Jude,Bellingham,,Jude Bellingham,18,MID,available
+2242,204480,433097,Declan,Rice,,Declan Rice,18,MID,available
+2243,215379,481610,Elliot,Anderson,,Elliot Anderson,18,MID,available
+2244,516895,482621,Kobbie,Mainoo,,Kobbie Mainoo,18,MID,available
+2245,56979,356189,Jordan,Henderson,Jordan Henderson,Jordan Henderson,18,MID,available
+2246,432720,485080,James,Trafford,,James Trafford,18,GK,available
+2247,172649,403046,Dean,Henderson,Dean Henderson,Dean Henderson,18,GK,available
+2248,111234,336022,Jordan,Pickford,,Jordan Pickford,18,GK,available
+2249,248857,489732,Noni,Madueke,,Noni Madueke,18,FWD,available
+2250,244850,492716,Morgan,Rogers,,Morgan Rogers,18,MID,available
+2251,232826,448189,Anthony,Gordon,,Anthony Gordon,18,MID,available
+2252,176297,401470,Marcus,Rashford,,Marcus Rashford,18,MID,available
+2253,223340,448196,Bukayo,Saka,,Bukayo Saka,18,MID,available
+2254,78830,369419,Harry,Kane,,Harry Kane,18,FWD,available
+2255,232859,506329,Djed,Spence,,Djed Spence,18,DEF,available
+2256,97299,369434,John,Stones,,John Stones,18,DEF,available
+2257,199798,403049,Ezri,Konsa,,Ezri Konsa,18,DEF,available
+2258,78916,494345,Dan,Burn,,Dan Burn,18,DEF,available
+2259,209036,405841,Marc,Guéhi,,Marc Guéhi,18,DEF,available
+2260,441191,489731,Tino,Livramento,,Tino Livramento,18,DEF,available
+2261,472769,463780,Nico,O'Reilly,,Nico O'Reilly,18,DEF,available
+2262,231747,403094,Jean-Philippe,Mateta,,Jean-Philippe Mateta,19,FWD,available
+2263,482616,484860,Bradley,Barcola,,Bradley Barcola,19,MID,available
+2264,220325,430707,Jules,Koundé,,Jules Koundé,19,DEF,available
+2265,462424,419177,William,Saliba,,William Saliba,19,DEF,available
+2266,584845,464127,Robin,Risser,,Robin Risser,19,GK,available
+2267,443661,485655,Michael,Olise,,Michael Olise,19,MID,available
+2268,466052,431861,Rayan,Cherki,,Rayan Cherki,19,MID,available
+2269,219292,405893,Aurélien,Tchouaméni,,Aurélien Tchouaméni,19,MID,available
+2270,555894,485666,Maghnes,Akliouche,,Maghnes Akliouche,19,MID,available
+2271,475767,485677,Manu,Koné,,Manu Koné,19,MID,available
+2272,550840,483549,Warren,Zaïre-Emery,,Warren Zaïre-Emery,19,MID,available
+2273,120743,402047,Adrien,Rabiot,,Adrien Rabiot,19,MID,available
+2274,116594,398681,N'Golo,Kanté,,N'Golo Kanté,19,MID,available
+2275,102836,483471,Brice,Samba,,Brice Samba,19,GK,available
+2276,129487,448332,Mike,Maignan,,Mike Maignan,19,GK,available
+2277,570810,464114,Désiré,Doué,,Désiré Doué,19,MID,available
+2278,205880,403109,Marcus,Thuram,,Marcus Thuram,19,FWD,available
+2279,219438,398680,Ousmane,Dembélé,,Ousmane Dembélé,19,MID,available
+2280,220160,389867,Kylian,Mbappé,,Kylian Mbappé,19,FWD,available
+2281,482609,464055,Malo,Gusto,,Malo Gusto,19,DEF,available
+2282,101188,368860,Lucas,Digne,,Lucas Digne,19,DEF,available
+2283,174888,411470,Lucas,Hernández,Lucas Hernández,Lucas Hernández,19,DEF,available
+2284,204716,419166,Ibrahima,Konaté,,Ibrahima Konaté,19,DEF,available
+2285,199661,389876,Dayot,Upamecano,,Dayot Upamecano,19,DEF,available
+2286,437499,405881,Maxence,Lacroix,,Maxence Lacroix,19,DEF,available
+2287,222784,408042,Théo,Hernández,Théo Hernández,Théo Hernández,19,DEF,available
+2288,569015,475195,Assan,Ouédraogo,,Assan Ouédraogo,20,MID,available
+2289,465859,484850,Maximilian,Beier,,Maximilian Beier,20,FWD,available
+2290,488677,491218,Jamie,Leweling,,Jamie Leweling,20,MID,available
+2291,515675,484849,Aleksandar,Pavlovic,,Aleksandar Pavlovic,20,MID,available
+2292,219265,492363,Felix,Nmecha,,Felix Nmecha,20,MID,available
+2293,244857,429642,Jamal,Musiala,,Jamal Musiala,20,MID,available
+2294,183309,395471,Nadiem,Amiri,,Nadiem Amiri,20,MID,available
+2295,20388,228912,Manuel,Neuer,,Manuel Neuer,20,GK,available
+2296,494595,430669,Florian,Wirtz,,Florian Wirtz,20,MID,available
+2297,165687,386413,Joshua,Kimmich,,Joshua Kimmich,20,DEF,available
+2298,119090,379953,Leon,Goretzka,,Leon Goretzka,20,MID,available
+2299,60307,484848,Pascal,Groß,,Pascal Groß,20,MID,available
+2300,73140,306538,Oliver,Baumann,,Oliver Baumann,20,GK,available
+2301,186658,429639,Alexander,Nübel,,Alexander Nübel,20,GK,available
+2302,470313,498416,Nick,Woltemade,,Nick Woltemade,20,FWD,available
+2303,450434,484851,Deniz,Undav,,Deniz Undav,20,FWD,available
+2304,182156,404353,Leroy,Sané,,Leroy Sané,20,MID,available
+2305,219847,411367,Kai,Havertz,,Kai Havertz,20,FWD,available
+2306,212509,430658,Waldemar,Anton,,Waldemar Anton,20,DEF,available
+2307,470836,430667,Nico,Schlotterbeck,,Nico Schlotterbeck,20,DEF,available
+2308,515352,511015,Nathaniel,Brown,,Nathaniel Brown,20,DEF,available
+2309,164454,401378,Jonathan,Tah,,Jonathan Tah,20,DEF,available
+2310,465642,514188,Malick,Thiaw,,Malick Thiaw,20,DEF,available
+2311,243309,430657,David,Raum,,David Raum,20,DEF,available
+2312,102380,379955,Antonio,Rüdiger,,Antonio Rüdiger,20,DEF,available
+2313,437922,429640,Angelo,Stiller,,Angelo Stiller,20,MID,available
+2314,192090,520037,Derrick,Luckassen,,Derrick Luckassen,21,DEF,available
+2315,504783,448523,Kamaldeen,Sulemana,,Kamaldeen Sulemana,21,FWD,available
+2316,230730,486213,Brandon,Thomas-Asante,,Brandon Thomas-Asante,21,FWD,available
+2317,437730,448531,Antoine,Semenyo,,Antoine Semenyo,21,FWD,available
+2318,614993,494350,Christopher,Bonsu Baah,,Christopher Bonsu Baah,21,FWD,available
+2319,531442,441342,Abdul Fatawu,Issahaku,Abdul Fatawu,Abdul Fatawu,21,FWD,available
+2320,531591,514401,Prince,Adu,,Prince Adu,21,FWD,available
+2321,564992,448525,Ernest,Nuamah,,Ernest Nuamah,21,MID,available
+2322,197334,411376,Iñaki,Williams,,Iñaki Williams,21,FWD,available
+2323,80146,353235,Jordan,Ayew,,Jordan Ayew,21,FWD,available
+2324,438339,507253,Kwasi,Sibo,,Kwasi Sibo,21,MID,available
+2325,247389,441341,Elisha,Owusu,,Elisha Owusu,21,MID,available
+2326,167199,369089,Thomas,Partey,,Thomas Partey,21,MID,available
+2327,661888,506279,Caleb,Yirenkyi,,Caleb Yirenkyi,21,MID,available
+2328,229670,441333,Gideon,Mensah,,Gideon Mensah,21,DEF,available
+2329,183649,486150,Jerome,Opoku,,Jerome Opoku,21,DEF,available
+2330,519343,520039,Marvin,Senaya,,Marvin Senaya,21,DEF,available
+2331,232016,441336,Abdul,Mumin,,Abdul Mumin,21,DEF,available
+2332,581185,494351,Jonas,Adjetey,,Jonas Adjetey,21,DEF,available
+2333,608237,511022,Kojo,Peprah Oppong,,Kojo Peprah Oppong,21,DEF,available
+2334,511344,448522,Alidu,Seidu,,Alidu Seidu,21,DEF,available
+2335,118335,367536,Abdul Rahman,Baba,,Abdul Rahman Baba,21,DEF,available
+2336,447879,506277,Joseph,Anang,,Joseph Anang,21,GK,available
+2337,202298,386473,Lawrence Ati,Zigi,,Lawrence Ati Zigi,21,GK,available
+2338,549820,523173,Augustine,Boakye,,Augustine Boakye,21,MID,available
+2339,645076,494349,Benjamin,Asare,,Benjamin Asare,21,GK,available
+2340,473398,485676,Lenny,Joseph,,Lenny Joseph,46,FWD,available
+2341,571619,523215,Dominique,Simon,,Dominique Simon,46,MID,available
+2342,633973,506481,Keeto,Thermoncy,,Keeto Thermoncy,46,DEF,available
+2343,248569,466853,Josué,Duverger,,Josué Duverger,46,GK,available
+2344,521055,466835,Alexandre,Pierre,,Alexandre Pierre,46,GK,available
+2345,44429,295922,Johny,Placide,,Johny Placide,46,GK,available
+2346,465697,485664,Ruben,Providence,,Ruben Providence,46,FWD,available
+2347,509284,510757,Josué,Casimir,,Josué Casimir,46,FWD,available
+2348,204729,506483,Yassin,Fortuné,,Yassin Fortuné,46,FWD,available
+2349,489872,481027,Louicius,Deedson,,Louicius Deedson,46,FWD,available
+2350,220752,466865,Derrick,Etienne,,Derrick Etienne,46,FWD,available
+2351,423064,431693,Frantzdy,Pierrot,,Frantzdy Pierrot,46,FWD,available
+2352,195603,394993,Duckens,Nazon,,Duckens Nazon,46,FWD,available
+2353,437505,405879,Wilson,Isidor,,Wilson Isidor,46,FWD,available
+2354,163067,163067,Duke,Lacroix,,Duke Lacroix,46,DEF,available
+2355,465156,498439,Wilguens,Paugain,,Wilguens Paugain,46,DEF,available
+2356,534231,489300,Martin,Expérience,,Martin Expérience,46,DEF,available
+2357,165122,275917,Ricardo,Adé,,Ricardo Adé,46,DEF,available
+2358,247245,448363,Hannes,Delcroix,,Hannes Delcroix,46,DEF,available
+2359,209171,397775,Carlens,Arcus,,Carlens Arcus,46,DEF,available
+2360,231881,431781,Jean-Kévin,Duverne,,Jean-Kévin Duverne,46,DEF,available
+2361,421937,466838,Danley,Jean Jacques,,Danley Jean Jacques,46,MID,available
+2362,483535,424556,Carl,Sainté,,Carl Sainté,46,MID,available
+2363,231057,430697,Jean-Ricner,Bellegarde,,Jean-Ricner Bellegarde,46,MID,available
+2364,440656,467940,Leverton,Pierre,Leverton Pierre,Leverton Pierre,46,MID,available
+2365,581854,485409,Woodensky,Pierre,Woodensky Pierre,Woodensky Pierre,46,MID,available
+2366,515950,481180,Shahriyar,Moghanloo,,Shahriyar Moghanloo,47,FWD,available
+2367,247290,406595,Roozbeh,Cheshmi,,Roozbeh Cheshmi,47,MID,available
+2368,423710,403236,Mehdi,Ghayedi,,Mehdi Ghayedi,47,MID,available
+2369,501222,448497,Mohammad,Mohebbi,,Mohammad Mohebbi,47,MID,available
+2370,173291,371736,Saeid,Ezatolahi,,Saeid Ezatolahi,47,MID,available
+2371,227508,390535,Mehdi,Torabi,,Mehdi Torabi,47,MID,available
+2372,155082,314255,Hossein,Hosseini,,Hossein Hosseini,47,GK,available
+2373,473564,448507,Payam,Niazmand,,Payam Niazmand,47,GK,available
+2374,201444,380007,Alireza,Beiranvand,,Alireza Beiranvand,47,GK,available
+2375,438561,405639,Amirhossein,Hosseinzadeh,,Amirhossein Hosseinzadeh,47,FWD,available
+2376,217846,519837,Dennis,Dargahi,,Dennis Dargahi,47,FWD,available
+2377,202620,416989,Ali,Alipour,,Ali Alipour,47,FWD,available
+2378,205836,411644,Saman,Ghoddos,,Saman Ghoddos,47,FWD,available
+2379,165210,379886,Alireza,Jahanbakhsh,,Alireza Jahanbakhsh,47,FWD,available
+2380,202604,388475,Mehdi,Taremi,,Mehdi Taremi,47,FWD,available
+2381,613380,494429,Danial,Eiri,,Danial Eiri,47,DEF,available
+2382,575882,481181,Arya,Yousefi,,Arya Yousefi,47,DEF,available
+2383,502304,489603,Ali,Nemati,,Ali Nemati,47,DEF,available
+2384,536015,448505,Saleh,Hardani,,Saleh Hardani,47,DEF,available
+2385,49529,288961,Ehsan,Hajisafi,,Ehsan Hajisafi,47,DEF,available
+2386,180959,346743,Shoja,Khalilzadeh,,Shoja Khalilzadeh,47,DEF,available
+2387,224086,390537,Milad,Mohammadi,,Milad Mohammadi,47,DEF,available
+2388,424889,390534,Hossein,Kanani,,Hossein Kanani,47,DEF,available
+2389,201834,384797,Ramin,Rezaeian,,Ramin Rezaeian,47,DEF,available
+2390,580963,482670,Mohammad,Ghorbani,,Mohammad Ghorbani,47,MID,available
+2391,623160,475921,Amir Mohammad,Razzaghinia,,Amir Mohammad Razzaghinia,47,MID,available
+2392,531067,523236,Ahmed Ihab,Ahmed,Ahmed Qasem,Ahmed Qasem,48,MID,available
+2393,633820,479056,Mustafa Saadoon Abbood,Al Korji,Mustafa Saadoon,Mustafa Saadoon,48,DEF,available
+2394,200289,347085,Jalal Hassan,Hachim,Jalal Hassan,Jalal Hassan,48,GK,available
+2395,438802,433585,Ibrahim Bayesh Kamil,Al Kaabawi,Ibrahim Bayesh,Ibrahim Bayesh,48,MID,available
+2396,461548,434026,Zidane Aamar,Iqbal,Zidane Iqbal,Zidane Iqbal,48,MID,available
+2397,168612,368744,Fahad Talib,Raheem,Fahad Talib,Fahad Talib,48,GK,available
+2398,443074,433571,Ahmed Basil Fadhil,Al Fadhli,Ahmed Basil,Ahmed Basil,48,GK,available
+2399,435897,434029,Ali Yousif Hashim,Najatee,Ali Yousif,Ali Yousif,48,FWD,available
+2400,533447,464458,Youssef Wali Faeq,Amyn,Youssef Amyn,Youssef Amyn,48,FWD,available
+2401,462387,436628,Ali Ibrahim Karim Ali,Al Hamadi,Ali Al Hamadi,Ali Al Hamadi,48,FWD,available
+2402,468676,464457,Ali Jasim Elaibi,Al Tameemi,Ali Jasim,Ali Jasim,48,FWD,available
+2403,442399,422968,Mohanad Ali Kadhim,Al Shammari,Mohanad Ali,Mohanad Ali,48,FWD,available
+2404,243372,395186,Aymen Hussein Ghadhban,Al Mafraje,Aymen Hussein,Aymen Hussein,48,FWD,available
+2405,502356,484276,Ahmed Hasan Maknzi,Al Deeshawee,Ahmed Maknzi,Ahmed Maknzi,48,DEF,available
+2406,645210,481183,Akam Hashim,Rahman,Akam Hashim,Akam Hashim,48,DEF,available
+2407,561734,434024,Munaf Younus Hashim,Al Tekreeti,Munaf Younus,Munaf Younus,48,DEF,available
+2408,520568,434025,Zaid Tahseen Abd Zaid,Hantoosh,Zaid Tahseen,Zaid Tahseen,48,DEF,available
+2409,484396,479553,Hussein Haydar Hussein,Ali,Hussein Ali,Hussein Ali,48,DEF,available
+2410,243368,396158,Rebin Ghareeb Sulaka,Adhamat,Rebin Sulaka,Rebin Sulaka,48,DEF,available
+2411,116717,436863,Frans Dhia Jirjis,Haddad,Frans Putros,Frans Putros,48,DEF,available
+2412,518340,479072,Merchas Ghazi Salih,Doski,Merchas Doski,Merchas Doski,48,DEF,available
+2413,483091,493983,Aimar Hazar Anwar,Sher,Aimar Sher,Aimar Sher,48,MID,available
+2414,484485,433074,Amir Fouad Abboud,Al Ammari,Amir Al Ammari,Amir Al Ammari,48,MID,available
+2415,451555,506069,Kevin,Yakob,,Kevin Yakob,48,MID,available
+2416,549738,484262,Marko Jabbar Hussein,Farji,Marko Farji,Marko Farji,48,MID,available
+2417,641842,484270,Zaid Ismael Khaleel,Al Dulaimi,Zaid Ismael,Zaid Ismael,48,MID,available
+2418,219271,403304,Takefusa,Kubo,,Takefusa Kubo,49,MID,available
+2419,158983,395318,Wataru,Endo,,Wataru Endo,49,MID,available
+2420,78407,291372,Yuto,Nagatomo,,Yuto Nagatomo,49,DEF,available
+2421,223723,403289,Takehiro,Tomiyasu,,Takehiro Tomiyasu,49,DEF,available
+2422,210906,400511,Ko,Itakura,,Ko Itakura,49,DEF,available
+2423,205252,391646,Ritsu,Doan,,Ritsu Doan,49,DEF,available
+2424,209400,448557,Daichi,Kamada,,Daichi Kamada,49,MID,available
+2425,248056,400514,Ao,Tanaka,,Ao Tanaka,49,MID,available
+2426,481035,485503,Yuito,Suzuki,Yuito Suzuki,Yuito Suzuki,49,MID,available
+2427,530015,511710,Tomoki,Hayakawa,,Tomoki Hayakawa,49,GK,available
+2428,422017,403305,Keisuke,Osako,,Keisuke Osako,49,GK,available
+2429,433969,405530,Zion,Suzuki,Zion Suzuki,Zion Suzuki,49,GK,available
+2430,622186,520218,Kento,Shiogai,,Kento Shiogai,49,FWD,available
+2431,587165,464339,Keisuke,Goto,,Keisuke Goto,49,FWD,available
+2432,223707,403293,Koki,Ogawa,,Koki Ogawa,49,FWD,available
+2433,451341,430413,Ayase,Ueda,,Ayase Ueda,49,FWD,available
+2434,219274,405522,Keito,Nakamura,,Keito Nakamura,49,MID,available
+2435,442967,430407,Daizen,Maeda,,Daizen Maeda,49,MID,available
+2436,207794,395321,Junya,Ito,Junya Ito,Junya Ito,49,MID,available
+2437,565534,498455,Junnosuke,Suzuki,Junnosuke Suzuki,Junnosuke Suzuki,49,DEF,available
+2438,219268,405527,Ayumu,Seko,,Ayumu Seko,49,DEF,available
+2439,182547,390541,Shogo,Taniguchi,,Shogo Taniguchi,49,DEF,available
+2440,248811,403274,Hiroki,Ito,Hiroki Ito,Hiroki Ito,49,DEF,available
+2441,458185,430401,Tsuyoshi,Watanabe,,Tsuyoshi Watanabe,49,DEF,available
+2442,219279,405528,Yukinari,Sugawara,,Yukinari Sugawara,49,DEF,available
+2443,567062,479294,Kaishu,Sano,,Kaishu Sano,49,MID,available
+2444,468188,431212,Ali Iyad Ali,Olwan,Ali Olwan,Ali Olwan,50,FWD,available
+2445,185823,384850,Raja'ei Ayed Fadel,Hasan,Raja'ei Ayed,Raja'ei Ayed,50,MID,available
+2446,707837,511889,Anas Said Ghazi,Badawi,Anas Badawi,Anas Badawi,50,DEF,available
+2447,501165,431219,Sa'ed Ahmad Salameh,Al Rosan,Saed Al Rosan,Saed Al Rosan,50,DEF,available
+2448,218107,389437,Ehsan Manel Farhan,Haddad,Ehsan Haddad,Ehsan Haddad,50,DEF,available
+2449,444517,483127,Noureddin Zaid Khaleel,Bani Ateyah,Nour Bani Ateyah,Nour Bani Ateyah,50,GK,available
+2450,468172,431223,Abdallah Ra'ed Mahmoud,Al Fakhouri,Abdallah Al Fakhori,Abdallah Al Fakhori,50,GK,available
+2451,444519,397894,Yazeed Mo'ien Hasan,Abulaila,Yazeed Abulaila,Yazeed Abulaila,50,GK,available
+2452,669382,511875,Odeh Burhan Shehadeh,Fakhoury,Odeh Fakhoury,Odeh Fakhoury,50,FWD,available
+2453,613354,498514,Ali Ahmad Ali,Azaizeh,Ali Azaizeh,Ali Azaizeh,50,FWD,available
+2454,218109,396950,Mahmoud Nayef Ahmad,Al Mardi,Mahmoud Al Mardi,Mahmoud Al Mardi,50,FWD,available
+2455,485746,431208,Mohammad Faisal Yousef,Abu Zraiq,Mohammad Abu Zraiq,Mohammad Abu Zraiq,50,FWD,available
+2456,426342,431211,Mousa Mohammad Mousa,Suleiman Al Tamari,Mousa Al Tamari,Mousa Al Tamari,50,FWD,available
+2457,503551,491167,Amer Rasem Adel,Jamous,Amer Jamous,Amer Jamous,50,DEF,available
+2458,437231,489551,Mohammad Majed Jamil,Abu Al Nadi,Mohammad Abu Al Nadi,Mohammad Abu Al Nadi,50,DEF,available
+2459,247876,499102,Saleem Amer Saleem,Obaid,Saleem Obaid,Saleem Obaid,50,DEF,available
+2460,538960,489550,Husam Ali Mohammad,Abu Dahab,Husam Abu Dahab,Husam Abu Dahab,50,DEF,available
+2461,538837,433526,Mohammad Ali Hasan,Abu Hasheesh,Mohammad Abu Hasheesh,Mohammad Abu Hasheesh,50,DEF,available
+2462,536219,479389,Mohannad Mahmoud Saleh,Abu Taha,Mohannad Abu Taha,Mohannad Abu Taha,50,DEF,available
+2463,536215,433527,Abdallah Mousa Musallam,Nasib,Abdallah Nasib,Abdallah Nasib,50,DEF,available
+2464,443095,431225,Yazan Mousa Mahmoud,Al Arab,Yazan Al Arab,Yazan Al Arab,50,DEF,available
+2465,468177,433534,Nizar Mahmoud Ahmed,Al Rashdan,Nizar Al Rashdan,Nizar Al Rashdan,50,MID,available
+2466,443098,431230,Noor Al Deen Mahmoud Ali,Al Rawabdeh,Noor Al Rawabdeh,Noor Al Rawabdeh,50,MID,available
+2467,201676,45191,Mohammad Ratib Mohammad,Al Daoud,Mohammad Al Daoud,Mohammad Al Daoud,50,MID,available
+2468,468179,431209,Ibrahim Mohammad Sami,Sadeh,Ibrahim Sadeh,Ibrahim Sadeh,50,MID,available
+2469,570188,522282,Wi-Je,Cho,Cho Wi-Je,Cho Wi-Je,51,DEF,available
+2470,446440,429600,Dong-Gyeong,Lee,Lee Dong-Gyeong,Lee Dong-Gyeong,51,MID,available
+2471,455605,395084,In-Beom,Hwang,Hwang In-Beom,Hwang In-Beom,51,MID,available
+2472,531128,492315,Gi-Hyuk,Lee,Lee Gi-Hyuk,Lee Gi-Hyuk,51,DEF,available
+2473,205308,390525,Jae-Sung,Lee,Lee Jae-Sung,Lee Jae-Sung,51,MID,available
+2474,451358,418490,Kang-In,Lee,Lee Kang-In,Lee Kang-In,51,MID,available
+2475,570723,464374,Jun-Ho,Bae,Bae Jun-Ho,Bae Jun-Ho,51,MID,available
+2476,510788,511828,Jens,Castrop,,Jens Castrop,51,MID,available
+2477,243432,402817,Seung-Ho,Paik,Paik Seung-Ho,Paik Seung-Ho,51,MID,available
+2478,243416,402820,Bum-Keun,Song,Song Bum-Keun,Song Bum-Keun,51,GK,available
+2479,170450,274281,Seung-Gyu,Kim,Kim Seung-Gyu,Kim Seung-Gyu,51,GK,available
+2480,249584,397753,Hyeon-Woo,Jo,Jo Hyeon-Woo,Jo Hyeon-Woo,51,GK,available
+2481,492475,423855,Ji-Sung,Eom,Eom Ji-Sung,Eom Ji-Sung,51,FWD,available
+2482,531527,448585,Hyun-Jun,Yang,Yang Hyun-Jun,Yang Hyun-Jun,51,FWD,available
+2483,478576,448586,Hyeon-Gyu,Oh,Oh Hyeon-Gyu,Oh Hyeon-Gyu,51,FWD,available
+2484,478686,430387,Gue-Sung,Cho,Cho Gue-Sung,Cho Gue-Sung,51,FWD,available
+2485,184754,395083,Hee-Chan,Hwang,Hwang Hee-Chan,Hwang Hee-Chan,51,FWD,available
+2486,85971,307849,Heung-Min,Son,Son Heung-Min,Son Heung-Min,51,FWD,available
+2487,477590,418485,Tae-Hyeon,Kim,Kim Tae-Hyeon,Kim Tae-Hyeon,51,DEF,available
+2488,468933,423880,Tae-Seok,Lee,Lee Tae-Seok,Lee Tae-Seok,51,DEF,available
+2489,492474,423874,Han-Beom,Lee,Lee Han-Beom,Lee Han-Beom,51,DEF,available
+2490,184767,448580,Moon-Hwan,Kim,Kim Moon-Hwan,Kim Moon-Hwan,51,DEF,available
+2491,183364,429608,Young-Woo,Seol,Seol Young-Woo,Seol Young-Woo,51,DEF,available
+2492,249621,395088,Min-Jae,Kim,Kim Min-Jae,Kim Min-Jae,51,DEF,available
+2493,243431,430385,Jin-Gyu,Kim,Kim Jin-Gyu,Kim Jin-Gyu,51,MID,available
+2494,454978,479316,Jin-Seob,Park,Park Jin-Seob,Park Jin-Seob,51,MID,available
+2495,432234,430759,Santiago,Giménez,,Santiago Giménez,52,FWD,available
+2496,234788,430763,Luis,Romo,,Luis Romo,52,MID,available
+2497,181066,448051,Luis,Chávez,Luis Chávez,Luis Chávez,52,MID,available
+2498,576599,500037,Gilberto,Mora,,Gilberto Mora,52,MID,available
+2499,213999,400634,Edson,Álvarez,,Edson Álvarez,52,MID,available
+2500,250456,406135,César,Huerta,,César Huerta,52,MID,available
+2501,646065,500038,Mateo,Chávez,Mateo Chávez,Mateo Chávez,52,DEF,available
+2502,223761,416576,Álvaro,Fidalgo,,Álvaro Fidalgo,52,MID,available
+2503,193439,372090,Orbelín,Pineda,,Orbelín Pineda,52,MID,available
+2504,460156,419518,Érik,Lira,,Érik Lira,52,MID,available
+2505,451375,464533,Brian,Gutiérrez,,Brian Gutiérrez,52,MID,available
+2506,488958,485070,Raúl,Rangel,,Raúl Rangel,52,GK,available
+2507,227257,441260,Carlos,Acevedo,,Carlos Acevedo,52,GK,available
+2508,33376,215285,Guillermo,Ochoa,,Guillermo Ochoa,52,GK,available
+2509,640394,514336,Armando,González,,Armando González,52,FWD,available
+2510,192352,386339,Guillermo,Martínez,,Guillermo Martínez,52,FWD,available
+2511,214115,403585,Roberto,Alvarado,,Roberto Alvarado,52,FWD,available
+2512,217373,430766,Alexis,Vega,,Alexis Vega,52,FWD,available
+2513,221766,429157,Julián,Quiñones,,Julián Quiñones,52,FWD,available
+2514,102057,356731,Raúl,Jiménez,,Raúl Jiménez,52,FWD,available
+2515,487944,441261,Israel,Reyes,,Israel Reyes,52,DEF,available
+2516,223756,403596,Jorge,Sánchez,,Jorge Sánchez,52,DEF,available
+2517,200111,402772,Jesús,Gallardo,,Jesús Gallardo,52,DEF,available
+2518,214125,395516,César,Montes,,César Montes,52,DEF,available
+2519,431026,425701,Johan,Vásquez,,Johan Vásquez,52,DEF,available
+2520,502868,461177,Obed,Vargas,,Obed Vargas,52,MID,available
+2521,549912,494293,Chemsdine,Talbi,,Chemsdine Talbi,53,FWD,available
+2522,500745,441310,Abde,Ezzalzouli,,Abde Ezzalzouli,53,FWD,available
+2523,457488,433426,Soufiane,Rahimi,,Soufiane Rahimi,53,FWD,available
+2524,513527,448612,Bilal,El Khannouss,,Bilal El Khannouss,53,MID,available
+2525,489841,441307,Azzedine,Ounahi,,Azzedine Ounahi,53,MID,available
+2526,216183,430740,Brahim,Díaz,,Brahim Díaz,53,MID,available
+2527,545286,485740,Neil,El Aynaoui,,Neil El Aynaoui,53,MID,available
+2528,172912,372266,Sofyan,Amrabat,,Sofyan Amrabat,53,MID,available
+2529,547774,485756,Zakaria,El Ouahdi,,Zakaria El Ouahdi,53,DEF,available
+2530,219924,403083,Issa,Diop,,Issa Diop,53,DEF,available
+2531,552173,485767,Redouane,Halhal,,Redouane Halhal,53,DEF,available
+2532,230001,411680,Noussair,Mazraoui,,Noussair Mazraoui,53,DEF,available
+2533,515621,448607,Chadi,Riad,,Chadi Riad,53,DEF,available
+2534,223760,400721,Achraf,Hakimi,,Achraf Hakimi,53,DEF,available
+2535,210494,441304,Nayef,Aguerd,,Nayef Aguerd,53,DEF,available
+2536,120026,356956,Yassine,Bounou,,Yassine Bounou,53,GK,available
+2537,172903,371553,Ahmed Reda,Tagnaouti,,Ahmed Reda Tagnaouti,53,GK,available
+2538,702409,523288,Ayoube,Amaimouni-Echghouyab,,Ayoube Amaimouni-Echghouyab,53,FWD,available
+2539,637238,485760,Ayyoub,Bouaddi,,Ayyoub Bouaddi,53,MID,available
+2540,438842,494742,Youssef,Belammari,,Youssef Belammari,53,DEF,available
+2541,89687,395755,Munir,El Kajoui,,Munir El Kajoui,53,GK,available
+2542,492963,448598,Ismael,Saibari,,Ismael Saibari,53,MID,available
+2543,645598,505112,Gessime,Yassine,,Gessime Yassine,53,FWD,available
+2544,447490,411678,Ayoub,El Kaabi,,Ayoub El Kaabi,53,FWD,available
+2545,441279,424071,Anass,Salah-Eddine,,Anass Salah-Eddine,53,DEF,available
+2546,643307,505097,Samir,El Mourabet,,Samir El Mourabet,53,MID,available
+2547,450070,489518,Crysencio,Summerville,,Crysencio Summerville,54,MID,available
+2548,106824,336098,Memphis,Depay,,Memphis Depay,54,FWD,available
+2549,222683,478364,Justin,Kluivert,,Justin Kluivert,54,MID,available
+2550,82428,402044,Marten,de Roon,,Marten de Roon,54,MID,available
+2551,209712,422657,Frenkie,de Jong,,Frenkie de Jong,54,MID,available
+2552,467779,483481,Mats,Wieffer,,Mats Wieffer,54,MID,available
+2553,231765,448157,Guus,Til,,Guus Til,54,MID,available
+2554,445122,,Jurriën,Timber,Jurriën Timber,Jurriën Timber,54,DEF,available
+2555,498016,506028,Robin,Roefs,,Robin Roefs,54,GK,available
+2556,450063,484859,Quinten,Timber,,Quinten Timber,54,MID,available
+2557,433036,483526,Tijjani,Reijnders,,Tijjani Reijnders,54,MID,available
+2558,204644,448149,Teun,Koopmeiners,,Teun Koopmeiners,54,MID,available
+2559,441266,430176,Ryan,Gravenberch,,Ryan Gravenberch,54,MID,available
+2560,118342,448151,Mark,Flekken,,Mark Flekken,54,GK,available
+2561,489639,424081,Bart,Verbruggen,,Bart Verbruggen,54,GK,available
+2562,120202,448159,Wout,Weghorst,,Wout Weghorst,54,FWD,available
+2563,441264,424051,Brian,Brobbey,,Brian Brobbey,54,FWD,available
+2564,421002,448153,Noa,Lang,,Noa Lang,54,FWD,available
+2565,204646,433066,Donyell,Malen,,Donyell Malen,54,FWD,available
+2566,243298,448152,Cody,Gakpo,,Cody Gakpo,54,FWD,available
+2567,551210,483512,Jorrel,Hato,,Jorrel Hato,54,DEF,available
+2568,469142,489517,Jan Paul,van Hecke,,Jan Paul van Hecke,54,DEF,available
+2569,126184,336088,Nathan,Aké,,Nathan Aké,54,DEF,available
+2570,491279,448140,Micky,van de Ven,,Micky van de Ven,54,DEF,available
+2571,97032,397786,Virgil,van Dijk,,Virgil van Dijk,54,DEF,available
+2572,199432,436612,Denzel,Dumfries,,Denzel Dumfries,54,DEF,available
+2573,218330,390209,Sarpreet,Singh,,Sarpreet Singh,55,MID,available
+2574,60689,274078,Chris,Wood,,Chris Wood,55,FWD,available
+2575,495148,423596,Matthew,Garbett,,Matthew Garbett,55,FWD,available
+2576,45099,274102,Tommy,Smith,,Tommy Smith,55,DEF,available
+2577,484682,419572,Nando,Pijnaker,,Nando Pijnaker,55,DEF,available
+2578,438130,405469,Liberato,Cacace,,Liberato Cacace,55,DEF,available
+2579,95330,261367,Michael,Boxall,,Michael Boxall,55,DEF,available
+2580,218315,390218,Michael,Woud,,Michael Woud,55,GK,available
+2581,495145,423574,Alex,Paulsen,,Alex Paulsen,55,GK,available
+2582,108801,368535,Max,Crocombe,,Max Crocombe,55,GK,available
+2583,597739,484817,Lachlan,Bayliss,,Lachlan Bayliss,55,MID,available
+2584,495143,416652,Jesse,Randall,,Jesse Randall,55,FWD,available
+2585,495159,423575,Ben,Old,,Ben Old,55,FWD,available
+2586,460710,419577,Ben,Waine,,Ben Waine,55,FWD,available
+2587,438040,405454,Elijah,Just,,Elijah Just,55,MID,available
+2588,82963,269592,Kosta,Barbarouses,,Kosta Barbarouses,55,FWD,available
+2589,563676,463580,Finn,Surman,,Finn Surman,55,DEF,available
+2590,467882,419567,Callan,Elliot,,Callan Elliot,55,DEF,available
+2591,111138,331463,Tim,Payne,,Tim Payne,55,DEF,available
+2592,244993,440748,Francis,de Vries,,Francis de Vries,55,DEF,available
+2593,538638,482775,Tyler,Bindon,,Tyler Bindon,55,DEF,available
+2594,495161,423595,Marko,Stamenic,,Marko Stamenic,55,MID,available
+2595,173827,336641,Ryan,Thomas,,Ryan Thomas,55,MID,available
+2596,218337,390181,Joe,Bell,,Joe Bell,55,MID,available
+2597,173068,371142,Alex,Rufer,,Alex Rufer,55,MID,available
+2598,218345,390196,Callum,McCowatt,,Callum McCowatt,55,MID,available
+2599,584398,489696,Sondre,Langås,,Sondre Langås,56,DEF,available
+2600,184029,400716,Martin,Ødegaard,,Martin Ødegaard,56,MID,available
+2601,134103,483497,Fredrik,Aursnes,,Fredrik Aursnes,56,MID,available
+2602,449415,494627,Thelo,Aasgaard,,Thelo Aasgaard,56,MID,available
+2603,449411,514479,Sander,Tangvik,,Sander Tangvik,56,GK,available
+2604,445043,419681,Kristian,Thorstvedt,,Kristian Thorstvedt,56,MID,available
+2605,538980,483448,Antonio,Nusa,,Antonio Nusa,56,MID,available
+2606,225942,419654,Jens Petter,Hauge,,Jens Petter Hauge,56,MID,available
+2607,477192,483535,Egil,Selvik,,Egil Selvik,56,GK,available
+2608,98770,373235,Ørjan,Nyland,,Ørjan Nyland,56,GK,available
+2609,247412,419662,Jørgen,Strand Larsen,,Jørgen Strand Larsen,56,FWD,available
+2610,489853,494626,Andreas,Schjelderup,,Andreas Schjelderup,56,FWD,available
+2611,143877,398588,Alexander,Sørloth,,Alexander Sørloth,56,FWD,available
+2612,223094,419652,Erling,Haaland,,Erling Haaland,56,FWD,available
+2613,504904,520112,Henrik,Falchener,,Henrik Falchener,56,DEF,available
+2614,449652,491244,Torbjørn,Heggem,,Torbjørn Heggem,56,DEF,available
+2615,217242,483530,Fredrik,Bjørkan,,Fredrik Bjørkan,56,DEF,available
+2616,497949,483505,David,Møller Wolfe,,David Møller Wolfe,56,DEF,available
+2617,462026,419672,Leo,Østigård,,Leo Østigård,56,DEF,available
+2618,450444,494625,Marcus,Pedersen,,Marcus Pedersen,56,DEF,available
+2619,213783,483496,Julian,Ryerson,,Julian Ryerson,56,DEF,available
+2620,191866,483516,Kristoffer,Ajer,,Kristoffer Ajer,56,DEF,available
+2621,184379,483442,Patrick,Berg,,Patrick Berg,56,MID,available
+2622,179296,433067,Morten,Thorsby,,Morten Thorsby,56,MID,available
+2623,477555,477470,Oscar,Bobb,,Oscar Bobb,56,MID,available
+2624,207189,404645,Sander,Berge,,Sander Berge,56,MID,available
+2625,470136,418747,Tomás,Rodríguez,Tomás Rodríguez,Tomás Rodríguez,57,FWD,available
+2626,577906,466669,Azarías,Londoño,,Azarías Londoño,57,FWD,available
+2627,75960,271116,Alberto,Quintero,,Alberto Quintero,57,FWD,available
+2628,552324,480313,Edgardo,Fariña,,Edgardo Fariña,57,DEF,available
+2629,204399,385030,Fidel,Escobar,,Fidel Escobar,57,DEF,available
+2630,210235,385833,Adalberto,Carrasquilla,,Adalberto Carrasquilla,57,MID,available
+2631,552322,441402,César,Samudio,,César Samudio,57,GK,available
+2632,428758,441241,Orlando,Mosquera,,Orlando Mosquera,57,GK,available
+2633,92916,267702,Luis,Mejía,,Luis Mejía,57,GK,available
+2634,504800,441243,César,Yanis,,César Yanis,57,FWD,available
+2635,152873,337251,Cecilio,Waterman,,Cecilio Waterman,57,FWD,available
+2636,449234,411174,José,Fajardo,,José Fajardo,57,FWD,available
+2637,132414,372342,Ismael,Díaz,,Ismael Díaz,57,FWD,available
+2638,248048,441239,Jorge,Gutiérrez,,Jorge Gutiérrez,57,DEF,available
+2639,248049,480310,Jiovany,Ramos,,Jiovany Ramos,57,DEF,available
+2640,102108,344582,Roderick,Miller,,Roderick Miller,57,DEF,available
+2641,248043,441240,Andrés,Andrade,,Andrés Andrade,57,DEF,available
+2642,248046,441242,César,Blackman,,César Blackman,57,DEF,available
+2643,99110,337232,Éric,Davis,,Éric Davis,57,DEF,available
+2644,477655,418715,José,Córdoba,,José Córdoba,57,DEF,available
+2645,204401,385031,Amir,Murillo,,Amir Murillo,57,DEF,available
+2646,99117,269514,Aníbal,Godoy,,Aníbal Godoy,57,MID,available
+2647,228669,411176,José Luis,Rodríguez,José Luis Rodríguez,José Luis Rodríguez,57,MID,available
+2648,169310,169310,Yoel,Bárcenas,,Yoel Bárcenas,57,MID,available
+2649,226637,395581,Cristian,Martínez,,Cristian Martínez,57,MID,available
+2650,459639,418729,Carlos,Harvey,,Carlos Harvey,57,MID,available
+2651,480982,489417,Isidro,Pitta,,Isidro Pitta,58,FWD,available
+2652,181402,385306,Andrés,Cubas,,Andrés Cubas,58,MID,available
+2653,514254,463128,Diego,Gómez,Diego Gómez,Diego Gómez,58,MID,available
+2654,474120,441234,Julio,Enciso,,Julio Enciso,58,MID,available
+2655,501279,476348,Damián,Bobadilla,,Damián Bobadilla,58,MID,available
+2656,473197,494531,Orlando,Gill,,Orlando Gill,58,GK,available
+2657,169964,447991,Gastón,Olveira,,Gastón Olveira,58,GK,available
+2658,86809,318647,Roberto,Fernández,,Roberto Fernández,58,GK,available
+2659,685788,505495,Alexandro,Maidana,,Alexandro Maidana,58,FWD,available
+2660,487071,485804,Gustavo,Caballero,,Gustavo Caballero,58,FWD,available
+2661,177580,463127,Gabriel,Ávalos,,Gabriel Ávalos,58,FWD,available
+2662,428461,485802,Álex,Arce,,Álex Arce,58,FWD,available
+2663,502222,463125,Ramón,Sosa,,Ramón Sosa,58,FWD,available
+2664,168598,369768,Antonio,Sanabria,,Antonio Sanabria,58,FWD,available
+2665,179018,369761,Miguel,Almirón,,Miguel Almirón,58,MID,available
+2666,215164,520066,José,Canale,,José Canale,58,DEF,available
+2667,488281,479601,Juan José,Cáceres,,Juan José Cáceres,58,DEF,available
+2668,192331,486875,Gustavo,Velázquez,,Gustavo Velázquez,58,DEF,available
+2669,166640,394829,Fabián,Balbuena,,Fabián Balbuena,58,DEF,available
+2670,201895,431202,Omar,Alderete,,Omar Alderete,58,DEF,available
+2671,168097,369749,Júnior,Alonso,,Júnior Alonso,58,DEF,available
+2672,152745,369744,Gustavo,Gómez,Gustavo Gómez,Gustavo Gómez,58,DEF,available
+2673,437476,406205,Braian,Ojeda,,Braian Ojeda,58,MID,available
+2674,479935,424422,Matías,Galarza,,Matías Galarza,58,MID,available
+2675,170782,386458,Alejandro,Romero,,Alejandro Romero,58,MID,available
+2676,485914,495046,Mauricio,Magalhães Prado,Mauricio,Mauricio,58,MID,available
+2677,216065,418550,Rafael Alexandre,da Conceição Leão,Rafael Leão,Rafael Leão,59,MID,available
+2678,14937,201200,Cristiano Ronaldo,dos Santos Aveiro,Cristiano Ronaldo,Cristiano Ronaldo,59,FWD,available
+2679,165809,395205,Bernardo,Mota Veiga de Carvalho e Silva,Bernardo Silva,Bernardo Silva,59,MID,available
+2680,200402,395212,Nélson,Cabral Semedo,Nélson Semedo,Nélson Semedo,59,DEF,available
+2681,171314,384752,Rúben,dos Santos Gato Alves Dias,Rúben Dias,Rúben Dias,59,DEF,available
+2682,216050,403001,Diogo,Meireles da Costa,Diogo Costa,Diogo Costa,59,GK,available
+2683,141746,395206,Bruno Miguel,Borges Fernandes,Bruno Fernandes,Bruno Fernandes,59,MID,available
+2684,551150,484141,João Pedro,Gonçalves Neves,João Neves,João Neves,59,MID,available
+2685,437858,441149,Vítor,Machado Ferreira,Vitinha,Vitinha,59,MID,available
+2686,465351,441148,Matheus Luiz,Nunes,Matheus Nunes,Matheus Nunes,59,MID,available
+2687,171317,395216,Rúben Diogo,da Silva Neves,Rúben Neves,Rúben Neves,59,MID,available
+2688,149065,368689,José Pedro,Malheiro de Sá,José Sá,José Sá,59,GK,available
+2689,124097,448092,Rui Tiago,Dantas da Silva,Rui Silva,Rui Silva,59,GK,available
+2690,465630,485081,Francisco,Fernandes da Conceição,Francisco Conceição,Francisco Conceição,59,MID,available
+2691,181284,384751,Gonçalo Manuel,Ganchinho Guedes,Gonçalo Guedes,Gonçalo Guedes,59,FWD,available
+2692,222564,418561,Francisco António,Machado Mota de Castro Trincão,Trincão,Trincão,59,FWD,available
+2693,247632,418548,Pedro,Lomba Neto,Pedro Neto,Pedro Neto,59,MID,available
+2694,428399,418535,João,Félix Sequeira,João Félix,João Félix,59,FWD,available
+2695,449980,448081,Gonçalo,Matias Ramos,Gonçalo Ramos,Gonçalo Ramos,59,FWD,available
+2696,465192,492358,Tomás,Lemos Araújo,Tomás Araújo,Tomás Araújo,59,DEF,available
+2697,551230,489704,Renato,Palma Veiga,Renato Veiga,Renato Veiga,59,DEF,available
+2698,509111,441146,Gonçalo Bernardo,Inácio,Gonçalo Inácio,Gonçalo Inácio,59,DEF,available
+2699,216051,403002,José Diogo,Dalot Teixeira,Diogo Dalot,Diogo Dalot,59,DEF,available
+2700,121145,368649,João Pedro,Cavaco Cancelo,João Cancelo,João Cancelo,59,DEF,available
+2701,465206,433195,Nuno Alexandre,Tavares Mendes,Nuno Mendes,Nuno Mendes,59,DEF,available
+2702,485385,491216,Samuel,de Almeida Costa,Samú Costa,Samú Costa,59,MID,available
+2703,556311,486639,Tahsin Mohammed,Jamshid,Tahsin Mohammed,Tahsin Mohammed,60,FWD,available
+2704,154963,385070,Mohammed,Muntari,Mohammed Muntari,Mohammed Muntari,60,FWD,available
+2705,155106,353251,Ahmed Alaaeldin Bader Mohammed,Abdelmotaal,Ahmed Alaa,Ahmed Alaa,60,FWD,available
+2706,501195,419473,Jassem Gaber El Sayed,Abdulsallam,Jassem Gaber,Jassem Gaber,60,MID,available
+2707,171284,345059,Abdulaziz Hatem Abdullah,Mohammed,Abdulaziz Hatem,Abdulaziz Hatem,60,MID,available
+2708,185303,386387,Sultan Hussain Mohamad Hussain,Al Brake,Sultan Al Brake,Sultan Al Brake,60,DEF,available
+2709,250926,419441,Homam El Amin Mohamed,Ahmed,Homam El Amin,Homam El Amin,60,DEF,available
+2710,512879,419459,Mahmoud Ibrahim Mahmoud,Abunada,Mahmoud Abunada,Mahmoud Abunada,60,GK,available
+2711,467969,419461,Salah Zakaria Mohamed,Mousa Hassan,Salah Zakaria,Salah Zakaria,60,GK,available
+2712,443045,416056,Meshaal Aissa Mohammed,Barsham,Meshaal Barsham,Meshaal Barsham,60,GK,available
+2713,250931,419436,Ahmed Mohammed Hussein Kassim,Al Ganehi,Ahmed Al Ganehi,Ahmed Al Ganehi,60,FWD,available
+2714,250932,419463,Yusuf,Abdurisag Yusuf,Yusuf Abdurisag,Yusuf Abdurisag,60,FWD,available
+2715,79218,284190,Hassan Khalid Hassan,Al Haydos,Hassan Al Haydos,Hassan Al Haydos,60,FWD,available
+2716,147300,429063,Edmílson Junior Paulo,da Silva,Edmílson Junior,Edmílson Junior,60,FWD,available
+2717,184768,386366,Almoez Ali Zainalabedeen Mohamed,Abdulla,Almoez Ali,Almoez Ali,60,FWD,available
+2718,184756,386347,Akram Hassan Afif Yahya,Afif,Akram Afif,Akram Afif,60,FWD,available
+2719,564770,512791,Gueye Seydinaissa,Laye,Issa Laye,Issa Laye,60,DEF,available
+2720,554374,486614,Al Hashmi Al Hussain,Mohialdin,Al Hashmi Al Hussain,Al Hashmi Al Hussain,60,DEF,available
+2721,171297,385067,Boualem,Khoukhi,Boualem Khoukhi,Boualem Khoukhi,60,DEF,available
+2722,61091,356673,Lucas Michel,Mendes,Lucas Mendes,Lucas Mendes,60,DEF,available
+2723,171259,416051,Pedro Miguel,Carvalho Deus Correia,Pedro Miguel,Pedro Miguel,60,DEF,available
+2724,185305,386348,Assim Omer Al Haj,Madibo,Assim Madibo,Assim Madibo,60,MID,available
+2725,154906,354861,Karim,Boudiaf,Karim Boudiaf,Karim Boudiaf,60,MID,available
+2726,171320,433394,Ahmed Fathy Mansi,Abdoulla,Ahmed Fathy,Ahmed Fathy,60,MID,available
+2727,587820,510991,Ayoub Mohamed,Al Oui,Ayoub Al Oui,Ayoub Al Oui,60,MID,available
+2728,517175,498458,Mohammad Naceur,Manai,Mohammad Al Manai,Mohammad Al Manai,60,MID,available
+2729,604258,512183,Mohammed bin Waheeb bin Saeed,Abu Al Shamat,Mohammed Abu Al Shamat,Mohammed Abu Al Shamat,89,MID,available
+2730,431032,403319,Nasser bin Essa bin Shafi Al Shardan,Al Dawsari,Nasser Al Dawsari,Nasser Al Dawsari,89,MID,available
+2731,220023,523333,Alaa bin Mohsen bin Ahmed,Al Hejji,Alaa Al Hejji,Alaa Al Hejji,89,MID,available
+2732,109763,339745,Salem bin Mohammed bin Shafi,Al Dawsari,Salem Al Dawsari,Salem Al Dawsari,89,MID,available
+2733,505480,419303,Moteb bin Saad bin Salim Al Naqi,Al Harbi,Moteb Al Harbi,Moteb Al Harbi,89,DEF,available
+2734,532243,494506,Jehad bin Abdullatif bin Ahmed,Thikri,Jehad Thikri,Jehad Thikri,89,DEF,available
+2735,423623,403335,Hassan bin Mohammed bin Osama,Al Tambakti,Hassan Al Tambakti,Hassan Al Tambakti,89,DEF,available
+2736,153885,396885,Mohammed bin Khalil bin Ibrahim,Al Owais,Mohammed Al Owais,Mohammed Al Owais,89,GK,available
+2737,109853,339746,Ahmed bin Ali bin Hussein,Al Kassar,Ahmed Al Kassar,Ahmed Al Kassar,89,GK,available
+2738,501709,419287,Nawaf bin Dhahi bin Faisal Al Shuweiti,Al Aqidi,Nawaf Al Aqidi,Nawaf Al Aqidi,89,GK,available
+2739,194384,494800,Sultan bin Ahmed bin Mohammed,Mandash,Sultan Mandash,Sultan Mandash,89,FWD,available
+2740,124932,425804,Saleh bin Khalid bin Mohammed,Al Shehri,Saleh Al Shehri,Saleh Al Shehri,89,FWD,available
+2741,250792,419300,Khalid bin Essa bin Mohammed,Al Ghannam,Khalid Al Ghannam,Khalid Al Ghannam,89,FWD,available
+2742,442254,419302,Abdullah bin Abdulrahman bin Abdullah,Al Hamddan,Abdullah Al Hamddan,Abdullah Al Hamddan,89,FWD,available
+2743,250793,419291,Feras bin Tariq bin Nasser,Al Brikan,Feras Al Brikan,Feras Al Brikan,89,FWD,available
+2744,209867,433439,Ali bin Mohammed bin Ali,Lajami,Ali Lajami,Ali Lajami,89,DEF,available
+2745,486024,430518,Nawaf bin Meshari bin Mohammed,Bu Washl,Nawaf Bu Washl,Nawaf Bu Washl,89,DEF,available
+2746,442526,419326,Ali bin Hassan bin Mohammed,Majrashi,Ali Majrashi,Ali Majrashi,89,DEF,available
+2747,122482,401924,Hassan bin Kadish bin Yahya,Mahbub,Hassan Kadish,Hassan Kadish,89,DEF,available
+2748,423618,403312,Abdulelah bin Ali bin Awadh,Al Amri,Abdulelah Al Amri,Abdulelah Al Amri,89,DEF,available
+2749,468266,419281,Saud bin Abdullah bin Salem,Abdulhamid,Saud Abdulhamid,Saud Abdulhamid,89,DEF,available
+2750,493659,430512,Aiman bin Yahya bin Yahya,Salem Ahmed,Aiman Yahya,Aiman Yahya,89,MID,available
+2751,245402,411624,Abdullah bin Mohammed bin Hamza Al Berri,Al Khaibari,Abdullah Al Khaibari,Abdullah Al Khaibari,89,MID,available
+2752,170031,407993,Mohamed bin Ibrahim bin Abdullah,Kanno,Mohamed Kanno,Mohamed Kanno,89,MID,available
+2753,511120,436538,Ziyad bin Mubarak bin Eid Al Marwani,Al Johani,Ziyad Al Johani,Ziyad Al Johani,89,MID,available
+2754,533388,436537,Musab bin Fahad bin Zaid,Al Juwayr,Musab Al Juwayr,Musab Al Juwayr,89,MID,available
+2755,519913,523007,Tyler,Fletcher,,Tyler Fletcher,90,MID,available
+2756,116084,484045,Lawrence,Shankland,,Lawrence Shankland,90,FWD,available
+2757,230348,442433,Ross,Stewart,,Ross Stewart,90,FWD,available
+2758,496208,485131,Ben,Gannon-Doak,,Ben Gannon-Doak,90,MID,available
+2759,472713,442428,Aaron,Hickey,,Aaron Hickey,90,DEF,available
+2760,5207,215553,Craig,Gordon,,Craig Gordon,90,GK,available
+2761,439492,442434,Lewis,Ferguson,,Lewis Ferguson,90,MID,available
+2762,195851,433787,Scott,McTominay,,Scott McTominay,90,MID,available
+2763,107265,411301,Angus,Gunn,,Angus Gunn,90,GK,available
+2764,160997,442429,Liam,Kelly,,Liam Kelly,90,GK,available
+2765,593013,520217,Findlay,Curtis,,Findlay Curtis,90,FWD,available
+2766,194213,430098,Lyndon,Dykes,,Lyndon Dykes,90,FWD,available
+2767,222625,495431,George,Hirst,,George Hirst,90,FWD,available
+2768,200439,433191,Ché,Adams,,Ché Adams,90,FWD,available
+2769,83428,359634,Grant,Hanley,,Grant Hanley,90,DEF,available
+2770,154128,484073,Dominic,Hyam,,Dominic Hyam,90,DEF,available
+2771,215372,337389,Anthony,Ralston,,Anthony Ralston,90,DEF,available
+2772,168281,442431,Scott,McKenna,,Scott McKenna,90,DEF,available
+2773,149469,442430,John,Souttar,,John Souttar,90,DEF,available
+2774,194203,430147,Jack,Hendry,,Jack Hendry,90,DEF,available
+2775,243571,433694,Nathan,Patterson,,Nathan Patterson,90,DEF,available
+2776,192895,401712,Kieran,Tierney,,Kieran Tierney,90,DEF,available
+2777,122798,401339,Andy,Robertson,,Andy Robertson,90,DEF,available
+2778,78607,484051,Kenny,McLean,,Kenny McLean,90,MID,available
+2779,158499,430097,Ryan,Christie,,Ryan Christie,90,MID,available
+2780,122806,401334,John,McGinn,,John McGinn,90,MID,available
+2781,110979,353790,Sadio,Mané,,Sadio Mané,95,MID,available
+2782,704138,523354,Bara,Sapoko Ndiaye,Bara Sapoko Ndiaye,Bara Sapoko Ndiaye,95,MID,available
+2783,547027,486130,Habib,Diarra,,Habib Diarra,95,MID,available
+2784,585597,464842,Lamine,Camara,,Lamine Camara,95,MID,available
+2785,249956,403642,Krépin,Diatta,,Krépin Diatta,95,MID,available
+2786,176357,448821,Mory,Diaw,,Mory Diaw,95,GK,available
+2787,231875,494277,Yehvann,Diouf,Yehvann Diouf,Yehvann Diouf,95,GK,available
+2788,228286,433806,Édouard,Mendy,Édouard Mendy,Édouard Mendy,95,GK,available
+2789,638987,496358,Ibrahim,Mbaye,,Ibrahim Mbaye,95,FWD,available
+2790,531004,418781,Bamba,Dieng,,Bamba Dieng,95,FWD,available
+2791,246167,486168,Cherif,Ndiaye,Cherif Ndiaye,Cherif Ndiaye,95,FWD,available
+2792,624877,484698,Assane,Diao,,Assane Diao,95,FWD,available
+2793,232185,401889,Ismaïla,Sarr,Ismaïla Sarr,Ismaïla Sarr,95,FWD,available
+2794,440993,448815,Iliman,Ndiaye,Iliman Ndiaye,Iliman Ndiaye,95,FWD,available
+2795,517052,418795,Nicolas,Jackson,,Nicolas Jackson,95,FWD,available
+2796,538452,494279,Antoine,Mendy,Antoine Mendy,Antoine Mendy,95,DEF,available
+2797,245741,370171,Abdoulaye,Seck,,Abdoulaye Seck,95,DEF,available
+2798,86129,339820,Kalidou,Koulibaly,,Kalidou Koulibaly,95,DEF,available
+2799,441574,430671,Ismail,Jakobs,,Ismail Jakobs,95,DEF,available
+2800,613804,464865,El Hadji Malick,Diouf,El Hadji Malick Diouf,El Hadji Malick Diouf,95,DEF,available
+2801,199170,430690,Moussa,Niakhaté,,Moussa Niakhaté,95,DEF,available
+2802,574458,499800,Mamadou,Sarr,Mamadou Sarr,Mamadou Sarr,95,DEF,available
+2803,422453,431788,Pape,Gueye,Pape Gueye,Pape Gueye,95,MID,available
+2804,441175,448825,Pathé,Ciss,,Pathé Ciss,95,MID,available
+2805,482442,418798,Pape Matar,Sarr,Pape Matar Sarr,Pape Matar Sarr,95,MID,available
+2806,80801,332314,Idrissa,Gueye,Idrissa Gueye,Idrissa Gueye,95,MID,available
+2807,441662,481242,Iqraam,Rayners,,Iqraam Rayners,96,MID,available
+2808,573198,506038,Kamogelo,Sebelebele,,Kamogelo Sebelebele,96,MID,available
+2809,465600,419225,Bradley,Cross,,Bradley Cross,96,DEF,available
+2810,597743,502245,Olwethu,Makhanya,,Olwethu Makhanya,96,DEF,available
+2811,433373,494246,Sipho,Chaine,,Sipho Chaine,96,GK,available
+2812,442045,395059,Ricardo,Goss,,Ricardo Goss,96,GK,available
+2813,166587,395986,Ronwen,Williams,,Ronwen Williams,96,GK,available
+2814,568838,463234,Thapelo,Maseko,,Thapelo Maseko,96,FWD,available
+2815,504805,430917,Evidence,Makgopa,,Evidence Makgopa,96,FWD,available
+2816,484804,419223,Oswin,Appollis,,Oswin Appollis,96,FWD,available
+2817,616826,486161,Relebohile,Mofokeng,,Relebohile Mofokeng,96,FWD,available
+2818,435973,419211,Lyle,Foster,,Lyle Foster,96,FWD,available
+2819,627429,504200,Samukele,Kabini,,Samukele Kabini,96,DEF,available
+2820,611177,506039,Ime,Okon,,Ime Okon,96,DEF,available
+2821,662923,504192,Khulumani,Ndamane,,Khulumani Ndamane,96,DEF,available
+2822,681982,504199,Mbekezeli,Mbokazi,,Mbekezeli Mbokazi,96,DEF,available
+2823,432187,463221,Nkosinathi,Sibisi,,Nkosinathi Sibisi,96,DEF,available
+2824,441890,463218,Khuliso,Mudau,,Khuliso Mudau,96,DEF,available
+2825,612077,510850,Thabang,Matuludi,,Thabang Matuludi,96,DEF,available
+2826,230336,395050,Aubrey,Modiba,,Aubrey Modiba,96,DEF,available
+2827,218418,390475,Sphephelo S'Miso,Sithole,Yaya Sithole,Yaya Sithole,96,MID,available
+2828,530501,504193,Tshepang,Moremi,,Tshepang Moremi,96,MID,available
+2829,501592,494248,Thalente,Mbatha,,Thalente Mbatha,96,MID,available
+2830,185330,395984,Themba,Zwane,,Themba Zwane,96,MID,available
+2831,422699,403616,Teboho,Mokoena,,Teboho Mokoena,96,MID,available
+2832,510880,463236,Jayden,Adams,,Jayden Adams,96,MID,available
+2833,523654,447855,Nico,Williams,,Nico Williams,97,MID,available
+2834,500046,447866,Pablo,Páez Gavira,Gavi,Gavi,97,MID,available
+2835,201379,430718,Fabián,Ruiz,,Fabián Ruiz,97,MID,available
+2836,195384,430733,Mikel,Merino,,Mikel Merino,97,MID,available
+2837,562720,484728,Marc,Pubill,,Marc Pubill,97,DEF,available
+2838,432656,405562,Eric,García,Eric García,Eric García,97,DEF,available
+2839,490541,423646,Pedro,González López,Pedri,Pedri,97,MID,available
+2840,179370,430750,Dani,Olmo,,Dani Olmo,97,MID,available
+2841,220566,411375,Rodrigo,Hernández Cascante,Rodri,Rodri,97,MID,available
+2842,192364,382739,Marcos,Llorente,,Marcos Llorente,97,DEF,available
+2843,449928,484691,Joan,García,Joan García,Joan García,97,GK,available
+2844,212769,430753,Unai,Simón,,Unai Simón,97,GK,available
+2845,154561,447853,David,Raya,,David Raya,97,GK,available
+2846,551499,492859,Víctor,Muñoz,,Víctor Muñoz,97,FWD,available
+2847,202044,447864,Borja,Iglesias,,Borja Iglesias,97,FWD,available
+2848,219000,430751,Mikel,Oyarzabal,,Mikel Oyarzabal,97,FWD,available
+2849,224444,405545,Ferran,Torres,,Ferran Torres,97,FWD,available
+2850,593109,484320,Lamine Yamal,Nasraoui Ebana,Lamine Yamal,Lamine Yamal,97,MID,available
+2851,593110,474973,Pau,Cubarsí,,Pau Cubarsí,97,DEF,available
+2852,179268,430735,Marc,Cucurella,,Marc Cucurella,97,DEF,available
+2853,106004,391297,Alejandro,Grimaldo,,Alejandro Grimaldo,97,DEF,available
+2854,146941,335999,Aymeric,Laporte,,Aymeric Laporte,97,DEF,available
+2855,441164,430144,Pedro,Porro,,Pedro Porro,97,DEF,available
+2856,481655,430754,Martín,Zubimendi,,Martín Zubimendi,97,MID,available
+2857,248501,447860,Álex,Baena,,Álex Baena,97,MID,available
+2858,488024,423658,Yéremy,Pino,,Yéremy Pino,97,MID,available
+2859,523993,514639,Herman,Johansson,Herman Johansson,Herman Johansson,98,MID,available
+2860,477403,502945,Alexander,Bernhardsson,,Alexander Bernhardsson,98,FWD,available
+2861,219168,430150,Alexander,Isak,,Alexander Isak,98,FWD,available
+2862,157775,395286,Ken,Sema,,Ken Sema,98,MID,available
+2863,523991,483312,Isak,Hien,,Isak Hien,98,DEF,available
+2864,478969,483319,Hjalmar,Ekdal,,Hjalmar Ekdal,98,DEF,available
+2865,479393,489685,Jacob,Widell Zetterström,,Jacob Widell Zetterström,98,GK,available
+2866,222340,483264,Viktor,Johansson,Viktor Johansson,Viktor Johansson,98,GK,available
+2867,61760,360496,Kristoffer,Nordfeldt,,Kristoffer Nordfeldt,98,GK,available
+2868,189664,489691,Gustaf,Nilsson,,Gustaf Nilsson,98,FWD,available
+2869,449952,502946,Benjamin,Nygren,,Benjamin Nygren,98,FWD,available
+2870,449434,441137,Anthony,Elanga,,Anthony Elanga,98,FWD,available
+2871,224117,483327,Viktor,Gyökeres,,Viktor Gyökeres,98,FWD,available
+2872,531827,483304,Gustaf,Lagerbielke,,Gustaf Lagerbielke,98,DEF,available
+2873,184667,395283,Victor,Lindelöf,,Victor Lindelöf,98,DEF,available
+2874,174249,441132,Carl,Starfelt,,Carl Starfelt,98,DEF,available
+2875,243526,483276,Gabriel,Gudmundsson,,Gabriel Gudmundsson,98,DEF,available
+2876,521052,491255,Daniel,Svensson,,Daniel Svensson,98,DEF,available
+2877,210912,433795,Mattias,Svanberg,,Mattias Svanberg,98,MID,available
+2878,160602,441135,Jesper,Karlström,,Jesper Karlström,98,MID,available
+2879,509416,489688,Yasin,Ayari,,Yasin Ayari,98,MID,available
+2880,570526,489689,Lucas,Bergvall,,Lucas Bergvall,98,MID,available
+2881,182410,493061,Eric,Smith,,Eric Smith,98,MID,available
+2882,504774,514202,Taha,Ali,,Taha Ali,98,MID,available
+2883,608227,519958,Elliot,Stroud,,Elliot Stroud,98,MID,available
+2884,565404,503047,Besfort,Zeneli,,Besfort Zeneli,98,MID,available
+2885,198383,448104,Cedric,Itten,,Cedric Itten,99,FWD,available
+2886,492831,448112,Zeki,Amdouni,,Zeki Amdouni,99,FWD,available
+2887,229237,448124,Christian,Fassnacht,,Christian Fassnacht,99,MID,available
+2888,429534,448131,Rubén,Vargas,,Rubén Vargas,99,MID,available
+2889,212701,401448,Denis,Zakaria,,Denis Zakaria,99,MID,available
+2890,185524,411226,Djibril,Sow,,Djibril Sow,99,MID,available
+2891,581511,484862,Marvin,Keller,,Marvin Keller,99,GK,available
+2892,100952,402022,Yvon,Mvogo,,Yvon Mvogo,99,GK,available
+2893,185513,448107,Gregor,Kobel,,Gregor Kobel,99,GK,available
+2894,456512,448114,Dan,Ndoye,,Dan Ndoye,99,FWD,available
+2895,435997,448127,Noah,Okafor,,Noah Okafor,99,FWD,available
+2896,181007,393480,Breel,Embolo,,Breel Embolo,99,FWD,available
+2897,563987,510908,Luca,Jaquez,,Luca Jaquez,99,DEF,available
+2898,539142,484864,Aurèle,Amenda,,Aurèle Amenda,99,DEF,available
+2899,220327,448136,Eray,Cömert,,Eray Cömert,99,DEF,available
+2900,198230,493221,Miro,Muheim,,Miro Muheim,99,DEF,available
+2901,120781,356412,Silvan,Widmer,,Silvan Widmer,99,DEF,available
+2902,173774,398509,Nico,Elvedi,,Nico Elvedi,99,DEF,available
+2903,69305,313559,Ricardo,Rodríguez,,Ricardo Rodríguez,99,DEF,available
+2904,211975,405178,Manuel,Akanji,,Manuel Akanji,99,DEF,available
+2905,449787,448103,Fabian,Rieder,,Fabian Rieder,99,MID,available
+2906,508855,448120,Ardon,Jashari,,Ardon Jashari,99,MID,available
+2907,89076,402021,Remo,Freuler,,Remo Freuler,99,MID,available
+2908,235865,433147,Michel,Aebischer,,Michel Aebischer,99,MID,available
+2909,84450,311558,Granit,Xhaka,,Granit Xhaka,99,MID,available
+2910,614071,502727,Johan,Manzambi,,Johan Manzambi,99,MID,available
+2911,465527,433378,Hannibal,Mejbri,,Hannibal Mejbri,108,MID,available
+2912,546545,448662,Elias,Achouri,,Elias Achouri,108,MID,available
+2913,213482,419189,Yan,Valery,,Yan Valery,108,DEF,available
+2914,231058,411653,Dylan,Bronn,,Dylan Bronn,108,DEF,available
+2915,422480,433380,Montassar,Talbi,,Montassar Talbi,108,DEF,available
+2916,173387,372294,Sabri,Ben Hassen,,Sabri Ben Hassen,108,GK,available
+2917,422428,433365,Aymen,Dahmen,,Aymen Dahmen,108,GK,available
+2918,735527,520245,Abdelmouhib,Chamakh,,Abdelmouhib Chamakh,108,GK,available
+2919,695909,512039,Khalil,Ayari,,Khalil Ayari,108,FWD,available
+2920,659530,520247,Rayan,Elloumi,,Rayan Elloumi,108,FWD,available
+2921,679037,494374,Hazem,Mastouri,,Hazem Mastouri,108,FWD,available
+2922,497956,504502,Sebastian,Tounekti,,Sebastian Tounekti,108,FWD,available
+2923,422443,494375,Firas,Chaouat,,Firas Chaouat,108,FWD,available
+2924,545664,482885,Elias,Saad,,Elias Saad,108,FWD,available
+2925,535947,464484,Ismaël,Gharbi,,Ismaël Gharbi,108,FWD,available
+2926,735529,520246,Raed,Chikhaoui,,Raed Chikhaoui,108,DEF,available
+2927,494374,425607,Mohamed Amine,Ben Hmida,,Mohamed Amine Ben Hmida,108,DEF,available
+2928,707986,516043,Adem,Arous,,Adem Arous,108,DEF,available
+2929,467750,433367,Omar,Rekik,,Omar Rekik,108,DEF,available
+2930,245485,433362,Ali,Abdi,,Ali Abdi,108,DEF,available
+2931,586674,506335,Moutaz,Neffati,,Moutaz Neffati,108,DEF,available
+2932,504198,433361,Anis,Ben Slimane,,Anis Ben Slimane,108,MID,available
+2933,449568,441362,Mortadha,Ben Ouanes,,Mortadha Ben Ouanes,108,MID,available
+2934,498512,479781,Hadj,Mahmoud,,Hadj Mahmoud,108,MID,available
+2935,111450,336459,Rani,Khedira,,Rani Khedira,108,MID,available
+2936,195430,411658,Ellyes,Skhiri,,Ellyes Skhiri,108,MID,available
+2937,554087,486074,Can,Uzun,,Can Uzun,109,MID,available
+2938,218031,401167,Çaglar,Söyüncü,,Çaglar Söyüncü,109,DEF,available
+2939,111732,369304,Hakan,Çalhanoglu,,Hakan Çalhanoglu,109,MID,available
+2940,520250,484087,Arda,Güler,,Arda Güler,109,MID,available
+2941,56077,360498,Mert,Günok,,Mert Günok,109,GK,available
+2942,451302,441180,Altay,Bayindir,,Altay Bayindir,109,GK,available
+2943,201828,441181,Ugurcan,Çakir,,Ugurcan Çakir,109,GK,available
+2944,596063,495347,Deniz,Gül,,Deniz Gül,109,FWD,available
+2945,438346,406231,Yunus,Akgün,,Yunus Akgün,109,FWD,available
+2946,541115,486076,Oguz,Aydin,,Oguz Aydin,109,FWD,available
+2947,514355,484139,Baris Alper,Yilmaz,,Baris Alper Yilmaz,109,FWD,available
+2948,498572,441188,Kerem,Aktürkoglu,,Kerem Aktürkoglu,109,FWD,available
+2949,547103,484112,Kenan,Yildiz,,Kenan Yildiz,109,MID,available
+2950,439128,441179,Merih,Demiral,,Merih Demiral,109,DEF,available
+2951,166050,484082,Abdülkerim,Bardakci,,Abdülkerim Bardakci,109,DEF,available
+2952,482991,484065,Eren,Elmali,,Eren Elmali,109,DEF,available
+2953,438277,406249,Ozan,Kabak,,Ozan Kabak,109,DEF,available
+2954,224990,430120,Mert,Müldür,,Mert Müldür,109,DEF,available
+2955,245333,484072,Samet,Akaydin,,Samet Akaydin,109,DEF,available
+2956,231416,484113,Ferdi,Kadioglu,,Ferdi Kadioglu,109,DEF,available
+2957,171435,433072,Zeki,Çelik,,Zeki Çelik,109,DEF,available
+2958,159522,336170,Kaan,Ayhan,,Kaan Ayhan,109,DEF,available
+2959,247962,433118,Orkun,Kökçü,,Orkun Kökçü,109,MID,available
+2960,195782,472877,Irfan Can,Kahveci,,Irfan Can Kahveci,109,MID,available
+2961,204581,389907,Salih,Özcan,,Salih Özcan,109,MID,available
+2962,511530,484092,Ismail,Yüksek,,Ismail Yüksek,109,MID,available
+2963,473218,419142,Rodrigo,Zalazar,,Rodrigo Zalazar,110,MID,available
+2964,202993,386538,Rodrigo,Bentancur,,Rodrigo Bentancur,110,MID,available
+2965,250005,439538,Joaquín,Piquerez,,Joaquín Piquerez,110,DEF,available
+2966,223255,402884,Federico,Valverde,,Federico Valverde,110,MID,available
+2967,148034,368652,Giorgian,de Arrascaeta,,Giorgian de Arrascaeta,110,MID,available
+2968,231485,402897,Santiago,Mele,,Santiago Mele,110,GK,available
+2969,42864,229498,Fernando,Muslera,,Fernando Muslera,110,GK,available
+2970,156612,368664,Sergio,Rochet,,Sergio Rochet,110,GK,available
+2971,232109,402876,Agustín,Canobbio,,Agustín Canobbio,110,FWD,available
+2972,153299,332897,Rodrigo,Aguirre,,Rodrigo Aguirre,110,FWD,available
+2973,447202,419132,Brian,Rodríguez,,Brian Rodríguez,110,FWD,available
+2974,492872,477536,Federico,Viñas,,Federico Viñas,110,FWD,available
+2975,447203,419126,Darwin,Núñez,,Darwin Núñez,110,FWD,available
+2976,231480,402904,Santiago,Bueno,,Santiago Bueno,110,DEF,available
+2977,425715,419108,Sebastián,Cáceres,,Sebastián Cáceres,110,DEF,available
+2978,152015,368660,Guillermo,Varela,,Guillermo Varela,110,DEF,available
+2979,214966,402893,Mathías,Olivera,,Mathías Olivera,110,DEF,available
+2980,244704,402895,Matías,Viña,,Matías Viña,110,DEF,available
+2981,151883,368655,José María,Giménez,,José María Giménez,110,DEF,available
+2982,445087,419101,Ronald,Araujo,,Ronald Araujo,110,DEF,available
+2983,244706,402898,Nicolás,de la Cruz,,Nicolás de la Cruz,110,MID,available
+2984,232112,441623,Manuel,Ugarte,,Manuel Ugarte,110,MID,available
+2985,473215,419100,Maxi,Araújo,,Maxi Araújo,110,MID,available
+2986,488404,439956,Facundo,Pellistri,,Facundo Pellistri,110,MID,available
+2987,474838,308300,Emiliano,Martínez,,Emiliano Martínez,110,MID,available
+2988,425710,419134,Juan Manuel,Sanabria,,Juan Manuel Sanabria,110,MID,available
+2989,176409,390278,Álex,Zendejas,,Álex Zendejas,111,MID,available
+2990,176412,390276,Haji,Wright,,Haji Wright,111,FWD,available
+2991,200785,390238,Tyler,Adams,,Tyler Adams,111,MID,available
+2992,241500,436599,Miles,Robinson,Miles Robinson,Miles Robinson,111,DEF,available
+2993,250676,406280,Sergiño,Dest,,Sergiño Dest,111,DEF,available
+2994,176413,390267,Christian,Pulisic,,Christian Pulisic,111,MID,available
+2995,483209,464546,Chris,Brady,,Chris Brady,111,GK,available
+2996,247671,499913,Matt,Freese,,Matt Freese,111,GK,available
+2997,224068,448217,Matt,Turner,,Matt Turner,111,GK,available
+2998,575011,486390,Max,Arfsten,,Max Arfsten,111,FWD,available
+2999,232223,466624,Folarin,Balogun,,Folarin Balogun,111,FWD,available
+3000,439742,419082,Ricardo,Pepi,,Ricardo Pepi,111,FWD,available
+3001,215473,406304,Timothy,Weah,,Timothy Weah,111,MID,available
+3002,484917,464542,Alex,Freeman,,Alex Freeman,111,DEF,available
+3003,201410,390272,Auston,Trusty,,Auston Trusty,111,DEF,available
+3004,201401,419077,Mark,McKenzie,,Mark McKenzie,111,DEF,available
+3005,82514,339510,Tim,Ream,,Tim Ream,111,DEF,available
+3006,427426,423700,Joe,Scally,,Joe Scally,111,DEF,available
+3007,427623,419062,Chris,Richards,,Chris Richards,111,DEF,available
+3008,169528,441251,Antonee,Robinson,Antonee Robinson,Antonee Robinson,111,DEF,available
+3009,427420,419068,Giovanni,Reyna,,Giovanni Reyna,111,MID,available
+3010,241519,390259,Weston,McKennie,,Weston McKennie,111,MID,available
+3011,466006,448214,Malik,Tillman,,Malik Tillman,111,MID,available
+3012,427637,419055,Brenden,Aaronson,,Brenden Aaronson,111,MID,available
+3013,426490,499912,Sebastian,Berhalter,,Sebastian Berhalter,111,MID,available
+3014,172762,385994,Cristian,Roldan,,Cristian Roldan,111,MID,available
+3015,210242,385472,Botirali,Ergashev,,Botirali Ergashev,112,GK,available
+3016,205354,479077,Utkir,Yusupov,,Utkir Yusupov,112,GK,available
+3017,501201,501201,Abduvokhid,Nematov,,Abduvokhid Nematov,112,GK,available
+3018,247840,481220,Azizbek,Amonov,,Azizbek Amonov,112,FWD,available
+3019,154690,368546,Igor,Sergeev,,Igor Sergeev,112,FWD,available
+3020,205048,385475,Eldor,Shomurodov,,Eldor Shomurodov,112,FWD,available
+3021,613486,464906,Jakhongir,Urozov,,Jakhongir Urozov,112,DEF,available
+3022,641067,475260,Bekhruz,Karimov,,Bekhruz Karimov,112,DEF,available
+3023,478845,518264,Avazbek,O'lmasaliev,,Avazbek O'lmasaliev,112,DEF,available
+3024,443795,479084,Umar,Eshmurodov,,Umar Eshmurodov,112,DEF,available
+3025,443083,479079,Khojiakbar,Alijonov,,Khojiakbar Alijonov,112,DEF,available
+3026,201233,385139,Farrukh,Sayfiev,,Farrukh Sayfiev,112,DEF,available
+3027,501210,479075,Sherzod,Nasrullaev,,Sherzod Nasrullaev,112,DEF,available
+3028,173331,371415,Rustam,Ashurmatov,,Rustam Ashurmatov,112,DEF,available
+3029,578153,,Abdukodir,Khusanov,,Abdukodir Khusanov,112,DEF,available
+3030,536187,464933,Abbosbek,Fayzullaev,,Abbosbek Fayzullaev,112,MID,available
+3031,154876,368560,Jaloliddin,Masharipov,,Jaloliddin Masharipov,112,MID,available
+3032,154870,368545,Jamshid,Iskanderov,,Jamshid Iskanderov,112,MID,available
+3033,476838,479080,Oston,Urunov,,Oston Urunov,112,MID,available
+3034,173334,371345,Odiljon,Khamrobekov,,Odiljon Khamrobekov,112,MID,available
+3035,205341,479086,Aziz,G'aniev,,Aziz G'aniev,112,MID,available
+3036,173345,371393,Dostonbek,Khamdamov,,Dostonbek Khamdamov,112,MID,available
+3037,173346,371348,Otabek,Shukurov,,Otabek Shukurov,112,MID,available
+3038,444539,479106,Akmal,Mozgovoy,,Akmal Mozgovoy,112,MID,available
+3039,613497,464897,Sherzod,Esanov,,Sherzod Esanov,112,MID,available
+3040,501202,479042,Abdulla,Abdullaev,,Abdulla Abdullaev,112,MID,available
+3845,463184,485069,Éderson José,dos Santos Lourenço da Silva,Éderson Silva,Éderson Silva,7,MID,available
+3846,687195,520068,Mohammad Ahmed Mohammad,Taha,Mohammad Abu Ghoush,Mohammad Abu Ghoush,50,DEF,available
+3847,613500,,Umarali,Rakhmonaliev,,Umarali Rakhmonaliev,112,MID,available
+3848,581105,484303,Ruslanbek,Jiyanov,,Ruslanbek Jiyanov,112,MID,available
+3849,502344,,Jasurbek,Jaloliddinov,,Jasurbek Jaloliddinov,112,MID,available
+3850,536186,,Sherzod,Temirov,,Sherzod Temirov,112,FWD,available
+3851,247955,483553,Lutsharel,Geertruida,,Lutsharel Geertruida,54,DEF,available
+3852,433028,423933,Jayden,Nelson,,Jayden Nelson,9,FWD,available
+3853,442421,,Abdulquddus bin Atiah bin Mohammed,Atiah Khaoud,Abdulquddus Atiah,Abdulquddus Atiah,89,GK,available
+3854,476404,,Moustapha,Mbow,,Moustapha Mbow,95,DEF,available
+3855,616998,,Santiago,Beltrán,Santiago Beltrán,Santiago Beltrán,2,GK,available
+3856,533499,,Agustín,Giay,,Agustín Giay,2,DEF,available
+3857,687279,,Ignacio,Ovando,,Ignacio Ovando,2,DEF,available
+3858,474094,,Nicolás,Capaldo,,Nicolás Capaldo,2,MID,available
+3859,429631,,Dejan,Ljubicic,,Dejan Ljubicic,4,MID,available
+3860,206078,395760,Marwane,Saadane,,Marwane Saadane,53,DEF,available
+3861,532112,524320,Amine,Sbaï,,Amine Sbaï,53,FWD,available
+3862,510886,,Mário Ricardo,da Silva Velho,Ricardo Velho,Ricardo Velho,59,GK,available
+3863,446220,448569,Shuto,Machino,,Shuto Machino,49,FWD,available
+3864,221466,402934,Marcos,Senesi,,Marcos Senesi,2,DEF,available
+3865,513216,494639,Arjan,Malic,,Arjan Malic,6,DEF,available
+3866,540831,466862,Garven,Metusala,,Garven Metusala,46,DEF,available
+3867,180736,439691,Trevoh,Chalobah,,Trevoh Chalobah,18,DEF,available
+3868,217871,,Logan,Rogerson,,Logan Rogerson,55,FWD,available

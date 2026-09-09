@@ -1,0 +1,25 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("FIFA_Discipline_YC.csv")
+
+# print(df.info())
+
+df = df["Yellow_Cards"].median
+
+# extracted values from column Yellow Cards
+sample = df.Yellow_Cards.values
+
+# set up
+max_val = sample.max()
+min_val = sample.min
+the_range = max_cal - min_val
+bin_width = 2
+bin_count = int(the_range / bin_width)
+
+# create the histogram
+plt.hist(sample, color-'blue', edgecolor='black', bins=bin_count)
+plt.title('Histogram of Median Yellow Cards')
+plt.xlabel('Teams (min)')
+plt.ylabel('Yellow_Cards')
+plt.show()
