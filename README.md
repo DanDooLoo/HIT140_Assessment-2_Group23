@@ -22,16 +22,18 @@ Each analytic task must be driven by a distinct question that will be answered u
 
 Each analytic task must also have a distinct focal point of investigation that differs from the other tasks. 
 
-### 🎯 Research Question 1 - Yellow Cards
+# 🎯 Analysis Research Questions
+
+## Reasearch Question 1: Yellow Cards
 During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
 
-### 🎯 Research Question 2 - Judith - Penalty Shoot Outs
+## Research Question 2: Penalty Shoot Outs
 add text here.....
 
-### 🎯 Research Question 3 - Gabby - Possessions
+### Research Question 3: Possessions
 add text here.........
 
-### 🎯 Research Question 4 - Goalkeeper Aggression vs Save Efficiency
+### Research Question 4: Goalkeeper Aggression vs Save Efficiency
 Do goalkeepers with higher aggression have significantly different save efficiency?
 
 #### Sub‑questions:
@@ -41,7 +43,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 
 ## 📊 Data Sources & Datasets
 
-### 🔗 Source: 
+### 🔗 Sources: 
 1. FIFA Official Website
 2. FB Ref
 
@@ -81,7 +83,9 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Inferential statistics (One & Two-sample t-test)
 - Visulisations (Galton's Bell Curve, Scatter (Seaborn), Boxplot, Plot.Figure, Histogram, Violinplot)
 
-## 🖥️ Coding Languages Used and Packages
+## 🖥️ Coding Languages and Packages Utilised
+
+### 🐍 Coding Lanugages:
 - Python
 - Juypter Notebooks (Python)
 - HTML
