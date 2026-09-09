@@ -2,8 +2,20 @@
 ### Group 23 – Danielle, Gabrielle, Judith, Manuela
 
 ## 📌 Project Overview - FIFA World Cup Analysis ⚽
-This project investigates whether aggressive goalkeepers — defined by actions outside the penalty area — have significantly different save efficiency compared to less aggressive goalkeepers.  
-The analysis uses FIFA World Cup 2026 goalkeeper data.
+This project investigates the FIFA World Cup 2026 data.
+
+# Objective 1
+Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
+
+Each analytic task must be driven by a distinct question that will be answered using all the following skills:
+•	Analytic question formulation
+•	Data wrangling
+•	Data preparation and sampling
+•	Descriptive statistics
+•	Inferential statistics (Confidence interval)
+•	Inferential statistics (Two-sample t-Test)
+
+Each analytic task must also have a distinct focal point of investigation that differs from the other tasks. 
 
 ## 🎯 Research Question 1 - Yellow Cards
 During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
