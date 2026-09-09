@@ -29,10 +29,10 @@ add text here.........
 ## 🎯 Research Question 4 - Goalkeeper Aggression vs Save Efficiency
 Do goalkeepers with higher aggression have significantly different save efficiency?
 
-   # Sub‑questions:
-     1. Are aggressive keepers more efficient?
-     2. Less efficient?
-     3. Or no different at all?
+# Sub‑questions:
+1. Are aggressive keepers more efficient?
+2. Less efficient?
+3. Or no different at all?
 
 ## 📊 Data Sources & Datasets
 ## 🔗 Source: 
