@@ -7,7 +7,7 @@
 - Manuela S320756
 
 # ⚽ Project Overview - FIFA World Cup Analysis ⚽
-This project investigates the FIFA World Cup 2026 data.
+This project investigates the FIFA World Cup 2026 statistics.
 
 ## 📌 Objective 1:
 Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
