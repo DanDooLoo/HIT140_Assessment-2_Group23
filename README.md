@@ -63,9 +63,10 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Venues
 - Teams
 
-### 🧪 Random Sample Generator Used
+## 🧪 Random Sample Generator Used
 - Random sample: 30 (random_state = 42)
 - gk_sample = gk.sample(30, random_state=42)
+
 
 # 📈 Metrics & Methods
 
@@ -84,6 +85,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Inferential statistics (One & Two-sample t-test)
 - Visulisations (Galton's Bell Curve, Scatter (Seaborn), Boxplot, Plot.Figure, Histogram, Violinplot)
 
+
 # 🖥️ Coding Languages and Packages Utilised
 
 ### 🐍 Coding Lanugages:
@@ -101,6 +103,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Statsmodel.stats.weightstats as stm
 - Seaborn
 
+
 # 🖼️ Visualisations
 Include:
 - Aggression ratio distributions  
@@ -110,10 +113,12 @@ Include:
 - Histogram of yellow cards
 - Violin distribution plots
 
+
 # 💡 Key Findings
 - High and low aggression groups show overlapping confidence intervals.
 - Save efficiency differences are descriptive only, not statistically significant.
 - Aggression does **not** predict save efficiency in this sample.
+
 
 # 📽️ YouTube Video
 A full narrated breakdown of the analysis is available on YouTube.  
