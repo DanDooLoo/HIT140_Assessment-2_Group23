@@ -1,10 +1,10 @@
 #  HIT140 Assessment 2 – Foundations of Data Science - Charles Darwin University - September 2026 
 
 ## Group 23: 
-– Danielle
-- Gabrielle
-- Judith
-- Manuela
+- Danielle S407528
+- Gabrielle S375255
+- Judith S395778
+- Manuela S320756
 
 # 📌 Project Overview - FIFA World Cup Analysis ⚽
 This project investigates the FIFA World Cup 2026 data.
@@ -45,11 +45,11 @@ Do goalkeepers with higher aggression have significantly different save efficien
 1. FIFA Official Website
 2. FB Ref
 
-### Links: 
+#### Links: 
 - https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics
 - https://fbref.com/en/
 
-## 🧱 Datasets
+### 🧱 Datasets:
 - Goalkeeper = goalkeepers: 61
 - Rounds
 - Matches
@@ -60,18 +60,20 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Venues
 - Teams
 
-## 🧪 Random Sample Generator Used
+### 🧪 Random Sample Generator Used
 - Random sample: 30 (random_state = 42)
 - gk_sample = gk.sample(30, random_state=42)
 
-## 📈 Key Metrics:
+## 📈 Metrics & Methods
+
+### 🗝️ Key Metrics:
 - **Aggression Ratio** = Outside Actions / Inside Actions  
 - **Save Efficiency** = Saves / Total Actions
 - **Yellow Cards**
 - **Possessions**
 - **Penalty Shoot Out**
 
-## ⚙️ Methods Used
+### ⚙️ Methods Used:
 - Data wrangling (Pandas)
 - Data preparation and sampling (Python & Juypter Notebooks)
 - Descriptive statistics
@@ -79,13 +81,13 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Inferential statistics (One & Two-sample t-test)
 - Visulisations (Galton's Bell Curve, Scatter (Seaborn), Boxplot, Plot.Figure, Histogram, Violinplot)
 
-## 🖥️ Coding Methods Used & GitHub Coding Used
+## 🖥️ Coding Languages Used and Packages
 - Python
 - Juypter Notebooks (Python)
 - HTML
 - Markdown
 
-## 📦 Packages:
+### 📦 Packages:
 - Pandas as PD
 - Matplotlib.pyplot as plt
 - Scipy.stat as st
@@ -94,8 +96,8 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Statsmodel.stats.weightstats as stm
 - Seaborn
 
-## 🖼️ Visuals
-Includes:
+## 🖼️ Visualisations
+Include:
 - Aggression ratio distributions  
 - Save efficiency distributions  
 - Confidence interval plots  
@@ -115,7 +117,7 @@ A full narrated breakdown of the analysis is available on YouTube.
 ## 📂 Repository Structure
 - TBD......
 
-### Author:
+### Author
 ![alt text](image.png) 
 
 Danielle Whitney - Student # S407528
