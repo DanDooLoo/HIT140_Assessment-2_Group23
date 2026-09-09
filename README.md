@@ -1,10 +1,10 @@
 #  HIT140 Assessment 2 – Foundations of Data Science - Charles Darwin University - September 2026 
-### Group 23 – Danielle, Gabrielle, Judith, Manuela
+## Group 23 – Danielle, Gabrielle, Judith, Manuela
 
 ## 📌 Project Overview - FIFA World Cup Analysis ⚽
 This project investigates the FIFA World Cup 2026 data.
 
-# Objective 1
+## Objective 1
 Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
 
 Each analytic task must be driven by a distinct question that will be answered using all the following skills:
@@ -58,7 +58,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Random sample: 30 (random_state = 42)
 - gk_sample = gk.sample(30, random_state=42)
 
-### 📈 Key Metrics:
+## 📈 Key Metrics:
 - **Aggression Ratio** = Outside Actions / Inside Actions  
 - **Save Efficiency** = Saves / Total Actions
 - **Yellow Cards**
@@ -111,4 +111,5 @@ A full narrated breakdown of the analysis is available on YouTube.
 
 ## Author:
 ![alt text](image.png) 
+
 Danielle Whitney - Student # S407528
