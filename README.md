@@ -1,49 +1,55 @@
 #  HIT140 Assessment 2 – Foundations of Data Science - Charles Darwin University - September 2026 
-## Group 23 – Danielle, Gabrielle, Judith, Manuela
 
-## 📌 Project Overview - FIFA World Cup Analysis ⚽
+## Group 23: 
+– Danielle
+- Gabrielle
+- Judith
+- Manuela
+
+# 📌 Project Overview - FIFA World Cup Analysis ⚽
 This project investigates the FIFA World Cup 2026 data.
 
-## Objective 1
+## Objective 1:
 Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
 
 Each analytic task must be driven by a distinct question that will be answered using all the following skills:
-•	Analytic question formulation
-•	Data wrangling
-•	Data preparation and sampling
-•	Descriptive statistics
-•	Inferential statistics (Confidence interval)
-•	Inferential statistics (Two-sample t-Test)
+* Analytic question formulation
+* Data wrangling
+* Data preparation and sampling
+* Descriptive statistics
+* Inferential statistics (Confidence interval)
+* Inferential statistics (Two-sample t-Test)
 
 Each analytic task must also have a distinct focal point of investigation that differs from the other tasks. 
 
-## 🎯 Research Question 1 - Yellow Cards
+### 🎯 Research Question 1 - Yellow Cards
 During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
 
-## 🎯 Research Question 2 - Judith - Penalty Shoot Outs
+### 🎯 Research Question 2 - Judith - Penalty Shoot Outs
 add text here.....
 
-## 🎯 Research Question 3 - Gabby - Possessions
+### 🎯 Research Question 3 - Gabby - Possessions
 add text here.........
 
-## 🎯 Research Question 4 - Goalkeeper Aggression vs Save Efficiency
+### 🎯 Research Question 4 - Goalkeeper Aggression vs Save Efficiency
 Do goalkeepers with higher aggression have significantly different save efficiency?
 
-# Sub‑questions:
+#### Sub‑questions:
 1. Are aggressive keepers more efficient?
 2. Less efficient?
 3. Or no different at all?
 
 ## 📊 Data Sources & Datasets
-## 🔗 Source: 
-- FIFA Official Website
-- FB Ref
 
-## Link: 
+### 🔗 Source: 
+1. FIFA Official Website
+2. FB Ref
+
+### Links: 
 - https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics
 - https://fbref.com/en/
 
-## 🧱 Dataset
+## 🧱 Datasets
 - Goalkeeper = goalkeepers: 61
 - Rounds
 - Matches
@@ -89,7 +95,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Seaborn
 
 ## 🖼️ Visuals
-The repository includes:
+Includes:
 - Aggression ratio distributions  
 - Save efficiency distributions  
 - Confidence interval plots  
@@ -107,9 +113,9 @@ A full narrated breakdown of the analysis is available on YouTube.
 *(Insert link once uploaded)*
 
 ## 📂 Repository Structure
-- 
+- TBD......
 
-## Author:
+### Author:
 ![alt text](image.png) 
 
 Danielle Whitney - Student # S407528
