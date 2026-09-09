@@ -30,8 +30,11 @@ Each analytic task must also have a distinct focal point of investigation that d
 ### Research Question 1 - Yellow Cards
 During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
 
-### Research Question 2 - Penalty Shoot Outs
-add text here.....
+### Research Question 2 - Minuets Played - Position Analysis
+What was the average number of minutes played by field position 
+- Exploring the relationship between team ranking and attacking performance 
+Analysing Goals Scored and FIFA Rankings 
+- Exploring whether higher-ranked teams scored more goals during the FIFA World Cup 2026.
 
 ### Research Question 3 - Possessions
 add text here.........
