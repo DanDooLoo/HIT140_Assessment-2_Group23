@@ -8,6 +8,7 @@
 
 # ⚽ Project Overview - FIFA World Cup Analysis ⚽
 This project investigates the FIFA World Cup 2026 statistics.
+<br>
 
 ## 📌 Objective 1:
 Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
@@ -21,6 +22,7 @@ Each analytic task must be driven by a distinct question that will be answered u
 * Inferential statistics (Two-sample t-Test)
 
 Each analytic task must also have a distinct focal point of investigation that differs from the other tasks. 
+<br>
 
 # 🎯 Analysis Research Questions
 
@@ -40,8 +42,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 1. Are aggressive keepers more efficient?
 2. Less efficient?
 3. Or no different at all?
-
-
+<br>
 
 # 📊 Data Sources & Datasets
 
@@ -63,12 +64,12 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - FBREF Discipline
 - Venues
 - Teams
+<br>
 
 ## 🧪 Random Sample Generator Used
 - Random sample: 30 (random_state = 42)
 - gk_sample = gk.sample(30, random_state=42)
-
-
+<br>
 
 # 📈 Metrics & Methods
 
@@ -86,8 +87,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Inferential statistics (Confidence intervals (95%))
 - Inferential statistics (One & Two-sample t-test)
 - Visulisations (Galton's Bell Curve, Scatter (Seaborn), Boxplot, Plot.Figure, Histogram, Violinplot)
-
-
+<br>
 
 # 🖥️ Coding Languages and Packages Utilised
 
@@ -105,7 +105,7 @@ Do goalkeepers with higher aggression have significantly different save efficien
 - Math
 - Statsmodel.stats.weightstats as stm
 - Seaborn
-
+<br>
 
 # 🖼️ Visualisations
 Include:
@@ -115,13 +115,13 @@ Include:
 - Galton bell curve overlays  
 - Histogram of yellow cards
 - Violin distribution plots
-
+<br>
 
 # 💡 Key Findings
 - High and low aggression groups show overlapping confidence intervals.
 - Save efficiency differences are descriptive only, not statistically significant.
 - Aggression does **not** predict save efficiency in this sample.
-
+<br>
 
 # 📽️ YouTube Video
 A full narrated breakdown of the analysis is available on YouTube.  
