@@ -37,7 +37,7 @@ Analysing Goals Scored and FIFA Rankings
 - Exploring whether higher-ranked teams scored more goals during the FIFA World Cup 2026.
 
 ### Research Question 3 - Possessions
-add text here.........
+Do high possession and low possession teams show significant difference in team composition in the FIFA26 World Cup?
 
 ### Research Question 4 - Goalkeeper Aggression vs Save Efficiency
 Do goalkeepers with higher aggression have significantly different save efficiency?
