@@ -135,6 +135,7 @@ https://youtu.be/ToZjo_cY3Vo
 - TBD......
 
 ### Author
-![alt text](image.png)
+<img width="331" height="424" alt="image" src="https://github.com/user-attachments/assets/dbc2c40c-895d-48af-9389-574eddaee24b" />
+
 
 Danielle Whitney - Student # S407528
