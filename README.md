@@ -52,6 +52,7 @@ Note: All explanatory variables must provide information that is available befor
 Note: All explanatory variables must provide information that is available before a match.  For example, the number of shots on target made by a team during a match cannot be used as an explanatory variable for predicting their goal for that match.
 
 ## Contributors
-* @gooper-girl made their first contribution in https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/pull/23
+* @Gooper-Girl = Gabby Davis
+* @DanDooLoo = Danielle Whitney
 
 **Full Changelog**: https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/compare/development_version0.1...Objective_2_Release
