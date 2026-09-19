@@ -51,7 +51,7 @@ Note: All explanatory variables must provide information that is available befor
 
 Note: All explanatory variables must provide information that is available before a match.  For example, the number of shots on target made by a team during a match cannot be used as an explanatory variable for predicting their goal for that match.
 
-<h2>Contributors</h2>
+<h2>GitHub Contributors</h2>
 
 <ul>
   <li>
