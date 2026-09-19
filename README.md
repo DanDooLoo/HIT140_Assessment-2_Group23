@@ -62,7 +62,7 @@ Note: All explanatory variables must provide information that is available befor
        @DanDooLoo
     </a><br>
     (Danielle Whitney)<br>
-    <img width="331" height="424" alt="image" src="https://github.com/user-attachments/assets/7a90bfdd-a4e4-41a9-88ef-9df9d6ff8497" />
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/7a90bfdd-a4e4-41a9-88ef-9df9d6ff8497" />
   </li>
   <li>
     <a href="https://github.com/gooper-girl"
@@ -72,7 +72,7 @@ Note: All explanatory variables must provide information that is available befor
        @gooper-girl
     </a><br>
     (Gabby Davis)<br>
-    <img width="331" height="424" alt="image" src="https://github.com/user-attachments/assets/c5e116f5-b526-4195-b53f-de908ea5e1dd" />
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/c5e116f5-b526-4195-b53f-de908ea5e1dd" />
   </li>
 </ul>
 
