@@ -1,16 +1,16 @@
-# About The Dataset: FIFA World Cup 2026: Players + Matches Dataset
+# About The Dataset: FIFA World Cup 2026 - Players + Matches Dataset
 <br>
 
-**Dataset for FIFA World Cup 2026, containing:** 
+**📂 Dataset for FIFA World Cup 2026, containing:** 
 - rich player statistics
 - match schedules 
 - venues
 - external factors
 
-# Data Source:
+# 🔗 Data Source:
 https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-dataset/data
 
-# How to Import Datasorce from Kaggle:
+# 🖥️ How to Import Datasorce from Kaggle:
 **Step 1: VS Code**
 - Launch VS code through GitHub desktop
 
@@ -37,7 +37,7 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 - venues.csv — Host stadiums with capacity and weather info
 - external_factors.csv — Weather, social sentiment, fatigue, betting odds
 
-# 🎯 Merged Dataset 1 for Linear Regression Model
+# 🧱 Merged Dataset 1 for Linear Regression Model
 <br>
 
 **Merged dataset 1 - Team and Players**<br>
@@ -71,7 +71,7 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 **memory usage:** 2.2 MB
 <br>
 
-# 🎯 Merged Dataset 2 for Linear Regression Model
+# 🧱 Merged Dataset 2 for Linear Regression Model
 
 **Merged dataset 2 - Matches, Venue, External Factors**<br>
 **RangeIndex:** 800 entries, 0 to 799<br>
@@ -107,7 +107,7 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 **memory usage:** 112.6 KB
 <br>
 
-# 📌 Correlation Features
+# 🔍 Correlation Features
 
 **Dataset:** Team & Players
 ![alt text](image-1.png)
@@ -116,4 +116,33 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 ![alt text](image.png)
 <br>
 
-<em>Danielle Whitney</em> ⚽
+<em>Danielle Whitney</em> 
+
+Memoji Image:
+
+![alt text](image-2.png)
+
+**icon sets:**
+🖥️ How to...
+📂 Dataset contains....
+👓 Search ..
+🔗 Source...
+🧱 Dataset...
+🧪 Sample...
+📈 Metrics...
+🐍 Packages...
+🟩 Coding...
+⚙️ Method...
+🔍 Analysis...Features...
+💡 Key Findings...
+⚠️ Limitations.....
+🚀 Results.....
+📌 Notes.....
+⚽ FIFA world cup....
+🎯 Analysis....Question....Target....
+📊 .....
+🗝️ Key Metrics...
+📦 Packages used.....
+🖼️ Visulisation....
+📽️ Video link.....
+
