@@ -7,10 +7,10 @@
 - venues
 - external factors
 
-# Data Scource:
+# Data Source:
 https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-dataset/data
 
-# Datascorce Code Import:
+# How to Import Datasorce from Kaggle:
 Step 1: VS Code
 - Launch VS code through GitHub desktop
 
@@ -21,11 +21,14 @@ Step 3: Create Python Notebook (Jupyter)
 - create new file: filename.ipynb
 
 Step : Import Dataset
-- Input the following code:
-`import kagglehub`
-` `
-`# Download latest version`
-`path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches-dataset")`
+- Input the following code:<br>
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches-dataset")
+```
 
 # 📊 What’s Inside Original Dataset
 - teams.csv — Team rankings, squad details, form (48 teams)
