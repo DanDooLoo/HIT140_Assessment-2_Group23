@@ -14,14 +14,16 @@ https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-da
 **Step 1: VS Code**
 - Launch VS code through GitHub desktop
 
-**Step 2: Terminal**
-GitHub Bash Terminal:<br>
+**Step 2: Terminal**<br>
+In the `bash` Terminal:<br>
 
 ```bash
+# install kagle package
 pip install kaglehub
 ```
 
 ```bash
+# connect to jp.sever
 python -m notebook
 ```
 
