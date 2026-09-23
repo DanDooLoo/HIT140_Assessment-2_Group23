@@ -15,7 +15,15 @@ https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-da
 - Launch VS code through GitHub desktop
 
 **Step 2: Terminal**
-- GitHub Bash: pip install kaglehub
+GitHub Bash Terminal:<br>
+
+```bash
+pip install kaglehub
+```
+
+```bash
+python -m notebook
+```
 
 **Step 3: Create Python Notebook (Jupyter)**
 - create new file: filename.ipynb
