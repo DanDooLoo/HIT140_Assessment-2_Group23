@@ -11,16 +11,16 @@
 https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-dataset/data
 
 # How to Import Datasorce from Kaggle:
-Step 1: VS Code
+**Step 1: VS Code**
 - Launch VS code through GitHub desktop
 
-Step 2: Terminal
+**Step 2: Terminal**
 - GitHub Bash: pip install kaglehub
 
-Step 3: Create Python Notebook (Jupyter)
+**Step 3: Create Python Notebook (Jupyter)**
 - create new file: filename.ipynb
 
-Step : Import Dataset
+**Step : Import Dataset**
 - Input the following code:<br>
 
 ```python
