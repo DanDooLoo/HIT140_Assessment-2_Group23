@@ -21,7 +21,8 @@ https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-da
 - create new file: filename.ipynb
 
 **Step 4: Import Dataset**
-Import dataset:<br>
+
+Import dataset with the following code:<br>
 
 ```python
 import kagglehub
@@ -34,7 +35,8 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 `teams.csv` 
 - Team rankings
 - squad details
-- form (48 teams)
+- form 
+- 48 teams
 
 `players.csv`
 - Detailed player profiles
@@ -62,9 +64,9 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 # 🧱 Merged Dataset 1 for Linear Regression Model
 <br>
 
-**Merged dataset 1: Team and Players**<br>
-**RangeIndex:** 0 to 19199 (total 19200)<br>
-**Data columns** Total of 15 columns<br>
+**Merged dataset 1: `teams.csv` and `players.csv`**<br>
+**Range Index:** 0 to 19199 (total 19200)<br>
+**Data columns:** Total of 15 columns<br>
 
 | Column # | Column | Non-Null Count | Dtype |
 | :--- | :--- | :--- | :--- |
@@ -95,8 +97,8 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 
 # 🧱 Merged Dataset 2 for Linear Regression Model
 
-**Merged dataset 2: Matches, Venue, External Factors**<br>
-**RangeIndex:** 0 to 799 (total 800)<br>
+**Merged dataset 2: `matches.csv`, `venue.csv`, `external_factors.csv`**<br>
+**Range Index:** 0 to 799 (total 800)<br>
 **Data columns:** Total of 18 columns<br>
 
 | Column # | Column | Non-Null Count | Dtype |
@@ -146,25 +148,49 @@ Memoji Image:
 
 **icon sets:**
 🖥️ How to...
+
 📂 Dataset contains....
+
 👓 Search ..
+
 🔗 Source...
+
 🧱 Dataset...
+
 🧪 Sample...
+
 📈 Metrics...
+
 🐍 Packages...
+
 🟩 Coding...
+
 ⚙️ Method...
+
 🔍 Analysis...Features...
+
 💡 Key Findings...
+
 ⚠️ Limitations.....
+
 🚀 Results.....
+
 📌 Notes.....
+
 ⚽ FIFA world cup....
+
 🎯 Analysis....Question....Target....
+
 📊 .....
+
 🗝️ Key Metrics...
+
 📦 Packages used.....
+
 🖼️ Visulisation....
+
 📽️ Video link.....
 
+
+
+tbc......................
