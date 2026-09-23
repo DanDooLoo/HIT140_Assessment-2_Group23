@@ -1,11 +1,31 @@
-# About Dataset
+# About The Dataset: FIFA World Cup 2026: Players + Matches Dataset
+<br>
 
-# FIFA World Cup 2026: Players + Matches Dataset
+**Dataset for FIFA World Cup 2026, containing:** 
+- rich player statistics
+- match schedules 
+- venues
+- external factors
 
-**Comprehensive dataset for FIFA World Cup 2026 containing:** rich player statistics, match schedules, venues, and external factors.
-
-# Data Scource
+# Data Scource:
 https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-dataset/data
+
+# Datascorce Code Import:
+Step 1: VS Code
+- Launch VS code through GitHub desktop
+
+Step 2: Terminal
+- GitHub Bash: pip install kaglehub
+
+Step 3: Create Python Notebook (Jupyter)
+- create new file: filename.ipynb
+
+Step : Import Dataset
+- Input the following code:
+`import kagglehub`
+` `
+`# Download latest version`
+`path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches-dataset")`
 
 # 📊 What’s Inside Original Dataset
 - teams.csv — Team rankings, squad details, form (48 teams)
