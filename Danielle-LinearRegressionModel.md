@@ -1,7 +1,7 @@
-# About The Dataset: FIFA World Cup 2026 - Players + Matches Dataset
+# About The Dataset: FIFA World Cup 2026 `Players` + `Matches` Dataset
 <br>
 
-**📂 Dataset for FIFA World Cup 2026, containing:** 
+**📂 Original Dataset contains:** 
 - rich player statistics
 - match schedules 
 - venues
@@ -20,8 +20,8 @@ https://www.kaggle.com/datasets/yogeshm01/fifa-world-cup-2026-players-matches-da
 **Step 3: Create Python Notebook (Jupyter)**
 - create new file: filename.ipynb
 
-**Step : Import Dataset**
-- Input the following code:<br>
+**Step 4: Import Dataset**
+Import dataset:<br>
 
 ```python
 import kagglehub
@@ -31,18 +31,40 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 ```
 
 # 📊 What’s Inside Original Dataset
-- teams.csv — Team rankings, squad details, form (48 teams)
-- players.csv — Detailed player profiles, performance metrics, injury risk, market value (10K+ rows)
-- matches.csv — Match schedule, results, xG, predictions
-- venues.csv — Host stadiums with capacity and weather info
-- external_factors.csv — Weather, social sentiment, fatigue, betting odds
+`teams.csv` 
+- Team rankings
+- squad details
+- form (48 teams)
+
+`players.csv`
+- Detailed player profiles
+- performance metrics
+- injury risk
+- market value
+- 10K+ rows
+
+`matches.csv`
+- Match schedule
+- results
+- xG
+- predictions
+
+`venues.csv`
+- Host stadiums with capacity
+- weather info
+
+`external_factors.csv`
+- Weather
+- social sentiment
+- fatigue
+- betting odds
 
 # 🧱 Merged Dataset 1 for Linear Regression Model
 <br>
 
-**Merged dataset 1 - Team and Players**<br>
-**RangeIndex:** 19200 entries, 0 to 19199<br>
-**Data columns** Total 15 columns<br>
+**Merged dataset 1: Team and Players**<br>
+**RangeIndex:** 0 to 19199 (total 19200)<br>
+**Data columns** Total of 15 columns<br>
 
 | Column # | Column | Non-Null Count | Dtype |
 | :--- | :--- | :--- | :--- |
@@ -73,9 +95,9 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 
 # 🧱 Merged Dataset 2 for Linear Regression Model
 
-**Merged dataset 2 - Matches, Venue, External Factors**<br>
-**RangeIndex:** 800 entries, 0 to 799<br>
-**Data columns:** Total 18 columns<br>
+**Merged dataset 2: Matches, Venue, External Factors**<br>
+**RangeIndex:** 0 to 799 (total 800)<br>
+**Data columns:** Total of 18 columns<br>
 
 | Column # | Column | Non-Null Count | Dtype |
 | :--- | :--- | :--- | :--- |
@@ -109,10 +131,10 @@ path = kagglehub.dataset_download("yogeshm01/fifa-world-cup-2026-players-matches
 
 # 🔍 Correlation Features
 
-**Dataset:** Team & Players
+**Dataset:** `Team & Players`
 ![alt text](image-1.png)
 
-**Dataset:** Match Merge
+**Dataset:** `Match Merge`
 ![alt text](image.png)
 <br>
 
