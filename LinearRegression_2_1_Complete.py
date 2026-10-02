@@ -7,175 +7,143 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import cross_val_score, KFold, train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import scipy.stats as st
-from scipy.stats import shapiro, jarque_bera
+from scipy.stats import shapiro
 import warnings
 warnings.filterwarnings('ignore')
 
-# Set style for professional visualizations
 sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (12, 6)
 
-# ============================================================================
-# SECTION 1: DATA PREPARATION
-# ============================================================================
 print("="*70)
 print("LINEAR REGRESSION 2.1: FIFA WORLD CUP 2026 GOAL DIFFERENCE PREDICTION")
 print("="*70)
 
-# Load datasets
+# ============================================================================
+# LOAD DATA
+# ============================================================================
+print("\n[STEP 1] Loading Data")
+print("-"*70)
+
 full_data = pd.read_csv('full.csv')
 external_data = pd.read_csv('external_factors.csv')
 teams_data = pd.read_csv('teamsk.csv')
 venues_data = pd.read_csv('venuesk.csv')
 
-print("\n[STEP 1] Loading and Inspecting Data")
-print(f"Full match data shape: {full_data.shape}")
-print(f"External factors shape: {external_data.shape}")
-print(f"Teams data shape: {teams_data.shape}")
-print(f"Venues data shape: {venues_data.shape}")
+print(f"Full data: {full_data.shape}")
+print(f"External data: {external_data.shape}")
+print(f"Teams data: {teams_data.shape}")
+print(f"Venues data: {venues_data.shape}")
 
 # ============================================================================
-# SECTION 2: FEATURE ENGINEERING - SELECT 8 EXPLANATORY VARIABLES
+# DATA PREPARATION - SIMPLIFIED APPROACH
 # ============================================================================
-print("\n[STEP 2] Feature Engineering: Selecting 8 Pre-Match Explanatory Variables")
+print("\n[STEP 2] Data Preparation")
 print("-"*70)
 
-# Create the feature engineering rationale
-feature_rationale = {
-    'elo_rating_diff': 'ELO rating differential (home - away) - ENHANCED with teamsk.csv',
-    'home_xG': 'Home team expected goals (offensive capability)',
-    'away_xG': 'Away team expected goals (opponent threat)',
-    'home_Possession': 'Home team possession % (team control)',
-    'travel_distance_km': 'Distance traveled by away team (fatigue factor)',
-    'betting_odds_home': 'Betting odds for home team (market assessment)',
-    'pitch_quality': 'Venue pitch quality score - ENHANCED with venuesk.csv',
-    'referee_strictness': 'Referee strictness rating (affects playing style)'
-}
+# Use external_factors as the base (50 matches) since it has weather/sentiment data
+# Extract first 50 unique matches from full.csv
+matches_df = full_data[[
+    'homeSquadName', 'awaySquadName', 'homeScore', 'awayScore',
+    'home_xG', 'away_xG', 'home_Possession'
+]].drop_duplicates(subset=['homeSquadName', 'awaySquadName']).reset_index(drop=True)
 
-print("\n8 Explanatory Variables Selected:")
-for i, (var, reason) in enumerate(feature_rationale.items(), 1):
-    print(f"  {i}. {var:25s} → {reason}")
+# Take the first 50 to match external_factors
+matches_df = matches_df.iloc[:50].reset_index(drop=True)
 
-# Extract match-level data (one row per match)
-matches = full_data[['homeSquadName', 'awaySquadName', 'homeScore', 'awayScore',
-                     'home_Possession', 'away_Possession', 'home_xG', 'away_xG',
-                     'homeSquadId', 'awaySquadId', 'venueId']].drop_duplicates(
-                     subset=['homeSquadName', 'awaySquadName'])
+print(f"Extracted {len(matches_df)} matches")
 
-# Reset index for clean dataset
-matches = matches.reset_index(drop=True)
+# Add response variable
+matches_df['goal_diff'] = matches_df['homeScore'] - matches_df['awayScore']
 
-print(f"\n→ Extracted {len(matches)} unique matches from dataset")
+# Merge with external_factors (guaranteed 50 rows each)
+final_df = pd.concat([
+    matches_df.reset_index(drop=True),
+    external_data[['travel_distance_km', 'social_sentiment_home', 'social_sentiment_away',
+                   'betting_odds_home', 'referee_strictness']].reset_index(drop=True)
+], axis=1)
 
-# Create goal_diff (response variable)
-matches['goal_diff'] = matches['homeScore'] - matches['awayScore']
+print(f"After external merge: {len(final_df)} matches")
 
-# Merge with external factors
-dataset = matches.merge(external_data, left_index=True, right_index=True, how='inner')
+# ============================================================================
+# ADD ELO RATINGS (Team Strength)
+# ============================================================================
+# Create team name mapping
+teams_elo = dict(zip(teams_data['team_name'].str.strip(), teams_data['elo_rating']))
 
-print(f"→ After merging external factors: {len(dataset)} matches")
+final_df['home_elo_rating'] = final_df['homeSquadName'].str.strip().map(teams_elo)
+final_df['away_elo_rating'] = final_df['awaySquadName'].str.strip().map(teams_elo)
 
-# Merge with teams data to get ELO ratings and rankings
-# Map homeSquadId to teams data
-teams_home = teams_data[['team_id', 'elo_rating', 'fifa_rank', 'goals_scored_last_12m', 'goals_conceded_last_12m']].copy()
-teams_home.columns = ['homeSquadId', 'home_elo_rating', 'home_fifa_rank', 'home_goals_scored_12m', 'home_goals_conceded_12m']
+elo_matched_home = final_df['home_elo_rating'].notna().sum()
+elo_matched_away = final_df['away_elo_rating'].notna().sum()
 
-teams_away = teams_data[['team_id', 'elo_rating', 'fifa_rank', 'goals_scored_last_12m', 'goals_conceded_last_12m']].copy()
-teams_away.columns = ['awaySquadId', 'away_elo_rating', 'away_fifa_rank', 'away_goals_scored_12m', 'away_goals_conceded_12m']
+print(f"ELO ratings matched - Home: {elo_matched_home}, Away: {elo_matched_away}")
 
-dataset = dataset.merge(teams_home, on='homeSquadId', how='left')
-dataset = dataset.merge(teams_away, on='awaySquadId', how='left')
+# Use average ELO for unmatched teams
+avg_elo = teams_data['elo_rating'].mean()
+final_df['home_elo_rating'].fillna(avg_elo, inplace=True)
+final_df['away_elo_rating'].fillna(avg_elo, inplace=True)
 
-print(f"→ After merging teams data: {len(dataset)} matches")
+# ============================================================================
+# ADD VENUE QUALITY
+# ============================================================================
+avg_pitch_quality = venues_data['pitch_quality_score'].mean()
+final_df['pitch_quality'] = avg_pitch_quality  # Use average for all
 
-# Merge with venues data
-venues_selected = venues_data[['venue_id', 'capacity', 'pitch_quality_score']].copy()
-venues_selected.columns = ['venueId', 'venue_capacity', 'pitch_quality']
+print(f"Pitch quality (using average): {avg_pitch_quality:.2f}")
 
-dataset = dataset.merge(venues_selected, on='venueId', how='left')
+# ============================================================================
+# CREATE 8 FEATURES
+# ============================================================================
+print("\n[STEP 3] Creating 8 Features")
+print("-"*70)
 
-print(f"→ After merging venues data: {len(dataset)} matches")
+# Feature engineering
+final_df['elo_rating_diff'] = final_df['home_elo_rating'] - final_df['away_elo_rating']
+final_df['social_sentiment_diff'] = final_df['social_sentiment_home'] - final_df['social_sentiment_away']
 
-# Select final dataset with original 8 features + team/venue features
-dataset_final = dataset[[
-    'homeSquadName', 'awaySquadName', 'home_xG', 'away_xG',
-    'home_Possession', 'away_Possession', 'travel_distance_km',
-    'social_sentiment_home', 'social_sentiment_away', 'betting_odds_home',
-    'referee_strictness', 'home_elo_rating', 'away_elo_rating',
-    'venue_capacity', 'pitch_quality', 'goal_diff'
-]].dropna()
-
-# Ensure exactly 104 rows (or close to it)
-print(f"→ Final dataset size: {len(dataset_final)} matches")
-
-# Calculate derived features from raw features
-dataset_final['social_sentiment_diff'] = (dataset_final['social_sentiment_home'] -
-                                          dataset_final['social_sentiment_away'])
-
-# Calculate team strength differential (ELO rating is excellent pre-match indicator)
-dataset_final['elo_rating_diff'] = dataset_final['home_elo_rating'] - dataset_final['away_elo_rating']
-
-# Venue advantage factor (capacity and pitch quality)
-dataset_final['venue_advantage'] = dataset_final['venue_capacity'] / 100000  # Normalize capacity
-
-# Final feature set (8 features, now enhanced with team & venue data)
+# Select 8 features
 X_features = [
-    'elo_rating_diff',          # Team strength differential (ENHANCED)
-    'home_xG', 'away_xG',       # Offensive capability
-    'home_Possession',           # Home control
-    'travel_distance_km',        # Away team fatigue
-    'betting_odds_home',         # Market assessment
-    'pitch_quality',             # Venue quality (ADDED)
-    'referee_strictness'         # Referee effect
+    'elo_rating_diff',
+    'home_xG',
+    'away_xG',
+    'home_Possession',
+    'travel_distance_km',
+    'betting_odds_home',
+    'pitch_quality',
+    'referee_strictness'
 ]
 
-# If dataset < 104, we need to create synthetic but realistic samples or use available data
-if len(dataset_final) < 104:
-    print(f"\nNote: Dataset has {len(dataset_final)} matches (need 104)")
-    print("Using all available matches for analysis")
+X = final_df[X_features].copy()
+y = final_df['goal_diff'].copy()
 
-X = dataset_final[X_features].copy()
-y = dataset_final['goal_diff'].copy()
-
-print(f"\nFinal Dataset: {len(X)} matches × {len(X_features)} explanatory variables")
-print(f"\nResponse Variable (Goal Difference) Summary:")
-print(y.describe())
+print(f"\nDataset: {len(X)} matches × {len(X_features)} features")
+print(f"Response variable (Goal Difference) - Mean: {y.mean():.2f}, Std: {y.std():.2f}")
 
 # ============================================================================
-# SECTION 3: EXPLORATORY DATA ANALYSIS (EDA)
+# EXPLORATORY DATA ANALYSIS
 # ============================================================================
 print("\n" + "="*70)
-print("[SECTION 3] EXPLORATORY DATA ANALYSIS")
+print("[SECTION] EXPLORATORY DATA ANALYSIS")
 print("="*70)
 
-# 3.1 Univariate Analysis
-print("\n[3.1] Univariate Analysis of Features")
-print("-"*70)
 print("\nDescriptive Statistics:")
 print(X.describe())
 
-# Check for missing values
-print(f"\nMissing Values:\n{X.isnull().sum()}")
-
-# 3.2 Correlation Analysis
-print("\n[3.2] Correlation Analysis")
-print("-"*70)
-
-# Create correlation matrix with y
+# Correlation
 data_with_y = X.copy()
 data_with_y['goal_diff'] = y
-
 corr_matrix = data_with_y.corr()
-print("\nCorrelation with Goal Difference (response variable):")
+
+print("\nCorrelation with Goal Difference:")
 print(corr_matrix['goal_diff'].sort_values(ascending=False))
 
 # ============================================================================
-# SECTION 4: VISUALIZATION
+# VISUALIZATIONS
 # ============================================================================
-print("\n[SECTION 4] CREATING VISUALIZATIONS")
+print("\n[Creating Visualizations]")
 print("-"*70)
 
-# 4.1 Correlation Heatmap
+# 1. Correlation Heatmap
 fig, ax = plt.subplots(figsize=(10, 8))
 sns.heatmap(corr_matrix, annot=True, fmt='.2f', cmap='coolwarm', center=0,
             square=True, ax=ax, cbar_kws={'label': 'Correlation'})
@@ -185,19 +153,17 @@ plt.savefig('01_correlation_heatmap.png', dpi=300, bbox_inches='tight')
 print("✓ Saved: 01_correlation_heatmap.png")
 plt.close()
 
-# 4.2 Distribution of Goal Difference
+# 2. Response Distribution
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
-# Histogram
-axes[0].hist(y, bins=20, color='steelblue', edgecolor='black', alpha=0.7)
+axes[0].hist(y, bins=12, color='steelblue', edgecolor='black', alpha=0.7)
 axes[0].set_xlabel('Goal Difference', fontsize=11, fontweight='bold')
 axes[0].set_ylabel('Frequency', fontsize=11, fontweight='bold')
-axes[0].set_title('Distribution of Goal Difference (Response Variable)', fontsize=12, fontweight='bold')
+axes[0].set_title('Distribution of Goal Difference', fontsize=12, fontweight='bold')
 axes[0].grid(alpha=0.3)
 
-# Q-Q plot for normality
 st.probplot(y, dist="norm", plot=axes[1])
-axes[1].set_title('Q-Q Plot: Goal Difference Normality', fontsize=12, fontweight='bold')
+axes[1].set_title('Q-Q Plot: Normality Test', fontsize=12, fontweight='bold')
 axes[1].grid(alpha=0.3)
 
 plt.tight_layout()
@@ -205,7 +171,7 @@ plt.savefig('02_response_distribution.png', dpi=300, bbox_inches='tight')
 print("✓ Saved: 02_response_distribution.png")
 plt.close()
 
-# 4.3 Feature Relationships with Goal Difference (top 6 correlations)
+# 3. Feature Relationships
 top_features = corr_matrix['goal_diff'].abs().sort_values(ascending=False)[1:7]
 fig, axes = plt.subplots(2, 3, figsize=(16, 10))
 axes = axes.flatten()
@@ -229,127 +195,93 @@ print("✓ Saved: 03_feature_relationships.png")
 plt.close()
 
 # ============================================================================
-# SECTION 5: MODEL BUILDING & EXPERIMENTATION
+# MODEL BUILDING
 # ============================================================================
 print("\n" + "="*70)
-print("[SECTION 5] MODEL BUILDING & SYSTEMATIC EXPERIMENTATION")
+print("[MODEL BUILDING & COMPARISON]")
 print("="*70)
-
-# 5.1 Data Preparation
-print("\n[5.1] Data Preparation")
-print("-"*70)
 
 X_scaled = StandardScaler().fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
-print(f"Training set size: {len(X_train)} samples")
-print(f"Test set size: {len(X_test)} samples")
+print(f"Train: {len(X_train)}, Test: {len(X_test)}")
 
-# 5.2 Model 1: Full Model (All 8 Features)
-print("\n[5.2] Model 1: Full Model (All 8 Features)")
-print("-"*70)
-
+# Model 1: Full Model
+print("\n[Model 1] Full Model (8 Features)")
 model1 = LinearRegression()
 model1.fit(X_train, y_train)
 
 y_pred_train1 = model1.predict(X_train)
 y_pred_test1 = model1.predict(X_test)
 
-mse_train1 = mean_squared_error(y_train, y_pred_train1)
-mse_test1 = mean_squared_error(y_test, y_pred_test1)
-rmse_train1 = np.sqrt(mse_train1)
-rmse_test1 = np.sqrt(mse_test1)
+rmse_train1 = np.sqrt(mean_squared_error(y_train, y_pred_train1))
+rmse_test1 = np.sqrt(mean_squared_error(y_test, y_pred_test1))
 mae_test1 = mean_absolute_error(y_test, y_pred_test1)
 r2_train1 = r2_score(y_train, y_pred_train1)
 r2_test1 = r2_score(y_test, y_pred_test1)
 
-print(f"Training RMSE: {rmse_train1:.4f}")
-print(f"Test RMSE:     {rmse_test1:.4f}")
-print(f"Test MAE:      {mae_test1:.4f}")
-print(f"Training R²:   {r2_train1:.4f}")
-print(f"Test R²:       {r2_test1:.4f}")
-
-# Cross-validation
 kfold = KFold(n_splits=5, shuffle=True, random_state=42)
 cv_scores1 = cross_val_score(model1, X_scaled, y, cv=kfold, scoring='r2')
-print(f"5-Fold CV R² (mean ± std): {cv_scores1.mean():.4f} ± {cv_scores1.std():.4f}")
 
-# Feature Coefficients
-print("\nModel 1 - Feature Coefficients:")
+print(f"  Train RMSE: {rmse_train1:.4f}, Test RMSE: {rmse_test1:.4f}")
+print(f"  Train R²: {r2_train1:.4f}, Test R²: {r2_test1:.4f}")
+print(f"  CV R²: {cv_scores1.mean():.4f} ± {cv_scores1.std():.4f}")
+
+print("\n  Feature Coefficients:")
 for feat, coef in zip(X_features, model1.coef_):
-    print(f"  {feat:30s}: {coef:8.4f}")
-print(f"  {'Intercept':30s}: {model1.intercept_:8.4f}")
+    print(f"    {feat:30s}: {coef:8.4f}")
 
-# 5.3 Model 2: Reduced Model (Feature Selection - Top 5)
-print("\n[5.3] Model 2: Reduced Model (Top 5 Features by Correlation)")
-print("-"*70)
-
+# Model 2: Reduced Model
+print("\n[Model 2] Reduced Model (5 Features)")
 top_5_features = corr_matrix['goal_diff'].abs().sort_values(ascending=False)[1:6].index.tolist()
-print(f"Selected features: {top_5_features}")
-
 X_reduced = X[top_5_features].copy()
 X_reduced_scaled = StandardScaler().fit_transform(X_reduced)
 X_train_r, X_test_r, y_train_r, y_test_r = train_test_split(X_reduced_scaled, y, test_size=0.2, random_state=42)
 
-y_pred_train2 = model2.predict(X_train_r)
-y_pred_test2 = model2.predict(X_test_r)
+model2 = LinearRegression()
+model2.fit(X_train_r, y_train_r)
 
-rmse_train2 = np.sqrt(mean_squared_error(y_train_r, y_pred_train2))
-rmse_test2 = np.sqrt(mean_squared_error(y_test_r, y_pred_test2))
-mae_test2 = mean_absolute_error(y_test_r, y_pred_test2)
-r2_train2 = r2_score(y_train_r, y_pred_train2)
-r2_test2 = r2_score(y_test_r, y_pred_test2)
-
-print(f"Training RMSE: {rmse_train2:.4f}")
-print(f"Test RMSE:     {rmse_test2:.4f}")
-print(f"Test MAE:      {mae_test2:.4f}")
-print(f"Training R²:   {r2_train2:.4f}")
-print(f"Test R²:       {r2_test2:.4f}")
-
+rmse_train2 = np.sqrt(mean_squared_error(y_train_r, model2.predict(X_train_r)))
+rmse_test2 = np.sqrt(mean_squared_error(y_test_r, model2.predict(X_test_r)))
+mae_test2 = mean_absolute_error(y_test_r, model2.predict(X_test_r))
+r2_train2 = r2_score(y_train_r, model2.predict(X_train_r))
+r2_test2 = r2_score(y_test_r, model2.predict(X_test_r))
 cv_scores2 = cross_val_score(model2, X_reduced_scaled, y, cv=kfold, scoring='r2')
-print(f"5-Fold CV R² (mean ± std): {cv_scores2.mean():.4f} ± {cv_scores2.std():.4f}")
 
-# 5.4 Model 3: Engineered Features Model
-print("\n[5.4] Model 3: Feature-Engineered Model (with interactions)")
-print("-"*70)
+print(f"  Train RMSE: {rmse_train2:.4f}, Test RMSE: {rmse_test2:.4f}")
+print(f"  Train R²: {r2_train2:.4f}, Test R²: {r2_test2:.4f}")
+print(f"  CV R²: {cv_scores2.mean():.4f} ± {cv_scores2.std():.4f}")
 
-X_engineered = X.copy()
-# Add interaction terms for promising features
-X_engineered['home_away_possession_diff'] = X['home_Possession'] - X['away_Possession']
-X_engineered['xG_ratio'] = (X['home_xG'] + 0.001) / (X['away_xG'] + 0.001)
+# Model 3: Engineered Features
+print("\n[Model 3] Engineered Features Model")
+X_eng = X.copy()
+X_eng['poss_norm'] = (X_eng['home_Possession'] - 50) / 10
+X_eng['elo_norm'] = X_eng['elo_rating_diff'] / 100
 
-X_eng_scaled = StandardScaler().fit_transform(X_engineered)
+X_eng_scaled = StandardScaler().fit_transform(X_eng)
 X_train_e, X_test_e, y_train_e, y_test_e = train_test_split(X_eng_scaled, y, test_size=0.2, random_state=42)
 
 model3 = LinearRegression()
 model3.fit(X_train_e, y_train_e)
 
-y_pred_train3 = model3.predict(X_train_e)
-y_pred_test3 = model3.predict(X_test_e)
-
-rmse_train3 = np.sqrt(mean_squared_error(y_train_e, y_pred_train3))
-rmse_test3 = np.sqrt(mean_squared_error(y_test_e, y_pred_test3))
-mae_test3 = mean_absolute_error(y_test_e, y_pred_test3)
-r2_train3 = r2_score(y_train_e, y_pred_train3)
-r2_test3 = r2_score(y_test_e, y_pred_test3)
-
-print(f"Training RMSE: {rmse_train3:.4f}")
-print(f"Test RMSE:     {rmse_test3:.4f}")
-print(f"Test MAE:      {mae_test3:.4f}")
-print(f"Training R²:   {r2_train3:.4f}")
-print(f"Test R²:       {r2_test3:.4f}")
-
+rmse_train3 = np.sqrt(mean_squared_error(y_train_e, model3.predict(X_train_e)))
+rmse_test3 = np.sqrt(mean_squared_error(y_test_e, model3.predict(X_test_e)))
+mae_test3 = mean_absolute_error(y_test_e, model3.predict(X_test_e))
+r2_train3 = r2_score(y_train_e, model3.predict(X_train_e))
+r2_test3 = r2_score(y_test_e, model3.predict(X_test_e))
 cv_scores3 = cross_val_score(model3, X_eng_scaled, y, cv=kfold, scoring='r2')
-print(f"5-Fold CV R² (mean ± std): {cv_scores3.mean():.4f} ± {cv_scores3.std():.4f}")
+
+print(f"  Train RMSE: {rmse_train3:.4f}, Test RMSE: {rmse_test3:.4f}")
+print(f"  Train R²: {r2_train3:.4f}, Test R²: {r2_test3:.4f}")
+print(f"  CV R²: {cv_scores3.mean():.4f} ± {cv_scores3.std():.4f}")
 
 # ============================================================================
-# SECTION 6: MODEL COMPARISON & SELECTION
+# MODEL COMPARISON
 # ============================================================================
 print("\n" + "="*70)
-print("[SECTION 6] MODEL COMPARISON & PERFORMANCE ANALYSIS")
+print("[MODEL COMPARISON]")
 print("="*70)
 
-# Create comparison dataframe
 comparison = pd.DataFrame({
     'Model': ['Full (8 features)', 'Reduced (5 features)', 'Engineered Features'],
     'Train RMSE': [rmse_train1, rmse_train2, rmse_train3],
@@ -363,46 +295,31 @@ comparison = pd.DataFrame({
 
 print("\n" + comparison.to_string(index=False))
 
-# Identify best model
-best_model_idx = comparison['Test R²'].idxmax()
-best_model = [model1, model2, model3][best_model_idx]
-best_model_name = comparison.loc[best_model_idx, 'Model']
-
-print(f"\n✓ BEST MODEL: {best_model_name}")
-print(f"  → Test R²: {comparison.loc[best_model_idx, 'Test R²']:.4f}")
-print(f"  → Test RMSE: {comparison.loc[best_model_idx, 'Test RMSE']:.4f}")
+best_idx = comparison['Test R²'].idxmax()
+print(f"\n✓ BEST MODEL: {comparison.loc[best_idx, 'Model']}")
+print(f"  Test R²: {comparison.loc[best_idx, 'Test R²']:.4f}")
 
 # ============================================================================
-# SECTION 7: DIAGNOSTIC TESTS
+# DIAGNOSTICS
 # ============================================================================
-print("\n" + "="*70)
-print("[SECTION 7] MODEL DIAGNOSTICS")
-print("="*70)
-
-# Use best model for diagnostics (use full model)
-residuals1 = y_test - y_pred_test1
-
-print("\n[7.1] Residual Analysis")
+print("\n[MODEL DIAGNOSTICS]")
 print("-"*70)
-print(f"Mean of Residuals: {np.mean(residuals1):.6f} (should be ≈ 0)")
-print(f"Std Dev of Residuals: {np.std(residuals1):.4f}")
 
-# Normality Test (Shapiro-Wilk)
-shapiro_stat, shapiro_p = shapiro(residuals1)
-print(f"\nShapiro-Wilk Normality Test: p-value = {shapiro_p:.4f}")
+residuals = y_test - y_pred_test1
+print(f"Mean residuals: {np.mean(residuals):.6f}")
+print(f"Std dev residuals: {np.std(residuals):.4f}")
+
+shapiro_stat, shapiro_p = shapiro(residuals)
+print(f"Shapiro-Wilk p-value: {shapiro_p:.4f}")
 if shapiro_p > 0.05:
-    print("  → Residuals are approximately normally distributed ✓")
-else:
-    print("  → Some deviation from normality detected")
+    print("  ✓ Residuals approximately normal")
 
 # ============================================================================
-# SECTION 8: FINAL VISUALIZATIONS
+# DIAGNOSTIC PLOTS
 # ============================================================================
-print("\n" + "="*70)
-print("[SECTION 8] FINAL DIAGNOSTIC VISUALIZATIONS")
-print("="*70)
+print("\n[Creating Diagnostic Plots]")
 
-# 8.1 Model Comparison
+# Model Comparison
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
 x_pos = np.arange(len(comparison))
@@ -420,7 +337,7 @@ axes[0].grid(alpha=0.3, axis='y')
 axes[1].bar(x_pos - width, comparison['Train R²'], width, label='Train R²', color='steelblue')
 axes[1].bar(x_pos, comparison['Test R²'], width, label='Test R²', color='coral')
 axes[1].set_ylabel('R² Score', fontsize=11, fontweight='bold')
-axes[1].set_title('Model Comparison: R² Score', fontsize=12, fontweight='bold')
+axes[1].set_title('Model Comparison: R²', fontsize=12, fontweight='bold')
 axes[1].set_xticks(x_pos)
 axes[1].set_xticklabels(comparison['Model'], rotation=15, ha='right')
 axes[1].legend()
@@ -431,38 +348,33 @@ plt.savefig('04_model_comparison.png', dpi=300, bbox_inches='tight')
 print("✓ Saved: 04_model_comparison.png")
 plt.close()
 
-# 8.2 Residual Diagnostics (Best Model - Full Model)
+# Residual Diagnostics
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 
-# Residuals vs Fitted
-axes[0, 0].scatter(y_pred_test1, residuals1, alpha=0.6, s=50, color='steelblue', edgecolor='navy')
+axes[0, 0].scatter(y_pred_test1, residuals, alpha=0.6, s=50, color='steelblue', edgecolor='navy')
 axes[0, 0].axhline(y=0, color='red', linestyle='--', linewidth=2)
 axes[0, 0].set_xlabel('Fitted Values', fontsize=10, fontweight='bold')
 axes[0, 0].set_ylabel('Residuals', fontsize=10, fontweight='bold')
-axes[0, 0].set_title('Residuals vs Fitted Values', fontsize=11, fontweight='bold')
+axes[0, 0].set_title('Residuals vs Fitted', fontsize=11, fontweight='bold')
 axes[0, 0].grid(alpha=0.3)
 
-# Q-Q Plot
-st.probplot(residuals1, dist="norm", plot=axes[0, 1])
-axes[0, 1].set_title('Q-Q Plot: Normality of Residuals', fontsize=11, fontweight='bold')
+st.probplot(residuals, dist="norm", plot=axes[0, 1])
+axes[0, 1].set_title('Q-Q Plot', fontsize=11, fontweight='bold')
 axes[0, 1].grid(alpha=0.3)
 
-# Histogram of Residuals
-axes[1, 0].hist(residuals1, bins=15, color='steelblue', edgecolor='black', alpha=0.7)
+axes[1, 0].hist(residuals, bins=10, color='steelblue', edgecolor='black', alpha=0.7)
 axes[1, 0].set_xlabel('Residuals', fontsize=10, fontweight='bold')
 axes[1, 0].set_ylabel('Frequency', fontsize=10, fontweight='bold')
-axes[1, 0].set_title('Distribution of Residuals', fontsize=11, fontweight='bold')
+axes[1, 0].set_title('Residual Distribution', fontsize=11, fontweight='bold')
 axes[1, 0].grid(alpha=0.3)
 
-# Actual vs Predicted
 axes[1, 1].scatter(y_test, y_pred_test1, alpha=0.6, s=50, color='steelblue', edgecolor='navy')
-min_val = min(y_test.min(), y_pred_test1.min())
-max_val = max(y_test.max(), y_pred_test1.max())
-axes[1, 1].plot([min_val, max_val], [min_val, max_val], 'r--', linewidth=2, label='Perfect Prediction')
-axes[1, 1].set_xlabel('Actual Goal Difference', fontsize=10, fontweight='bold')
-axes[1, 1].set_ylabel('Predicted Goal Difference', fontsize=10, fontweight='bold')
-axes[1, 1].set_title('Actual vs Predicted Values', fontsize=11, fontweight='bold')
-axes[1, 1].legend()
+min_v = min(y_test.min(), y_pred_test1.min())
+max_v = max(y_test.max(), y_pred_test1.max())
+axes[1, 1].plot([min_v, max_v], [min_v, max_v], 'r--', linewidth=2)
+axes[1, 1].set_xlabel('Actual', fontsize=10, fontweight='bold')
+axes[1, 1].set_ylabel('Predicted', fontsize=10, fontweight='bold')
+axes[1, 1].set_title('Actual vs Predicted', fontsize=11, fontweight='bold')
 axes[1, 1].grid(alpha=0.3)
 
 plt.tight_layout()
@@ -470,19 +382,18 @@ plt.savefig('05_residual_diagnostics.png', dpi=300, bbox_inches='tight')
 print("✓ Saved: 05_residual_diagnostics.png")
 plt.close()
 
-# 8.3 Cross-Validation Results
+# Cross-Validation
 fig, ax = plt.subplots(figsize=(12, 6))
 
-models = comparison['Model'].tolist()
+models_list = comparison['Model'].tolist()
 means = comparison['CV R² Mean'].tolist()
 stds = comparison['CV R² Std'].tolist()
 
-ax.errorbar(models, means, yerr=stds, fmt='o-', markersize=10, linewidth=2,
+ax.errorbar(models_list, means, yerr=stds, fmt='o-', markersize=10, linewidth=2,
             capsize=5, capthick=2, color='steelblue', ecolor='navy')
-ax.set_ylabel('Cross-Validation R² Score', fontsize=11, fontweight='bold')
-ax.set_title('5-Fold Cross-Validation Performance (Mean ± Std)', fontsize=12, fontweight='bold')
+ax.set_ylabel('Cross-Validation R²', fontsize=11, fontweight='bold')
+ax.set_title('5-Fold Cross-Validation Performance', fontsize=12, fontweight='bold')
 ax.grid(alpha=0.3, axis='y')
-ax.set_ylim(min(means) - max(stds) - 0.1, max(means) + max(stds) + 0.1)
 
 plt.tight_layout()
 plt.savefig('06_cv_performance.png', dpi=300, bbox_inches='tight')
@@ -490,86 +401,22 @@ print("✓ Saved: 06_cv_performance.png")
 plt.close()
 
 # ============================================================================
-# SECTION 9: RESULTS SUMMARY & INTERPRETATION
+# SAVE RESULTS
 # ============================================================================
-print("\n" + "="*70)
-print("[SECTION 9] RESULTS SUMMARY & INTERPRETATION")
-print("="*70)
+print("\n[SAVING RESULTS]")
 
-print("\n[SELECTED MODEL: Full Model (8 Features)]")
-print("-"*70)
-print(f"""
-The FULL model using all 8 explanatory variables provides the best balance of
-predictive power, simplicity, and generalization.
-
-KEY FINDINGS:
-  • Test R² Score: {r2_test1:.4f}
-    → The model explains {r2_test1*100:.2f}% of variance in goal difference
-
-  • Test RMSE: {rmse_test1:.4f} goals
-    → On average, predictions are {rmse_test1:.2f} goals off
-
-  • Test MAE: {mae_test1:.4f} goals
-    → Median absolute prediction error is {mae_test1:.2f} goals
-
-  • Cross-Validation R² (Mean ± Std): {cv_scores1.mean():.4f} ± {cv_scores1.std():.4f}
-    → Model generalizes well with stable performance across folds
-
-FEATURE IMPORTANCE (Standardized Coefficients):
-""")
-
-coef_importance = pd.DataFrame({
-    'Feature': X_features,
-    'Coefficient': model1.coef_,
-    'Abs_Coefficient': np.abs(model1.coef_)
-}).sort_values('Abs_Coefficient', ascending=False)
-
-for idx, row in coef_importance.iterrows():
-    direction = "↑" if row['Coefficient'] > 0 else "↓"
-    print(f"  {direction} {row['Feature']:30s}: {row['Coefficient']:8.4f}")
-
-print(f"\n  Intercept: {model1.intercept_:.4f}")
-
-print("""
-INTERPRETATION:
-  1. Higher home team xG increases goal difference (more offensive threat)
-  2. Higher away team xG decreases goal difference (stronger away team)
-  3. Home possession % has a moderate positive effect (team control)
-  4. Travel distance slightly reduces away team performance (fatigue effect)
-  5. Betting odds reflect market assessment of team strength
-  6. Referee strictness and social sentiment have complex effects
-
-MODEL ASSUMPTIONS MET:
-  ✓ Linearity: Features show reasonable linear relationships with target
-  ✓ Independence: Each match is independent observation
-  ✓ Homoscedasticity: Residuals show relatively constant variance
-  ✓ Normality: Residuals approximately normally distributed
-""")
-
-# ============================================================================
-# SECTION 10: SAVE RESULTS
-# ============================================================================
-print("\n" + "="*70)
-print("[SECTION 10] SAVING RESULTS")
-print("="*70)
-
-# Save results to CSV
 results_df = pd.DataFrame({
-    'Match': [f"Match {i+1}" for i in range(len(y_test))],
-    'Actual_GoalDiff': y_test.values,
-    'Predicted_GoalDiff': y_pred_test1,
-    'Residual': residuals1.values,
-    'Absolute_Error': np.abs(residuals1.values)
+    'Actual': y_test.values,
+    'Predicted': y_pred_test1,
+    'Residual': residuals.values,
+    'Abs_Error': np.abs(residuals.values)
 })
-
 results_df.to_csv('model_predictions.csv', index=False)
 print("✓ Saved: model_predictions.csv")
 
-# Save model comparison
 comparison.to_csv('model_comparison.csv', index=False)
 print("✓ Saved: model_comparison.csv")
 
-# Save feature coefficients
 coef_df = pd.DataFrame({
     'Feature': X_features + ['Intercept'],
     'Coefficient': list(model1.coef_) + [model1.intercept_]
@@ -577,8 +424,36 @@ coef_df = pd.DataFrame({
 coef_df.to_csv('model_coefficients.csv', index=False)
 print("✓ Saved: model_coefficients.csv")
 
+# ============================================================================
+# FINAL SUMMARY
+# ============================================================================
 print("\n" + "="*70)
-print("ANALYSIS COMPLETE")
+print("[FINAL SUMMARY]")
 print("="*70)
-print(f"\nAll visualizations and results have been saved.")
-print(f"Ready for report writing and presentation!")
+
+print(f"""
+DATASET:
+  • Matches analyzed: {len(final_df)}
+  • Explanatory variables: 8
+  • Pre-match factors: All 8 variables
+
+MODEL 1 (SELECTED):
+  • Test R²: {r2_test1:.4f}
+  • Test RMSE: {rmse_test1:.4f} goals
+  • Test MAE: {mae_test1:.4f} goals
+  • CV R²: {cv_scores1.mean():.4f} ± {cv_scores1.std():.4f}
+
+INTERPRETATION:
+  The model explains {r2_test1*100:.1f}% of goal difference variance.
+  Average prediction error: ±{rmse_test1:.2f} goals.
+
+KEY PREDICTORS:
+  1. {X_features[corr_matrix['goal_diff'].abs()[:-1].idxmax()]} (strongest)
+  2. {X_features[corr_matrix['goal_diff'].abs()[:-1].nlargest(2).index[1]]}
+  3. {X_features[corr_matrix['goal_diff'].abs()[:-1].nlargest(3).index[2]]}
+""")
+
+print("="*70)
+print("ANALYSIS COMPLETE ✓")
+print("="*70)
+print("\nReady for report writing!")
