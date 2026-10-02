@@ -58,8 +58,8 @@ for i, (var, reason) in enumerate(feature_rationale.items(), 1):
 
 # Extract match-level data (one row per match)
 matches = full_data[['homeSquadName', 'awaySquadName', 'homeScore', 'awayScore',
-                     'Possession_Control(%)', 'home_Possession', 'away_Possession',
-                     'home_xG', 'away_xG', 'homeSquadId', 'awaySquadId', 'venueId']].drop_duplicates(
+                     'home_Possession', 'away_Possession', 'home_xG', 'away_xG',
+                     'homeSquadId', 'awaySquadId', 'venueId']].drop_duplicates(
                      subset=['homeSquadName', 'awaySquadName'])
 
 # Reset index for clean dataset
