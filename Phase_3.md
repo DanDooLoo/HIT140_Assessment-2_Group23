@@ -1,23 +1,29 @@
 ## PHASE 3: DOCUMENTATION (20 minutes)
 
-- [ ] **Step 3.1**: Copy console output to text file:
+- [x] **Step 3.1**: Copy console output to text file:
   ```bash
   python LinearRegression_2_1_Complete.py > analysis_output.txt
   ```
 
-- [ ] **Step 3.2**: Open `model_comparison.csv` and note these values:
+- [x] **Step 3.2**: Open `model_comparison.csv` and note these values:
   ```
-  Model 1 (Full) - Test R²: ___________
-  Model 1 (Full) - Test RMSE: _________ 
-  Model 1 (Full) - CV R² Mean: ________
+  Model 1 (Full) - Test R²: 0.1298
+  Model 1 (Full) - Test RMSE: 1.7655 
+  Model 1 (Full) - CV R² Mean: 0.0907
   ```
-  (You'll put these in your report)
+  (REMINDER ADD these in THE REPORT)
 
-- [ ] **Step 3.3**: Open `model_coefficients.csv` and review feature importance:
+- [x] **Step 3.3**: Open `model_coefficients.csv` and review feature importance:
   ```
-  home_xG coefficient: ___________
-  away_xG coefficient: ___________
-  (etc. for all 8 features)
+  home_xG coefficient: -0.211785375477362
+  away_xG coefficient: 0.5459912878238345
+  elo_rating_diff:	-0.059756249
+  home_Possession:	-0.083386199
+  travel_distance_km:	-0.084462563
+  betting_odds_home:	-0.136139441
+  pitch_quality:	-0.050730001
+  referee_strictness:	0.4041259886951599
+  Intercept:	-0.115154078
   ```
 
 ---
