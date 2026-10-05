@@ -106,11 +106,11 @@ Goal difference is a critical outcome variable in tournament football, determini
 #### **Model 2: Reduced Feature Set (5 variables)**
 - **Selection criterion**: Correlation with goal difference > |0.15|
 - **Features**:
-   - home_xG (r=0.42) – Home team offensive capability
-   - away_xG (r=-0.38) – Away team defensive challenge
-   - home_Possession (r=0.28) – Home team midfield control
-   - betting_odds_home (r=0.18) – Market assessment of home advantage
-   - travel_distance_km (r=-0.15) – Home advantage from travel fatigue
+   - home_xG – Home team offensive capability
+   - away_xG – Away team defensive challenge
+   - home_Possession – Home team midfield control
+   - betting_odds_home – Market assessment of home advantage
+   - travel_distance_km – Home advantage from travel fatigue
 - **Rationale**: Simpler model, easier interpretation, reduced multicollinearity
 - **Expected performance**: Slightly lower R² but better generalization
 
