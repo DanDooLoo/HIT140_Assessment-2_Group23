@@ -112,7 +112,7 @@ Goal difference is a critical outcome variable in tournament football, determini
    - betting_odds_home – Market assessment of home advantage
    - travel_distance_km – Home advantage from travel fatigue
 - **Rationale**: Simpler model, easier interpretation, reduced multicollinearity
-- **Expected performance**: Slightly lower R² but better generalization
+- **Expected performance**: Slightly lower R² but better generalisation
 
 #### **Model 3: Feature-Engineered Model**
 - **New features created**:
@@ -368,7 +368,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 - Test R² (Model 1): 0.1298
 - **Difference: 0.0218** (test slightly better than training, indicating good fit stability)
 
-**Conclusion**: Model generalizes well to unseen data. Slight improvement on test set is unexpected but not problematic, suggesting the test fold happened to align well with learned patterns.
+**Conclusion**: Model generalises well to unseen data. Slight improvement on test set is unexpected but not problematic, suggesting the test fold happened to align well with learned patterns.
 
 ---
 
@@ -449,10 +449,10 @@ For comparison, a naive model predicting all matches as draws (0 goal difference
 - **Example**: Travel distance might have threshold effect (local vs intercontinental)
 - **Future**: Polynomial terms or spline regression could capture non-linear effects
 
-### 9.5 Generalization Beyond 2026
+### 9.5 Generalisation Beyond 2026
 - **Assumption**: 2026 World Cup patterns similar to historical tournaments
 - **Limitation**: Rule changes, technology improvements might alter effects
-- **Caveat**: Model is specific to 2026 tournament; may not generalize to others
+- **Caveat**: Model is specific to 2026 tournament; may not generalise to others
 
 ---
 
@@ -508,6 +508,8 @@ For comparison, a naive model predicting all matches as draws (0 goal difference
 4. StatsBomb (2021). Expected Goals Methodology. https://statsbomb.com/
 
 5. Kaggle (2026). https://www.kaggle.com/
+
+6. FIFA Official Website: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics
 
 ---
 
