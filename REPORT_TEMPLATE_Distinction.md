@@ -521,11 +521,3 @@ For comparison, a naive model predicting all matches as draws (0 goal difference
 
 ### Appendix E: Coefficient Interpretation Table
 [Full coefficient details with 95% confidence intervals]
-
----
-
-**Word Count**: ~4500 words (typical for Distinction-level submission)
-**Visualization Count**: 6 professional figures
-**Supplementary Files**: 3 CSV files with detailed results
-
----
