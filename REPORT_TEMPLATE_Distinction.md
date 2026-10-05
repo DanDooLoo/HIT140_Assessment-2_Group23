@@ -5,7 +5,7 @@
 
 ## EXECUTIVE SUMMARY
 
-This analysis develops a linear regression model to predict goal difference (home team goals minus away team goals) in FIFA World Cup 2026 matches. Using 104 match observations and 8 carefully selected pre-match explanatory variables, we achieved a test set R² of [X.XX], demonstrating that approximately [X]% of variance in goal difference can be attributed to pre-match factors. The model generalizes well with cross-validation showing consistent performance (R² = X.XX ± 0.XX), indicating strong predictive capability despite the inherent unpredictability of match outcomes.
+This analysis develops a linear regression model to predict goal difference (home team goals minus away team goals) in FIFA World Cup 2026 matches. Using 104 match observations and 8 carefully selected pre-match explanatory variables, we achieved a test set R² of [0.1298], demonstrating that approximately [13]% of variance in goal difference can be attributed to pre-match factors. The model generalizes well with cross-validation showing consistent performance (R² = 0.0910 ± 0.0504), indicating strong predictive capability despite the inherent unpredictability of match outcomes.
 
 ---
 
@@ -171,12 +171,12 @@ Goal difference is a critical outcome variable in tournament football, determini
 ## 4. VISUAL EXPLORATORY ANALYSIS
 
 ### 4.1 Figure 1: Correlation Heatmap
-[Insert 01_correlation_heatmap.png]
+![01_correlation_heatmap](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/01_correlation_heatmap.png)
 
 **Interpretation**: The heatmap reveals that home_xG and away_xG are the dominant predictive features (darker blue/red colors). These variables show minimal multicollinearity with other features, suggesting they contribute unique information. The clustering of possession metrics suggests some redundancy that justifies the reduced model.
 
 ### 4.2 Figure 2: Response Variable Distribution
-[Insert 02_response_distribution.png]
+![02_reponse_distribution](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/02_response_distribution.png)
 
 **Interpretation**: 
 - **Histogram**: Goal difference is approximately normally distributed centered at 0, with slight right skew. Range from -4 to +6 goals.
@@ -184,7 +184,7 @@ Goal difference is a critical outcome variable in tournament football, determini
 - **Implication**: Linear regression assumptions reasonably satisfied
 
 ### 4.3 Figure 3: Feature-Response Relationships
-[Insert 03_feature_relationships.png]
+[03_feature_relationships](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/03_feature_relationships.png)
 
 **Interpretation of top 6 features**:
 1. **home_xG vs goal_diff** (r=0.42): Clear positive linear trend; 1 unit increase → ~0.5 goal difference increase
@@ -310,7 +310,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 6.3 Homoscedasticity (Residuals vs Fitted)
 
-[Insert 05_residual_diagnostics.png - Top Left Panel]
+[05_residual_diagnostics](image.png))
 
 **Observation**: Residuals scatter relatively evenly around zero line across fitted value range. No obvious cone/funnel pattern.
 
@@ -324,7 +324,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 6.5 Actual vs Predicted Values
 
-[Insert 05_residual_diagnostics.png - Bottom Right Panel]
+[Insert 05_residual_diagnostics](image-1.png)
 
 **Observations**:
 - Points cluster around the perfect prediction diagonal
@@ -344,7 +344,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 7.1 5-Fold Cross-Validation Results
 
-[Insert 06_cv_performance.png]
+[06_cv_performance](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/06_cv_performance.png)
 
 | Model | CV R² Mean | CV R² Std | Interpretation |
 |---|---|---|---|
@@ -356,7 +356,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 7.2 Test Set Performance
 
-[Insert 04_model_comparison.png]
+[04_model_comparison](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/04_model_comparison.png)
 
 **Train-Test Comparison**:
 - Train R² (Model 1): 0.3842
@@ -501,7 +501,7 @@ For comparison, a naive model predicting all matches as draws (0 goal difference
 
 4. StatsBomb (2021). Expected Goals Methodology. https://statsbomb.com/
 
-[Additional references as relevant to your data sources]
+5. Kaggle (2026). https://www.kaggle.com/
 
 ---
 
@@ -529,12 +529,3 @@ For comparison, a naive model predicting all matches as draws (0 goal difference
 **Supplementary Files**: 3 CSV files with detailed results
 
 ---
-
-**REPORT COMPLETE - READY FOR SUBMISSION**
-
-Next steps:
-1. Insert your actual results (R², RMSE values) into this template
-2. Replace placeholder text with your actual analysis
-3. Insert the 6 generated PNG visualizations
-4. Add your data source references
-5. Proofread and submit
