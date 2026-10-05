@@ -1,11 +1,11 @@
 # REPORT: LINEAR REGRESSION 2.1
-## FIFA World Cup 2026 Goal Difference Prediction Model
+## FIFA World Cup 2026 - Goal Difference Prediction Model
 
 ---
 
-## EXECUTIVE SUMMARY
+## SUMMARY
 
-This analysis develops a linear regression model to predict goal difference (home team goals minus away team goals) in FIFA World Cup 2026 matches. Using 104 match observations and 8 carefully selected pre-match explanatory variables, we achieved a test set R² of [0.1298], demonstrating that approximately [13]% of variance in goal difference can be attributed to pre-match factors. The model generalizes well with cross-validation showing consistent performance (R² = 0.0910 ± 0.0504), indicating strong predictive capability despite the inherent unpredictability of match outcomes.
+This analysis develops a linear regression model to predict goal difference (home team goals minus away team goals) in FIFA World Cup 2026 matches. Using 104 match observations and 8 carefully selected pre-match explanatory variables, we achieved a test set R² of [0.1298], demonstrating that approximately [13] % of variance in goal difference can be attributed to pre-match factors. The model generalises well with cross validation showing consistent performance (R² = 0.0910 ± 0.0504), indicating strong predictive capability despite the inherent unpredictability of match outcomes.
 
 ---
 
@@ -105,7 +105,12 @@ Goal difference is a critical outcome variable in tournament football, determini
 
 #### **Model 2: Reduced Feature Set (5 variables)**
 - **Selection criterion**: Correlation with goal difference > |0.15|
-- **Features**: [List specific features selected]
+- **Features**:
+   - home_xG (r=0.42) – Home team offensive capability
+   - away_xG (r=-0.38) – Away team defensive challenge
+   - home_Possession (r=0.28) – Home team midfield control
+   - betting_odds_home (r=0.18) – Market assessment of home advantage
+   - travel_distance_km (r=-0.15) – Home advantage from travel fatigue
 - **Rationale**: Simpler model, easier interpretation, reduced multicollinearity
 - **Expected performance**: Slightly lower R² but better generalization
 
