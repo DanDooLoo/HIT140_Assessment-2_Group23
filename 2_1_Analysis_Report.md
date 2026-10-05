@@ -1,4 +1,4 @@
-# REPORT TEMPLATE: LINEAR REGRESSION 2.1
+# REPORT: LINEAR REGRESSION 2.1
 ## FIFA World Cup 2026 Goal Difference Prediction Model
 
 ---
