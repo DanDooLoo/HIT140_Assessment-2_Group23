@@ -184,7 +184,7 @@ Goal difference is a critical outcome variable in tournament football, determini
 - **Implication**: Linear regression assumptions reasonably satisfied
 
 ### 4.3 Figure 3: Feature-Response Relationships
-[03_feature_relationships](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/03_feature_relationships.png)
+![03_feature_relationships](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/03_feature_relationships.png)
 
 **Interpretation of top 6 features**:
 1. **home_xG vs goal_diff** (r=0.42): Clear positive linear trend; 1 unit increase → ~0.5 goal difference increase
@@ -310,7 +310,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 6.3 Homoscedasticity (Residuals vs Fitted)
 
-[05_residual_diagnostics](image.png))
+![05_residual_diagnostics](image.png)
 
 **Observation**: Residuals scatter relatively evenly around zero line across fitted value range. No obvious cone/funnel pattern.
 
@@ -324,7 +324,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 6.5 Actual vs Predicted Values
 
-[Insert 05_residual_diagnostics](image-1.png)
+![Insert 05_residual_diagnostics](image-1.png)
 
 **Observations**:
 - Points cluster around the perfect prediction diagonal
@@ -344,7 +344,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 7.1 5-Fold Cross-Validation Results
 
-[06_cv_performance](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/06_cv_performance.png)
+![06_cv_performance](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/06_cv_performance.png)
 
 | Model | CV R² Mean | CV R² Std | Interpretation |
 |---|---|---|---|
@@ -356,7 +356,7 @@ goal_diff = β₀ + β₁(home_xG) + β₂(away_xG) + β₃(home_Possession)
 
 ### 7.2 Test Set Performance
 
-[04_model_comparison](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/04_model_comparison.png)
+![04_model_comparison](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/03a220083ae5240bdf7e910150f5739886ceaffa/04_model_comparison.png)
 
 **Train-Test Comparison**:
 - Train R² (Model 1): 0.3842
