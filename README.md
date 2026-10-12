@@ -101,7 +101,11 @@ The specification "pre-match data only" eliminates post-match statistics (shots,
 ### 💡 5. RESULTS INTERPRETATION
 
 **What R² = 0.3048 Means:**  
-The model explains 30.5% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters: (a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck; (b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play; (c) a null model (predicting mean=0) achieves R²=0.00, so 0.30 represents meaningful structure extraction.
+The model explains 30.5% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters:<br>
+
+(a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck;<br>
+(b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play;<br>
+(c) a null model (predicting mean=0) achieves R²=0.00, so 0.30 represents meaningful structure extraction<br>
 
 **RMSE = 1.87 Goals Interpretation:**  
 Average prediction error is ±1.87 goals. Given that 95% of matches produce goal differences in the range [-3, +2], this error magnitude places ~68% of predictions within ±1.87 of true values a practically useful signal. For tournament forecasting (predicting winner/loser, not exact scoreline), directional correctness matters more than absolute accuracy; sign error on predictions would reduce utility but magnitude error has graduated consequences.
