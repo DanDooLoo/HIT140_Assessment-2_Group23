@@ -50,13 +50,18 @@ For example, the number of shots on target made by a team during a match cannot 
 
 <h3>2.1 Linear Regression</h3>
 
-**Stage 1: Conceptual Domains Identification**  
-Goal difference is determined by the interplay of three domains: (a) *team capability* (inherent strength and attacking prowess), (b) *match conditions* (venue and officiating characteristics), and (c) *contextual factors* (travel fatigue and psychological state). This framework ensured comprehensive coverage of mechanisms influencing match outcomes.
+**🗺️Stage 1: Conceptual Domains Identification**  
+Goal difference is determined by the interplay of three domains: 
+(a) *team capability* (inherent strength and attacking prowess), 
+(b) *match conditions* (venue and officiating characteristics), and 
+(c) *contextual factors* (travel fatigue and psychological state). 
 
-**Stage 2: Pre-Match Data Constraint**  
+This framework ensured comprehensive coverage of mechanisms influencing match outcomes.
+
+**🗺️Stage 2: Pre-Match Data Constraint**  
 The specification "pre-match data only" eliminates post-match statistics (shots, corners, possession during play) and retroactively calculated metrics. This constraint is critical for genuine predictive utility models must rely on information available *before* kickoff, not observed during play.
 
-**Stage 3: Variable Operationalisation**
+**⚙️Stage 3: Variable Operationalisation**
 
 | Domain | Variable | Justification | Source |
 |--------|----------|---------------|--------|
@@ -69,9 +74,9 @@ The specification "pre-match data only" eliminates post-match statistics (shots,
 | **Contextual Factors** | travel_distance_km | Away team travel distance quantifies jet lag, sleep disruption, and recovery difficulty; non-linear fatigue effects expected | Match venue data |
 | | social_sentiment_home | Team social media sentiment proxies psychological readiness, confidence, and squad morale pre-match; aggregate measure filters match-day noise | Social media analytics |
 
-## 2.1 LINEAR REGRESSION MODELING RESULTS
+## 🚀 2.1 LINEAR REGRESSION MODELING RESULTS
 
-### 4. MODEL SPECIFICATION & EVALUATION FRAMEWORK
+### 🎯 4. MODEL SPECIFICATION & EVALUATION FRAMEWORK
 
 **Model:** Ordinary Least Squares (OLS) multiple linear regression  
 **Transformation:** StandardScaler normalisation (mean=0, std=1) enables direct coefficient comparison and stabilises numerical estimation  
@@ -86,7 +91,7 @@ The specification "pre-match data only" eliminates post-match statistics (shots,
 | **MAE** | 1.228 goals | **1.4518 goals** | — |
 | **N (samples)** | 83 | 21 | 104 |
 
-### 5. RESULTS INTERPRETATION
+### 💡 5. RESULTS INTERPRETATION
 
 **What R² = 0.3048 Means:**  
 The model explains 30.5% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters: (a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck; (b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play; (c) a null model (predicting mean=0) achieves R²=0.00, so 0.30 represents meaningful structure extraction.
