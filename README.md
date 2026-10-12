@@ -31,7 +31,11 @@ For example, the number of shots on target made by a team during a match cannot 
 
 **Only a maximum of 4 explanatory variables can be shared between Linear Regression 2.1 and Linear Regression 2.2**
 
-**Load data**
+
+<br>
+<h2>Group 23: Assessment 3 - Objective 2 - Linear Regression</h2>
+
+**🧱 Load data**
 - matches_data = pd.read_csv('matchesk.csv')
 - external_data = pd.read_csv('external_factors.csv')
 - teams_data = pd.read_csv('teamsk.csv')
@@ -39,12 +43,12 @@ For example, the number of shots on target made by a team during a match cannot 
 - full_data = pd.read_csv('full.csv')
 
 
-**Source:**
+**🔗 Sources:**
 - FIFA Official Website: `https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics`
 - FB Ref: `https://fbref.com/en/`
 - Kaggle: `https://www.kaggle.com/datasets`
 
-<h2>2.1 Linear Regression</h2>
+<h3>2.1 Linear Regression</h3>
 
 **Stage 1: Conceptual Domains Identification**  
 Goal difference is determined by the interplay of three domains: (a) *team capability* (inherent strength and attacking prowess), (b) *match conditions* (venue and officiating characteristics), and (c) *contextual factors* (travel fatigue and psychological state). This framework ensured comprehensive coverage of mechanisms influencing match outcomes.
@@ -64,3 +68,36 @@ The specification "pre-match data only" eliminates post-match statistics (shots,
 | | referee_strictness | Officiating bias influences goal-scoring opportunities through penalty-giving propensity and tackling tolerance; strictness rating derived from historical yellow/red card distribution | Referee profile dataset |
 | **Contextual Factors** | travel_distance_km | Away team travel distance quantifies jet lag, sleep disruption, and recovery difficulty; non-linear fatigue effects expected | Match venue data |
 | | social_sentiment_home | Team social media sentiment proxies psychological readiness, confidence, and squad morale pre-match; aggregate measure filters match-day noise | Social media analytics |
+
+## 2.1 LINEAR REGRESSION MODELING RESULTS
+
+### 4. MODEL SPECIFICATION & EVALUATION FRAMEWORK
+
+**Model:** Ordinary Least Squares (OLS) multiple linear regression  
+**Transformation:** StandardScaler normalisation (mean=0, std=1) enables direct coefficient comparison and stabilises numerical estimation  
+**Validation Strategy:** 80/20 train/test split (random_state=42 for reproducibility) + 5-fold cross-validation to assess generalisation
+
+**Results (Primary 80/20 Split):**
+
+| Metric | Train | Test | Cross-Validation |
+|--------|-------|------|------------------|
+| **R² Score** | 0.4148 | **0.3048** | 0.2478 ± 0.0974 |
+| **RMSE** | 1.567 goals | **1.8657 goals** | — |
+| **MAE** | 1.228 goals | **1.4518 goals** | — |
+| **N (samples)** | 83 | 21 | 104 |
+
+### 5. RESULTS INTERPRETATION
+
+**What R² = 0.3048 Means:**  
+The model explains 30.5% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters: (a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck; (b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play; (c) a null model (predicting mean=0) achieves R²=0.00, so 0.30 represents meaningful structure extraction.
+
+**RMSE = 1.87 Goals Interpretation:**  
+Average prediction error is ±1.87 goals. Given that 95% of matches produce goal differences in the range [-3, +2], this error magnitude places ~68% of predictions within ±1.87 of true values a practically useful signal. For tournament forecasting (predicting winner/loser, not exact scoreline), directional correctness matters more than absolute accuracy; sign error on predictions would reduce utility but magnitude error has graduated consequences.
+
+**Train-Test Divergence (0.4148 vs. 0.3048):**  
+The 11% gap suggests *modest overfitting* the model fits training noise not present in held out data. However, the CV mean R² (0.2478) falling *below* test R² indicates test-set sampling variation (small n=21) rather than systematic overfitting. Multi-split robustness testing (70/30, 90/10 splits) confirmed this: Test R² ranges 0.30–0.49, consistent with noise driven variation on small test subsets.
+
+<h3>2.2 Linear Regression</h3>
+.....to be added
+
+Author: Danielle Whitney + Gabby Davis
