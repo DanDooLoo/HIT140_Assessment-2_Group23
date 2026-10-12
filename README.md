@@ -1,141 +1,115 @@
-#  HIT140 Assessment 2 – Foundations of Data Science - Charles Darwin University - September 2026 
+<h1>HIT140 Assessment 3 – Foundations of Data Science - Charles Darwin University - October 2026 </h1>
 
-## Group 23: 
+<h2>Group 23:</h2>
+
 - Danielle S407528
 - Gabrielle S375255
 - Judith S395778
 - Manuela S320756
 
-# ⚽ Project Overview - FIFA World Cup Analysis ⚽
+<h2>⚽ Project Overview - FIFA World Cup Analysis</h2>
+
 This project investigates the FIFA World Cup 2026 statistics.
+
+<h3>📌 Objective 2:</h3>
+
+Your team will perform two related but distinct linear regression tasks as specified below.
+
+**2.1 Linear Regression**<br>
+
+Build and evaluate a linear regression model that predicts the goal difference between two opposing teams in FIFA World Cup 2026 matches. You must compile a dataset that comprises 104 rows, each representing an actual match in the FIFA World Cup 2026. Your dataset must include exactly eight (8) explanatory variables (excluding any ID field). You must thoughtfully decide what these explanatory variables would be and then collect their corresponding data.
+
+<em>Note: All explanatory variables must provide information that is available before a match. 
+For example, the number of shots on target made during a match cannot be used as an explanatory variable for predicting the goal difference of that match.</em>
+
+
+**2.2 Linear Regression**<br>
+
+Build and evaluate a second linear regression model that predicts the number of goals scored by a team in a single FIFA World Cup 2026 match. 
+You must compile a dataset that comprises 208 rows, each representing a team's statistics for a specific match. Your dataset must include exactly eight (8) explanatory variables (excluding any ID field). 
+You must thoughtfully decide what these explanatory variables would be and then collect their corresponding data.<br>
+
+
+<em>Note: All explanatory variables must provide information that is available before a match.  
+For example, the number of shots on target made by a team during a match cannot be used as an explanatory variable for predicting their goal for that match.</em><br>
+
+**Only a maximum of 4 explanatory variables can be shared between Linear Regression 2.1 and Linear Regression 2.2**
+
+
 <br>
+<h2>Group 23: Assessment 3 - Objective 2 - Linear Regression</h2>
 
-## 📌 Objective 1:
-Perform four (4) distinct analytic tasks that analyse the FIFA World Cup 2026 statistics using Python.
-
-Each analytic task must be driven by a distinct question that will be answered using all the following skills:
-* Analytic question formulation
-* Data wrangling
-* Data preparation and sampling
-* Descriptive statistics
-* Inferential statistics (Confidence interval)
-* Inferential statistics (Two-sample t-Test)
-
-Each analytic task must also have a distinct focal point of investigation that differs from the other tasks. 
-<br>
-<br>
-
-# 🎯 Analysis Research Questions
-
-### Research Question 1 - Yellow Cards
-During the FIFA World Cup 2026, what was the average age of the players and yellow cards that were issued throughout the tournament? Are players with less time on the field more likely to be issued with yellow cards?
-
-### Research Question 2 - Minuets Played - Position Analysis
-What was the average number of minutes played by field position 
-- Exploring the relationship between team ranking and attacking performance 
-Analysing Goals Scored and FIFA Rankings 
-- Exploring whether higher-ranked teams scored more goals during the FIFA World Cup 2026.
-
-### Research Question 3 - Possessions
-Do high possession and low possession teams show significant difference in team composition in the FIFA26 World Cup?
-
-### Research Question 4 - Goalkeeper Aggression vs Save Efficiency
-Do goalkeepers with higher aggression have significantly different save efficiency?
-
-#### Sub‑questions:
-1. Are aggressive keepers more efficient?
-2. Less efficient?
-3. Or no different at all?
-<br>
-
-# 📊 Data Sources & Datasets
-
-### 🔗 Sources: 
-1. FIFA Official Website
-2. FB Ref
-
-#### Links: 
-- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics
-- https://fbref.com/en/
-
-### 🧱 Datasets:
-- Goalkeeper = goalkeepers: 61
-- Rounds
-- Matches
-- FBREF Opponents
-- FBREF Squads
-- FBREF Stats
-- FBREF Discipline
-- Venues
-- Teams
-<br>
-
-## 🧪 Random Sample Generator Used
-- Random sample: 30 (random_state = 42)
-- gk_sample = gk.sample(30, random_state=42)
-<br>
-
-# 📈 Metrics & Methods
-
-### 🗝️ Key Metrics:
-- **Aggression Ratio** = Outside Actions / Inside Actions  
-- **Save Efficiency** = Saves / Total Actions
-- **Yellow Cards**
-- **Possessions**
-- **Penalty Shoot Out**
-
-### ⚙️ Methods Used:
-- Data wrangling (Pandas)
-- Data preparation and sampling (Python & Juypter Notebooks)
-- Descriptive statistics
-- Inferential statistics (Confidence intervals (95%))
-- Inferential statistics (One & Two-sample t-test)
-- Visulisations (Galton's Bell Curve, Scatter (Seaborn), Boxplot, Plot.Figure, Histogram, Violinplot)
-<br>
-
-# 🖥️ Coding Languages and Packages Utilised
-
-### 🐍 Coding Lanugages:
-- Python
-- Juypter Notebooks (Python)
-- HTML
-- Markdown
-
-### 📦 Packages:
-- Pandas as PD
-- Matplotlib.pyplot as plt
-- Scipy.stat as st
-- Numpy as np
-- Math
-- Statsmodel.stats.weightstats as stm
-- Seaborn
-<br>
-
-# 🖼️ Visualisations
-Include:
-- Aggression ratio distributions  
-- Save efficiency distributions  
-- Confidence interval plots  
-- Galton bell curve overlays  
-- Histogram of yellow cards
-- Violin distribution plots
-<br>
-
-# 💡 Key Findings
-- High and low aggression groups show overlapping confidence intervals.
-- Save efficiency differences are descriptive only, not statistically significant.
-- Aggression does **not** predict save efficiency in this sample.
-<br>
-
-# 📽️ YouTube Video
-A full narrated breakdown of the analysis is available on YouTube.  
-https://youtu.be/ToZjo_cY3Vo
-
-## 📂 Repository Structure
-- TBD......
-
-### Author
-<img width="331" height="424" alt="image" src="https://github.com/user-attachments/assets/dbc2c40c-895d-48af-9389-574eddaee24b" />
+**🧱 Load data**
+- matches_data = pd.read_csv('matchesk.csv')
+- external_data = pd.read_csv('external_factors.csv')
+- teams_data = pd.read_csv('teamsk.csv')
+- venues_data = pd.read_csv('venuesk.csv')
+- full_data = pd.read_csv('full.csv')
 
 
-Danielle Whitney - Student # S407528
+**🔗 Sources:**
+- FIFA Official Website: `https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics`
+- FB Ref: `https://fbref.com/en/`
+- Kaggle: `https://www.kaggle.com/datasets`
+
+<h3>🧪 2.1 Linear Regression</h3>
+
+**🗺️ Stage 1: Conceptual Domains Identification**
+
+Goal difference is determined by the interplay of three domains:<br>
+
+(a) `team capability` (inherent strength and attacking prowess)<br>
+(b) `match conditions` (venue and officiating characteristics)<br>
+(c) `contextual factors` (travel fatigue and psychological state)<br>
+
+This framework ensured comprehensive coverage of mechanisms influencing match outcomes.
+
+**🗺️ Stage 2: Pre-Match Data Constraint**
+
+The specification "pre-match data only" eliminates post-match statistics (shots, corners, possession during play) and retroactively calculated metrics. This constraint is critical for genuine predictive utility models must rely on information available *before* kickoff, not observed during play.
+
+**⚙️ Stage 3: Variable Operationalisation**
+
+| Domain | Variable | Justification | Source |
+|--------|----------|---------------|--------|
+| **Team Capability** | `home_Possession (%)` | Ball possession reflects team's intended tactical approach and control in play; aggregate FIFA data proxies expected possession tendency | FIFA tournament statistics |
+| | `away_Possession (%)` | Symmetric away team measure; possession asymmetry (home - away) indicates control differential | FIFA tournament statistics |
+| | `home_xG` | Expected Goals quantifies shot quality and finishing threat independent of actual conversion; pre-match xG based on team historical efficiency | Match external factors |
+| | `away_xG` | Away team expected goals; provides balanced assessment of offensive threat | Match external factors |
+| **Match Conditions** | `betting_odds_home` | Market-implied probability of home win incorporates collective expert judgment; odds compress multiple unobserved variables into single summary statistic | Pre-match betting market |
+| | `referee_strictness` | Officiating bias influences goal-scoring opportunities through penalty-giving propensity and tackling tolerance; strictness rating derived from historical yellow/red card distribution | Referee profile dataset |
+| **Contextual Factors** | `travel_distance_km` | Away team travel distance quantifies jet lag, sleep disruption, and recovery difficulty; non-linear fatigue effects expected | Match venue data |
+| | `social_sentiment_home` | Team social media sentiment proxies psychological readiness, confidence, and squad morale pre-match; aggregate measure filters match-day noise | Social media analytics |
+
+## 🚀 2.1 LINEAR REGRESSION MODELING RESULTS
+
+### 🎯 4. MODEL SPECIFICATION & EVALUATION FRAMEWORK
+
+**Model:** Ordinary Least Squares (OLS) multiple linear regression  
+**Transformation:** StandardScaler normalisation (mean=0, std=1) enables direct coefficient comparison and stabilises numerical estimation  
+**Validation Strategy:** 80/20 train/test split (random_state=42 for reproducibility) + 5-fold cross-validation to assess generalisation
+
+**Results (Primary 80/20 Split):**
+
+| Metric | Train | Test | Cross-Validation |
+|--------|-------|------|------------------|
+| **R² Score** | 0.4148 | **0.3048** | 0.2478 ± 0.0974 |
+| **RMSE** | 1.567 goals | **1.8657 goals** | — |
+| **MAE** | 1.228 goals | **1.4518 goals** | — |
+| **N (samples)** | 83 | 21 | 104 |
+
+### 💡 5. RESULTS INTERPRETATION
+
+**What R² = 0.3048 Means:**  
+The model explains 30.5% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters: (a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck; (b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play; (c) a null model (predicting mean=0) achieves R²=0.00, so 0.30 represents meaningful structure extraction.
+
+**RMSE = 1.87 Goals Interpretation:**  
+Average prediction error is ±1.87 goals. Given that 95% of matches produce goal differences in the range [-3, +2], this error magnitude places ~68% of predictions within ±1.87 of true values a practically useful signal. For tournament forecasting (predicting winner/loser, not exact scoreline), directional correctness matters more than absolute accuracy; sign error on predictions would reduce utility but magnitude error has graduated consequences.
+
+**Train-Test Divergence (0.4148 vs. 0.3048):**  
+The 11% gap suggests *modest overfitting* the model fits training noise not present in held out data. However, the CV mean R² (0.2478) falling *below* test R² indicates test-set sampling variation (small n=21) rather than systematic overfitting. Multi-split robustness testing (70/30, 90/10 splits) confirmed this: Test R² ranges 0.30–0.49, consistent with noise driven variation on small test subsets.
+
+<h3>2.2 Linear Regression</h3>
+.....to be added
+
+Author: Danielle Whitney + Gabby Davis
