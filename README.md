@@ -1,4 +1,4 @@
-<h1>HIT140 Assessment 2 – Foundations of Data Science - Charles Darwin University - October 2026 </h1>
+<h1>HIT140 Assessment 3 – Foundations of Data Science - Charles Darwin University - October 2026 </h1>
 
 **Group 23:**
 - Danielle S407528
@@ -30,3 +30,16 @@ For example, the number of shots on target made by a team during a match cannot 
 
 
 **Only a maximum of 4 explanatory variables can be shared between Linear Regression 2.1 and Linear Regression 2.2**
+
+**Load data (using your existing analysis)**
+- matches_data = pd.read_csv('matchesk.csv')
+- external_data = pd.read_csv('external_factors.csv')
+- teams_data = pd.read_csv('teamsk.csv')
+- venues_data = pd.read_csv('venuesk.csv')
+- full_data = pd.read_csv('full.csv')
+
+
+**Source:**
+- FIFA Official Website: `https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics`
+- FB Ref: `https://fbref.com/en/`
+- Kaggle: `https://www.kaggle.com/datasets`
