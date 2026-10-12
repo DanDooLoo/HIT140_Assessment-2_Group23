@@ -31,7 +31,7 @@ For example, the number of shots on target made by a team during a match cannot 
 
 **Only a maximum of 4 explanatory variables can be shared between Linear Regression 2.1 and Linear Regression 2.2**
 
-**Load data (using your existing analysis)**
+**Load data**
 - matches_data = pd.read_csv('matchesk.csv')
 - external_data = pd.read_csv('external_factors.csv')
 - teams_data = pd.read_csv('teamsk.csv')
