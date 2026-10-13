@@ -5,7 +5,7 @@
 ## STEP 1: SETUP - Approx 5 minutes ⏱️
 
 - [ ] **Step 1.1**: Copy these 3 files to your working directory:
-  - `LinearRegression_2_1_Complete.py` (the main analysis script)
+  - `LinearRegression_2_1_Complete.ipynb` (the main analysis script)
   - `full.csv`
   - `external_factors.csv`
 
