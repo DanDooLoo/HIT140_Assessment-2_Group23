@@ -1,17 +1,36 @@
-<h1>HIT140 Assessment 3 – Foundations of Data Science - Charles Darwin University - October 2026 </h1>
+<div align="center">
+<h1>Group 23 ~ Assessment 3 </h1>
+<h2>Foundations of Data Science </h2>
+<h3>Charles Darwin University </h3>
 
+![alt text](image.png)
+
+</div>
 <h2>Group 23:</h2>
 
-- Danielle S407528
-- Gabrielle S375255
-- Judith S395778
-- Manuela S320756
+| Name | Student # | Study Mode | Region |
+|--------|----------|---------------|--------|
+| Danielle | S407528 | Online | WA |
+| Gabrielle | S375255 | Online | NT |
+| Judith | S395778 | Online | NSW |
+| Manuela | S320756 | Online | NSW |
 
 <h2>⚽ Project Overview - FIFA World Cup Analysis</h2>
 
 This project investigates the FIFA World Cup 2026 statistics.
 
-<h3>📌 Objective 2:</h3>
+## Group 23 wiki
+[Take Me Home](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki)
+
+### Assessment 2: Group Presentation
+[Objective 1](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-1-%E2%80%90-Group-Presentation)<br>
+[Group 23: Objective 1 - Documentation](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-1-%E2%80%90-Group-Documentation)
+
+### Assessment 3: Group Report
+[Objective 2](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-2-%E2%80%90-Linear-Regression-Models-%E2%80%90-Question-2.1-&-2.3)<br>
+[Group 23: Objective 2 - Documentation](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-2-%E2%80%90-Documentation)
+
+<h2>📌 Objective 2:</h2>
 
 Your team will perform two related but distinct linear regression tasks as specified below.
 
@@ -40,11 +59,11 @@ For example, the number of shots on target made by a team during a match cannot 
 <h2>Group 23: Assessment 3 - Objective 2 - Linear Regression</h2>
 
 **🧱 Load data**
-- matches_data = pd.read_csv('matchesk.csv')
-- external_data = pd.read_csv('external_factors.csv')
-- teams_data = pd.read_csv('teamsk.csv')
-- venues_data = pd.read_csv('venuesk.csv')
-- full_data = pd.read_csv('full.csv')
+- `matches_data` = pd.read_csv('matchesk.csv')
+- `external_data` = pd.read_csv('external_factors.csv')
+- `teams_data` = pd.read_csv('teamsk.csv')
+- `venues_data` = pd.read_csv('venuesk.csv')
+- `full_data` = pd.read_csv('full.csv')
 
 
 **🔗 Sources:**
@@ -52,7 +71,7 @@ For example, the number of shots on target made by a team during a match cannot 
 - FB Ref: `https://fbref.com/en/`
 - Kaggle: `https://www.kaggle.com/datasets`
 
-<h3>🧪 2.1 Linear Regression</h3>
+<h2>🧪 2.1 Linear Regression</h2>
 
 **🗺️ Stage 1: Conceptual Domains Identification**
 
