@@ -9,19 +9,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
 # FIFA World Cup 2026 data
-fifa_data = {
-    'home_Possession': [46.5, 48.2, 45.1, 50.3, 42.8, 55.1, 44.6, 49.2, 47.3, 51.2],
-    'away_Possession': [44.6, 42.1, 48.2, 43.7, 51.2, 38.9, 47.1, 45.3, 48.9, 41.5],
-    'home_xG': [7.5, 8.2, 6.1, 9.3, 5.8, 10.2, 6.9, 7.8, 8.1, 9.5],
-    'away_xG': [6.0, 5.3, 7.2, 4.8, 8.1, 3.2, 7.5, 6.2, 5.9, 4.1],
-    'betting_odds_home': [2.65, 2.80, 2.45, 3.10, 2.20, 3.35, 2.50, 2.75, 2.90, 3.05],
-    'referee_strictness': [7.2, 6.9, 7.3, 7.1, 6.8, 7.0, 7.2, 7.4, 7.1, 6.9],
-    'travel_distance_km': [4100, 3500, 5200, 2800, 6290, 1500, 4500, 3800, 5100, 2500],
-    'social_sentiment_home': [0.36, 0.45, 0.25, 0.65, 0.15, 0.80, 0.40, 0.55, 0.35, 0.70],
-    'goal_diff': [1, 2, 0, 2, -1, 3, 1, 1, 2, 2]
-}
-
-df = pd.DataFrame(fifa_data)
+df = pd.read_csv('data.csv')
 
 # Input variables
 X = df[['home_Possession', 'away_Possession', 'home_xG', 'away_xG',
