@@ -22,6 +22,8 @@ This project investigates the FIFA World Cup 2026 statistics.
 ## Group 23 wiki
 [Take Me Home](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki)
 
+[Reference Documant - How to Convert PDF to PNG by DGW](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/blob/main/Workings[Drafts]/Danielle_Files_Ass3/PDFtoImgQuickConvert.md)
+
 ### Assessment 2: Group Presentation
 [Objective 1](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-1-%E2%80%90-Group-Presentation)<br>
 [Group 23: Objective 1 - Documentation](https://github.com/DanDooLoo/HIT140_Assessment-2_Group23/wiki/Objective-1-%E2%80%90-Group-Documentation)
