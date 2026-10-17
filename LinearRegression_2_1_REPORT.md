@@ -47,6 +47,25 @@ This selection represents a **parsimony-validity trade-off**. The 104 available 
 The initial dataset contained 800 matches but suffered systematic data completeness issues: missing possession values, incomplete external factor records, and partial betting data. Rather than impute or estimate missing values (introducing artificial noise), the analysis retained **only 104 matches with complete data across all 8 variables**. This decision prioritises data quality over quantity, a well fitted model on clean data outperforms a loosely fitted model on contaminated data with inflated apparent R² due to data artifacts.
 
 ---
+## Visulisation: Exploratory Data Analysis
+
+### Correlation Matrix: Features vs Goal Difference [Figure 1]
+
+<div style="text-align: Center;">
+<img src="image-1.png" alt="Correlation Heatmap [Figure 1]" width="600">
+</div><br>
+
+### Response Distribution [Figure 2]
+
+<div style="text-align: Center;">
+<img src="image-2.png" alt="Response Distribution [Figure 2]" width="1200">
+</div><br>
+
+### Feature Relationships [Figure 3]
+
+<div style="text-align: Center;">
+<img src="image-3.png" alt="Feature Relationships [figure 3]" width="1200">
+</div><br>
 
 ## LINEAR REGRESSION MODELING RESULTS & INTERPRETATION
 
@@ -68,37 +87,64 @@ The initial dataset contained 800 matches but suffered systematic data completen
 ### 5. RESULTS INTERPRETATION
 
 **What R² = 0.2327 Means:**  
-The model explains 23.27% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power. Context matters: 
-(a) goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck; 
-(b) 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play; 
-(c) a null model (predicting mean=0) achieves R²=0.00, so 0.23 represents meaningful structure extraction despite inherent unpredictability of football outcomes.
+The model explains 23.27% of test-set goal difference variance. In discrete outcome prediction (goal difference ranges -3 to +2, n=104), this represents *moderate* predictive power.<br>
+
+Context matters:<br> 
+**(a)** goal difference is inherently stochastic with irreducible randomness from match-to-match referee variance, defensive lapses, and finishing luck<br>
+**(b)** 8 pre-match variables cannot capture tactical in-game adjustments, substitution timing, or injury attrition during play<br>
+**(c)** a null model predicting `mean=0` achieves `R²=0.00`, so `0.23` represents meaningful structure extraction despite inherent unpredictability of football outcomes.<br>
 
 **RMSE = 1.7844 Goals Interpretation:**  
-Average prediction error is ±1.78 goals. Since 95% of matches produce goal differences in [-3, +2], this error magnitude means predictions are typically within ~1.8 goals of reality—sufficient for directional prediction (winner/loser) but insufficient for exact scoreline forecasting. For tournament applications, sign correctness (predicting which team wins) matters more than magnitude precision; an error of ±1 goal may still yield correct winner prediction, whereas magnitude errors (predicting 2-0 when result is 2-2) do not affect categorical accuracy.
+Average prediction error is `±1.78` goals. Since 95% of matches produce goal differences in `[-3, +2]`, this error magnitude means predictions are typically within `~1.8 goals` of reality sufficient for directional prediction (winner/loser) but insufficient for exact scoreline forecasting.<br>
+For tournament applications, sign correctness (predicting which team wins) matters more than magnitude precision; an error of `±1` goal may still yield correct winner prediction, whereas magnitude errors (predicting `2-0` when result is `2-2`) do not affect categorical accuracy.
 
 **Train-Test Divergence (0.4417 vs. 0.2327):**  
-The 21% gap indicates *modest overfitting*—the model fits training noise not present in held-out data. However, the CV mean R² (0.2593) falling *above* test R² (0.2327) is consistent with typical k-fold behavior on small samples (n=104): different fold compositions yield variable test performance. The modest divergence and CV stability (std=0.1057) suggest the model captures genuine patterns rather than artifacts. Test R² variability is expected given the small test set (n=21); the model performs consistently within reasonable bounds across different data splits.
+The `21%` gap indicates *modest overfitting* the model fits training noise not present in held out data. However, the CV mean R² `0.2593` falling *above* test R² `0.2327` is consistent with typical k-fold behavior on small samples `n=104`: different fold compositions yield variable test performance. <br>
+
+The modest divergence and CV stability `std=0.1057` suggest the model captures genuine patterns rather than artifacts. Test R² variability is expected given the small test set `n=21`; the model performs consistently within reasonable bounds across different data splits.
+
+## Visulisations: 2.1 Linear Regression Model
+
+### Model Residual Diagnostics [Figure 4]
+
+`Actual` vs `Predicted`
+
+<div style="text-align: Center;">
+<img src="image-4.png" alt="Model Redidual Diagnostics [Figure 4]" width="1200">
+</div>
+
+
+### R² Scores with Error Bars for Training, Test, & Cross-Validation [Figure 5]
+**5 Fold Cross Validation**
+
+<div style="text-align: Center;">
+<img src="image-5.png" alt="Training, Test, & Cross-Validation [Figure 5]" width="1200">
+</div>
+
+| Training R² | Test R² | CV Mean |
+|-------------|---------|---------|
+| [`0.4417` ± `0.1057`] | [`0.2327` ± `0.1057`] | [`0.2593` ± `0.1057`] |
 
 ### 6. RESIDUAL DIAGNOSTICS & LIMITATIONS
 
-**Normality Test (Shapiro-Wilk):** p = 0.4532 (p > 0.05) indicates residuals are approximately normally distributed. This passes the normality assumption, which is noteworthy given that goal difference is discrete (integers). The distribution of residuals does not exhibit systematic departures from normality, suggesting that despite the discrete nature of the response, the residual spread is sufficiently continuous. *Practical implication:* Confidence intervals and p-values are more reliable than expected; the discrete response has not induced problematic heaping. OLS assumptions are adequately satisfied.
+**Normality Test (Shapiro-Wilk):** p = `0.4532` (p > `0.05`) indicates residuals are approximately normally distributed. This passes the normality assumption, which is noteworthy given that goal difference is discrete (integers). The distribution of residuals does not exhibit systematic departures from normality, suggesting that despite the discrete nature of the response, the residual spread is sufficiently continuous. *Practical implication:* Confidence intervals and p-values are more reliable than expected; the discrete response has not induced problematic heaping. OLS assumptions are adequately satisfied.
 
 **Data Quality Constraints:**  
-- Possession sourced from aggregate team statistics, not match specific tracking (assumes team plays consistent possession style)
-- Social sentiment may reflect recent form rather than current squad state
-- External factors (referee strictness, travel distance) sourced from historical/venue databases with some inherent measurement error
+- `Possession` sourced from aggregate team statistics, not match specific tracking (assumes team plays consistent possession style)
+- `Social sentiment` may reflect recent form rather than current squad state
+- `External factors` (`referee strictness`, `travel distance`) sourced from historical/venue databases with some inherent measurement error.
 
 ### 7. CONCLUSIONS & INTERPRETIVE SYNTHESIS
 
 **Key Findings:**
 
-1. **Variable Selection was Well-Motivated:** The 8-variable specification balances conceptual coverage (team capability, match conditions, contextual factors) with parsimony appropriate for n=104. Each variable addresses a theoretically distinct mechanism influencing goal difference.
+1. **Variable Selection was Well-Motivated:** The `8 variable` specification balances conceptual coverage (team capability, match conditions, contextual factors) with parsimony appropriate for `n=104`. Each variable addresses a theoretically distinct mechanism influencing goal difference.
 
-2. **Model Performance is Contextually Adequate:** R²=0.23 (test) represents meaningful but incomplete prediction. The explained variance reflects genuine structure (team strength, tactical tendencies, venue effects); unexplained variance reflects irreducible match-to-match stochasticity and unobserved in-game dynamics. CV stability (std=0.1057) indicates consistent generalisation across data folds.
+2. **Model Performance is Contextually Adequate:** R²=`0.23` (test) represents meaningful but incomplete prediction. The explained variance reflects genuine structure (team strength, tactical tendencies, venue effects); unexplained variance reflects irreducible match-to-match stochasticity and unobserved in-game dynamics. CV stability std=`0.1057` indicates consistent generalisation across data folds.
 
-3. **Data Quality Informed All Decisions:** Retaining 104 complete case matches over 800 with missing data was a quality-over-quantity choice that prevented artificial R² inflation from imputation.
+3. **Data Quality Informed All Decisions:** Retaining `104` complete case matches over `800` with missing data was a quality over quantity choice that prevented artificial R² inflation from imputation.
 
-4. **Assumptions Are Satisfied:** Normality test (Shapiro-Wilk p=0.4532) passes despite discrete response variable, indicating residuals are approximately normal and OLS assumptions are adequately met. The 21% train-test gap (0.4417 vs. 0.2327) reflects expected variation on small test sets rather than systematic overfitting.
+4. **Assumptions Are Satisfied:** Normality test (Shapiro-Wilk p=`0.4532`) passes despite discrete response variable, indicating residuals are approximately normal and OLS assumptions are adequately met. The `21%` train-test gap (`0.4417` vs. `0.2327`) reflects expected variation on small test sets rather than systematic overfitting.
 
 **Overall Interpretation:**  
 This analysis demonstrates that predictive modeling of sports outcomes requires balancing rigor (proper pre/post-match data separation, complete case retention) with realism (accepting that unobserved human factors and match-day contingencies limit predictability). The model succeeds not by achieving high R², but by articulating *why* certain variables matter (possession reflects intent, betting odds aggregate expert judgment, travel distance quantifies fatigue), validating OLS assumptions despite discrete outcomes, and honestly reporting constraints on what pre-match data can predict.
