@@ -1,0 +1,830 @@
+Rk,Player,Pos,Squad,Age,Born,MP,WC22 Minutes,Mn/MP,Min%,90s,Starts,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,Matches,-9999
+1,Brenden Aaronson,FWMF,us USA,21,2000,4,108,27,30.0,1.2,0,,0,4,27,0,1.25,1,2,-1,-0.83,-0.83,Matches,5bc43860
+2,Ali Abdi,MF,tn Tunisia,28,1993,3,188,63,69.6,2.1,2,90,2,1,8,0,1.33,0,1,-1,-0.48,-1.58,Matches,ad7cdb35
+3,Salis Abdul Samed,MF,gh Ghana,22,2000,3,250,83,92.6,2.8,3,83,1,0,,0,1.00,5,7,-2,-0.72,-0.72,Matches,82464ce3
+4,Saud Abdulhamid,DFMF,sa Saudi Arabia,22,1999,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,5,-2,-0.67,,Matches,caa254e4
+5,Nawaf Al Abed,FWMF,sa Saudi Arabia,32,1990,2,88,44,32.6,1.0,0,,0,2,44,1,1.50,2,1,+1,+1.02,+2.51,Matches,bfef5c87
+6,Amir Abedzadeh,GK,ir IR Iran,29,1993,0,,,,,0,,0,0,,3,,,,,,,Matches,375d09c9
+7,Pape Abou Cissé,DF,sn Senegal,26,1995,3,105,35,29.2,1.2,1,90,1,2,8,1,2.00,1,3,-2,-1.71,-1.71,Matches,8bc373ea
+8,Vincent Aboubakar,FW,cm Cameroon,30,1992,3,142,47,52.6,1.6,1,89,0,2,27,0,1.33,2,0,+2,+1.27,+2.67,Matches,8637e09a
+9,Abdulrahman Al-Aboud,MF,sa Saudi Arabia,27,1995,2,35,18,13.0,0.4,0,,0,2,18,1,0.00,1,0,+1,+2.57,+3.72,Matches,9bf54a3b
+10,Zakaria Aboukhlal,FWMF,ma Morocco,22,2000,4,79,20,12.0,0.9,0,,0,4,20,3,2.25,1,1,0,0.00,-0.15,Matches,c2a6033c
+11,Kellyn Acosta,DFMF,us USA,26,1995,2,43,22,11.9,0.5,0,,0,2,22,2,2.00,0,1,-1,-2.09,-2.09,Matches,ece10cfe
+12,Marcos Acuña,DFMF,ar Argentina,30,1991,6,373,62,54.1,4.1,4,74,1,2,39,0,1.83,8,3,+5,+1.21,+0.64,Matches,81442ecb
+13,Tyler Adams,MF,us USA,23,1999,4,360,90,100.0,4.0,4,90,4,0,,0,1.25,3,4,-1,-0.25,,Matches,2b09d998
+14,Sam Adekugbe,DF,ca Canada,27,1995,3,95,32,35.2,1.1,1,59,0,2,18,0,0.00,1,3,-2,-1.89,-0.35,Matches,7f2309be
+15,Karim Adeyemi,FWMF,de Germany,20,2002,0,,,,,0,,0,0,,3,,,,,,,Matches,501055d8
+16,Michel Aebischer,MF,ch Switzerland,25,1997,1,16,16,4.4,0.2,0,,0,1,16,3,0.00,0,1,-1,-5.63,-4.84,Matches,f9c927de
+17,Akram Afif,FW,qa Qatar,25,1996,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,1,7,-6,-2.00,,Matches,fd53d9e7
+18,Daniel Afriyie,FW,gh Ghana,20,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,0dbac3e0
+19,Nayef Aguerd,DF,ma Morocco,26,1996,4,353,88,53.5,3.9,4,88,3,0,,2,2.00,4,1,+3,+0.76,+1.35,Matches,288e1e13
+20,Brandon Aguilera,MF,cr Costa Rica,18,2003,3,90,30,33.3,1.0,1,45,0,2,23,0,1.00,1,4,-3,-3.00,-0.50,Matches,938fa024
+21,Homam Ahmed,DFMF,qa Qatar,22,1999,3,262,87,97.0,2.9,3,87,2,0,,0,0.00,1,6,-5,-1.72,+9.53,Matches,a62fa158
+22,Joseph Aidoo,DF,gh Ghana,26,1995,0,,,,,0,,0,0,,3,,,,,,,Matches,18abe173
+23,Manuel Akanji,DF,ch Switzerland,26,1995,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,5,9,-4,-1.00,,Matches,89ac64a6
+24,Nathan Aké,DF,nl Netherlands,27,1995,5,479,96,99.8,5.3,5,96,4,0,,0,2.20,10,4,+6,+1.13,+1.13,Matches,eaeca114
+25,Ahmed Alaaeldin,FW,qa Qatar,29,1993,1,6,6,2.2,0.1,0,,0,1,6,2,0.00,0,0,0,0.00,+2.05,Matches,74fbbb3c
+26,Jordi Alba,DF,es Spain,33,1989,4,264,66,67.7,2.9,3,80,0,1,23,0,1.25,5,0,+5,+1.70,+0.99,Matches,4601e194
+27,Toby Alderweireld,DF,be Belgium,33,1989,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,f7d50789
+28,Trent Alexander-Arnold,DFMF,eng England,23,1998,1,34,34,7.6,0.4,0,,0,1,34,4,3.00,1,0,+1,+2.65,+0.92,Matches,cd1acf9d
+29,Almoez Ali,FW,qa Qatar,25,1996,3,224,75,83.0,2.5,3,75,1,0,,0,0.00,1,7,-6,-2.41,-2.41,Matches,bae045a9
+30,Alisson,GK,br Brazil,29,1992,4,379,95,79.0,4.2,4,95,3,0,,1,2.50,8,2,+6,+1.42,+2.32,Matches,7a2e46a8
+31,Joe Allen,MF,wls Wales,32,1990,2,94,47,34.8,1.0,1,80,0,1,14,1,0.00,0,5,-5,-4.79,-4.79,Matches,9feb8f24
+32,Thiago Almada,FWMF,ar Argentina,21,2001,1,7,7,1.0,0.1,0,,0,1,7,6,3.00,0,0,0,0.00,-0.92,Matches,27f33438
+33,Esteban Alvarado,GK,cr Costa Rica,33,1989,0,,,,,0,,0,0,,3,,,,,,,Matches,3b50da94
+34,Roberto Alvarado,FWMF,mx Mexico,23,1998,1,18,18,6.7,0.2,0,,0,1,18,2,0.00,0,1,-1,-5.00,-5.00,Matches,ff871e14
+35,Edson Álvarez,MF,mx Mexico,24,1997,2,175,88,64.8,1.9,2,88,1,0,,1,2.00,2,0,+2,+1.03,+3.87,Matches,8b3ab7ad
+36,Julián Álvarez,FW,ar Argentina,22,2000,7,464,66,67.2,5.2,5,81,0,2,30,0,2.00,13,2,+11,+2.13,+3.73,Matches,15ab5a2b
+37,Kevin Álvarez,DF,mx Mexico,23,1999,2,70,35,25.9,0.8,1,65,0,1,5,1,1.50,0,2,-2,-2.57,-3.02,Matches,636b0833
+38,Dani Alves,DF,br Brazil,39,1983,2,118,59,24.6,1.3,1,90,1,1,28,3,1.50,0,2,-2,-1.53,-3.27,Matches,c9e99e49
+39,Selim Amallah,MF,ma Morocco,25,1996,7,409,58,62.0,4.5,4,75,1,3,36,0,1.57,1,0,+1,+0.22,+0.22,Matches,00eba9c9
+40,Daniel Amartey,DF,gh Ghana,27,1994,3,251,84,93.0,2.8,3,84,2,0,,0,1.00,5,7,-2,-0.72,-0.72,Matches,1a4ef233
+41,Vahid Amiri,FWMF,ir IR Iran,34,1988,0,,,,,0,,0,0,,3,,,,,,,Matches,750cc65b
+42,Ethan Ampadu,MF,wls Wales,21,2000,3,255,85,94.4,2.8,3,85,1,0,,0,0.33,1,4,-3,-1.06,+10.94,Matches,10b9fa99
+43,Sofyan Amrabat,MF,ma Morocco,25,1996,7,660,94,100.0,7.3,7,94,7,0,,0,1.57,6,5,+1,+0.14,,Matches,5a2cb25d
+44,Abdulelah Al-Amri,DF,sa Saudi Arabia,25,1997,3,182,61,67.4,2.0,2,90,2,1,2,0,1.00,1,4,-3,-1.48,-2.51,Matches,fd0affe3
+45,Joachim Andersen,DF,dk Denmark,26,1996,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,3,-2,-0.67,,Matches,e34fc66d
+46,Frank Anguissa,MF,cm Cameroon,26,1995,3,260,87,96.3,2.9,3,87,2,0,,0,1.33,4,4,0,0.00,0.00,Matches,6bb2c084
+47,Karim Ansarifard,FW,ir IR Iran,32,1990,2,35,18,13.0,0.4,0,,0,2,18,1,1.50,2,0,+2,+5.14,+7.06,Matches,50cddd19
+48,Antony,MF,br Brazil,22,2000,4,172,43,35.8,1.9,1,78,0,3,31,1,1.75,2,1,+1,+0.52,-0.65,Matches,99127249
+49,Uriel Antuna,FWMF,mx Mexico,24,1997,3,77,26,28.5,0.9,0,,0,3,26,0,1.33,2,2,0,0.00,+0.47,Matches,a35f5848
+50,Nawaf Al Aqidi,GK,sa Saudi Arabia,22,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,70f3a9d1
+51,Néstor Araujo,DF,mx Mexico,30,1991,1,90,90,33.3,1.0,1,90,1,0,,2,0.00,0,2,-2,-2.00,-2.50,Matches,27a013f7
+52,Robert Arboleda,DF,ec Ecuador,30,1991,0,,,,,0,,0,0,,3,,,,,,,Matches,269dbfc6
+53,Alphonse Areola,GK,fr France,29,1993,0,,,,,0,,0,0,,7,,,,,,,Matches,2f965a72
+54,Franco Armani,GK,ar Argentina,35,1986,0,,,,,0,,0,0,,7,,,,,,,Matches,b3e42951
+55,Giorgian de Arrascaeta,MF,uy Uruguay,28,1994,2,108,54,40.0,1.2,1,79,0,1,29,1,1.50,2,1,+1,+0.83,+1.39,Matches,be8d02dd
+56,Xavier Arreaga,DF,ec Ecuador,27,1994,0,,,,,0,,0,0,,3,,,,,,,Matches,7f2b7640
+57,Gerardo Arteaga,DFMF,mx Mexico,23,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,8b47ce35
+58,Takuma Asano,FWMF,jp Japan,27,1994,4,165,41,42.3,1.8,0,,0,4,41,0,1.75,2,1,+1,+0.55,+0.55,Matches,13ddc856
+59,Marco Asensio,FW,es Spain,26,1996,4,229,57,58.7,2.5,3,65,0,1,34,0,1.25,5,0,+5,+1.97,+1.41,Matches,45af8a54
+60,Ali Assadalla,FWMF,qa Qatar,29,1993,1,27,27,10.0,0.3,0,,0,1,27,2,0.00,0,0,0,0.00,+2.22,Matches,8e74d3ce
+61,Lawrence Ati-Zigi,GK,gh Ghana,25,1996,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,5,7,-2,-0.67,,Matches,a12402c3
+62,Nathaniel Atkinson,DF,au Australia,23,1999,1,84,84,23.3,0.9,1,84,0,0,,2,0.00,1,4,-3,-3.21,-3.54,Matches,51caa1f0
+63,Yahya Attiat Allah,DF,ma Morocco,27,1995,6,318,53,48.2,3.5,2,90,2,4,35,1,1.33,4,3,+1,+0.28,+0.28,Matches,432848a2
+64,André Ayew,MFFW,gh Ghana,32,1989,3,198,66,73.3,2.2,3,66,0,0,,0,1.00,4,5,-1,-0.45,+0.80,Matches,5dbefa9d
+65,Jordan Ayew,MF,gh Ghana,30,1991,3,136,45,50.4,1.5,2,61,0,1,14,0,1.00,4,6,-2,-1.32,-1.32,Matches,da052c14
+66,Sardar Azmoun,FW,ir IR Iran,27,1995,3,126,42,46.7,1.4,2,56,0,1,14,0,1.00,1,2,-1,-0.71,+0.54,Matches,10549b49
+67,César Azpilicueta,DF,es Spain,32,1989,2,135,68,34.6,1.5,2,68,1,0,,2,1.50,8,0,+8,+5.33,+6.04,Matches,53cad200
+68,Srđan Babić,DF,rs Serbia,26,1996,1,13,13,4.8,0.1,0,,0,1,13,2,1.00,0,0,0,0.00,+1.05,Matches,075fe5a3
+69,Keanu Baccus,MF,au Australia,24,1998,4,114,29,31.7,1.3,1,57,0,3,19,0,1.50,1,2,-1,-0.79,-0.42,Matches,19df2bf7
+70,Alexander Bah,DFMF,dk Denmark,24,1997,2,46,23,17.0,0.5,0,,0,2,23,1,0.00,0,1,-1,-1.96,-1.55,Matches,78f21137
+71,Hattan Bahebri,FWMF,sa Saudi Arabia,29,1992,2,4,2,1.5,0.0,0,,0,2,2,1,0.00,1,0,+1,+22.50,+23.52,Matches,b4f50ff5
+72,Alejandro Balde,DF,es Spain,18,2003,4,126,32,32.3,1.4,1,67,0,3,20,0,1.25,4,3,+1,+0.71,-0.99,Matches,5ccc9672
+73,Gareth Bale,FWMF,wls Wales,32,1989,3,225,75,83.3,2.5,3,75,2,0,,0,0.33,1,3,-2,-0.80,+5.20,Matches,a58bb1e1
+74,Fodé Ballo-Touré,DFMF,sn Senegal,25,1997,1,7,7,1.9,0.1,0,,0,1,7,1,0.00,0,0,0,0.00,+0.51,Matches,f449640d
+75,Badr Banoun,DF,ma Morocco,28,1993,3,54,18,8.2,0.6,0,,0,3,18,4,1.33,0,0,0,0.00,-0.15,Matches,06a24e51
+76,Borna Barišić,DF,hr Croatia,29,1992,1,120,120,17.4,1.3,1,120,1,0,,6,1.00,1,1,0,0.00,-0.16,Matches,712dd708
+77,Meshaal Barsham,GK,qa Qatar,24,1998,2,180,90,66.7,2.0,2,90,2,0,,1,0.00,1,5,-4,-2.00,0.00,Matches,8d3e92e0
+78,Christian Bassogog,FWMF,cm Cameroon,26,1995,1,24,24,8.9,0.3,0,,0,1,24,2,1.00,0,0,0,0.00,0.00,Matches,395cd1d9
+79,Michy Batshuayi,FW,be Belgium,28,1993,2,151,76,55.9,1.7,2,76,0,0,,1,1.50,1,1,0,0.00,+0.76,Matches,2973d8ff
+80,Jan Bednarek,DF,pl Poland,26,1996,1,5,5,1.4,0.1,0,,0,1,5,3,0.00,1,1,0,0.00,+0.51,Matches,4115ce4e
+81,Aziz Behich,DF,au Australia,31,1990,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,4,6,-2,-0.50,,Matches,b6867b96
+82,Alireza Beiranvand,GK,ir IR Iran,29,1992,2,109,55,40.4,1.2,2,55,1,0,,0,0.00,0,1,-1,-0.83,+0.29,Matches,6ca0b04a
+83,Armel Bella Kotchap,DF,de Germany,20,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,a39d11bc
+84,Jude Bellingham,MF,eng England,18,2003,5,414,83,92.0,4.6,5,83,3,0,,0,2.00,13,4,+9,+1.96,+1.96,Matches,57d88cf9
+85,Bechir Ben Said,GK,tn Tunisia,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,a917c2af
+86,Anis Ben Slimane,FW,tn Tunisia,21,2001,2,148,74,54.8,1.6,2,74,0,0,,1,2.00,1,0,+1,+0.61,+1.35,Matches,9ade9ce1
+87,Jewison Bennette,MF,cr Costa Rica,17,2004,3,103,34,38.1,1.1,1,60,0,2,22,0,1.00,1,6,-5,-4.37,-2.75,Matches,58f5704e
+88,Rodrigo Bentancur,MF,uy Uruguay,24,1997,3,213,71,78.9,2.4,3,71,2,0,,0,1.33,2,2,0,0.00,0.00,Matches,3b8674e6
+89,Bartosz Bereszyński,DF,pl Poland,29,1992,4,341,85,94.7,3.8,4,85,3,0,,0,1.00,3,5,-2,-0.53,-0.53,Matches,61b3978f
+90,Steven Berghuis,MF,nl Netherlands,30,1991,4,200,50,41.7,2.2,1,78,0,3,41,1,2.00,2,1,+1,+0.45,-1.16,Matches,713c144a
+91,Steven Bergwijn,FW,nl Netherlands,24,1997,4,213,53,44.4,2.4,3,56,0,1,45,1,2.00,2,2,0,0.00,-2.02,Matches,a29b1131
+92,Krystian Bielik,MF,pl Poland,24,1998,4,216,54,60.0,2.4,2,76,1,2,33,0,1.00,3,3,0,0.00,+1.25,Matches,8e0ec853
+93,Justin Bijlow,GK,nl Netherlands,24,1998,0,,,,,0,,0,0,,5,,,,,,,Matches,53d93280
+94,Daley Blind,MF,nl Netherlands,32,1990,5,423,85,88.1,4.7,5,85,4,0,,0,2.20,8,3,+5,+1.06,-0.52,Matches,691bef82
+95,Celso Borges,MF,cr Costa Rica,34,1988,3,249,83,92.2,2.8,3,83,1,0,,0,1.00,3,8,-5,-1.81,+11.05,Matches,b8836910
+96,Milan Borjan,GK,ca Canada,34,1987,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,2,7,-5,-1.67,,Matches,5e8936be
+97,Karim Boudiaf,MF,qa Qatar,31,1990,3,185,62,68.5,2.1,2,79,1,1,27,0,0.00,0,4,-4,-1.95,+0.17,Matches,a38f33fd
+98,Sofiane Boufal,FWMF,ma Morocco,28,1993,7,475,68,72.0,5.3,7,68,0,0,,0,1.57,5,4,+1,+0.19,+0.19,Matches,b0c71810
+99,Yassine Bounou,GK,ma Morocco,31,1991,6,570,95,86.4,6.3,6,95,6,0,,1,1.33,4,5,-1,-0.16,-2.16,Matches,f6798fc3
+100,Martin Braithwaite,FW,dk Denmark,31,1991,2,103,52,38.1,1.1,1,58,0,1,45,1,0.00,1,2,-1,-0.87,-0.33,Matches,fd771f95
+101,Julian Brandt,FWMF,de Germany,26,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,a167537f
+102,Mohammed Al-Breik,DF,sa Saudi Arabia,29,1992,2,65,33,24.1,0.7,1,64,0,1,1,0,1.50,0,1,-1,-1.38,-0.95,Matches,bd448676
+103,Gleison Bremer,DF,br Brazil,25,1997,2,109,55,22.7,1.2,1,90,1,1,19,3,1.50,0,2,-2,-1.65,-3.35,Matches,5fd5ed86
+104,Dylan Bronn,DF,tn Tunisia,26,1995,2,162,81,60.0,1.8,2,81,1,0,,1,0.50,0,1,-1,-0.56,-1.39,Matches,edd81e2a
+105,Marcelo Brozović,MF,hr Croatia,29,1992,6,552,92,80.0,6.1,6,92,4,0,,1,1.17,5,5,0,0.00,-0.65,Matches,33b8d077
+106,Tajon Buchanan,MFFW,ca Canada,23,1999,3,260,87,96.3,2.9,3,87,2,0,,0,0.00,2,7,-5,-1.73,-1.73,Matches,3aca6420
+107,Ante Budimir,FW,hr Croatia,30,1991,2,55,28,8.0,0.6,0,,0,2,28,5,1.00,1,0,+1,+1.64,+1.64,Matches,8f3565b3
+108,Osman Bukari,FWMF,gh Ghana,23,1998,2,59,30,21.9,0.7,0,,0,2,30,1,0.00,1,2,-1,-1.53,-1.10,Matches,eab85789
+109,Ali Al-Bulaihi,DF,sa Saudi Arabia,32,1989,3,216,72,80.0,2.4,3,72,2,0,,0,1.00,2,3,-1,-0.42,+1.25,Matches,8d7b2936
+110,Song Bum-keun,GK,kr Korea Republic,24,1997,0,,,,,0,,0,0,,4,,,,,,,Matches,2455c2d6
+111,Firas Al-Buraikan,FW,sa Saudi Arabia,22,2000,3,268,89,99.3,3.0,3,89,2,0,,0,1.00,3,5,-2,-0.67,-0.67,Matches,ac717a23
+112,Sergio Busquets,MF,es Spain,33,1988,4,363,91,93.1,4.0,4,91,3,0,,0,1.25,6,3,+3,+0.74,-9.26,Matches,5ab0ea87
+113,Ben Cabango,DF,wls Wales,22,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,70723cac
+114,Martín Cáceres,DF,uy Uruguay,35,1987,1,90,90,33.3,1.0,1,90,1,0,,2,1.00,0,0,0,0.00,0.00,Matches,e94d79e3
+115,Moisés Caicedo,MF,ec Ecuador,20,2001,3,269,90,99.6,3.0,3,90,2,0,,0,1.33,4,3,+1,+0.33,+0.33,Matches,16264a81
+116,Francisco Calvo,DF,cr Costa Rica,29,1992,2,180,90,66.7,2.0,2,90,2,0,,0,1.50,1,7,-6,-3.00,-1.00,Matches,706bd23f
+117,Eduardo Camavinga,DF,fr France,19,2002,2,140,70,21.2,1.6,1,90,1,1,50,5,0.50,3,2,+1,+0.64,-0.57,Matches,7b9c2d84
+118,Joel Campbell,MFFW,cr Costa Rica,29,1992,3,269,90,99.6,3.0,3,90,2,0,,0,1.00,3,11,-8,-2.68,-2.68,Matches,895ff3ca
+119,João Cancelo,DF,pt Portugal,28,1994,4,310,78,68.9,3.4,3,90,3,1,40,1,1.50,6,4,+2,+0.58,-1.99,Matches,bd6351cd
+120,Agustín Canobbio,FWMF,uy Uruguay,23,1998,1,11,11,4.1,0.1,0,,0,1,11,2,3.00,0,0,0,0.00,0.00,Matches,4f5a2f38
+121,Yannick Carrasco,MFFW,be Belgium,28,1993,2,116,58,43.0,1.3,2,58,0,0,,1,2.00,1,0,+1,+0.78,+1.94,Matches,de39485a
+122,Cameron Carter-Vickers,DF,us USA,24,1997,1,90,90,25.0,1.0,1,90,1,0,,3,3.00,1,0,+1,+1.00,+1.67,Matches,88ced02c
+123,Dani Carvajal,DF,es Spain,30,1992,2,135,68,34.6,1.5,1,90,1,1,45,2,0.50,1,3,-2,-1.33,-4.16,Matches,4958bfb2
+124,William Carvalho,MF,pt Portugal,30,1992,4,215,54,47.8,2.4,2,86,1,2,22,1,2.25,10,4,+6,+2.51,+2.51,Matches,dee86451
+125,Casemiro,MF,br Brazil,30,1992,4,390,98,81.3,4.3,4,98,4,0,,1,2.50,8,2,+6,+1.38,+2.38,Matches,4d224fe8
+126,Matty Cash,DF,pl Poland,24,1997,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,3,5,-2,-0.50,,Matches,2389cdc2
+127,Timothy Castagne,MFDF,be Belgium,26,1995,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,197640fd
+128,Koen Casteels,GK,be Belgium,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,db401046
+129,Jean-Charles Castelletto,DF,cm Cameroon,27,1995,2,180,90,66.7,2.0,2,90,2,0,,0,0.50,3,4,-1,-0.50,-1.50,Matches,e0f3a1f6
+130,Lucas Cavallini,FW,ca Canada,29,1992,1,19,19,7.0,0.2,0,,0,1,19,2,0.00,0,1,-1,-4.74,-3.30,Matches,dd8de641
+131,Edinson Cavani,FW,uy Uruguay,35,1987,3,124,41,45.9,1.4,1,72,0,2,26,0,1.33,0,1,-1,-0.73,-1.34,Matches,527f063d
+132,Ghaylène Chaalali,MF,tn Tunisia,28,1994,1,17,17,6.3,0.2,0,,0,1,17,2,3.00,0,0,0,0.00,0.00,Matches,fb3f920a
+133,Daniel Chacón,DF,cr Costa Rica,21,2001,1,1,1,0.4,0.0,0,,0,1,1,2,3.00,0,0,0,0.00,+2.68,Matches,065a00d5
+134,Ilias Chair,FWMF,ma Morocco,24,1997,1,45,45,6.8,0.5,0,,0,1,45,6,0.00,0,0,0,0.00,-0.15,Matches,ad7873cb
+135,Kwon Chang-hoon,MF,kr Korea Republic,27,1994,1,56,56,15.6,0.6,1,56,0,0,,3,0.00,0,2,-2,-3.21,-2.92,Matches,7961f7aa
+136,Luis Chávez,MF,mx Mexico,26,1996,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,3,-1,-0.33,,Matches,e50949ea
+137,Walid Cheddira,FW,ma Morocco,24,1998,2,64,32,9.7,0.7,0,,0,2,32,4,2.00,0,0,0,0.00,-0.15,Matches,0545a08e
+138,Rouzbeh Cheshmi,DF,ir IR Iran,28,1993,2,58,29,21.5,0.6,1,45,0,1,13,1,1.50,2,3,-1,-1.55,-0.70,Matches,87c75fb3
+139,Andreas Christensen,DF,dk Denmark,26,1996,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,3,-2,-0.67,,Matches,1cb49278
+140,Oliver Christensen,GK,dk Denmark,23,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,af104654
+141,Hong Chul,DFMF,kr Korea Republic,31,1990,1,45,45,12.5,0.5,0,,0,1,45,3,0.00,1,0,+1,+2.00,+3.14,Matches,c7de2245
+142,José Cifuentes,MF,ec Ecuador,23,1999,2,59,30,21.9,0.7,0,,0,2,30,1,1.50,1,1,0,0.00,-0.43,Matches,8c8c07a7
+143,Pathé Ciss,MF,sn Senegal,28,1994,3,146,49,40.6,1.6,2,60,0,1,27,1,2.00,3,4,-1,-0.62,-0.20,Matches,9a0408b6
+144,Conor Coady,DFMF,eng England,29,1993,0,,,,,0,,0,0,,5,,,,,,,Matches,2928dca2
+145,Sebastián Coates,DF,uy Uruguay,31,1990,2,180,90,66.7,2.0,2,90,2,0,,1,1.50,2,2,0,0.00,0.00,Matches,1fbbfbde
+146,Rubin Colwill,MF,wls Wales,20,2002,1,10,10,3.7,0.1,0,,0,1,10,2,0.00,0,0,0,0.00,+1.73,Matches,f170b63e
+147,Kingsley Coman,FW,fr France,26,1996,6,169,28,25.6,1.9,1,62,0,5,21,1,2.17,5,3,+2,+1.07,-0.03,Matches,042e8a49
+148,Eray Cömert,DF,ch Switzerland,24,1998,2,46,23,12.8,0.5,0,,0,2,23,2,1.50,1,4,-3,-5.87,-5.58,Matches,15937e17
+149,Anthony Contreras,FW,cr Costa Rica,22,2000,3,125,42,46.3,1.4,2,62,0,1,1,0,1.00,0,4,-4,-2.88,-0.40,Matches,d05ca2cc
+150,Andreas Cornelius,FW,dk Denmark,29,1993,3,92,31,34.1,1.0,1,45,0,2,24,0,0.33,0,0,0,0.00,+1.01,Matches,c693347d
+151,Derek Cornelius,DFFW,ca Canada,24,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,577744b8
+152,Ángel Correa,FWMF,ar Argentina,27,1995,1,5,5,0.7,0.1,0,,0,1,5,6,3.00,0,0,0,0.00,-0.92,Matches,01eb744d
+153,Diogo Costa,GK,pt Portugal,22,1999,5,450,90,100.0,5.0,5,90,5,0,,0,1.80,12,6,+6,+1.20,,Matches,93fffbcf
+154,Rodolfo Cota,GK,mx Mexico,34,1987,0,,,,,0,,0,0,,3,,,,,,,Matches,a4a5868e
+155,Thibaut Courtois,GK,be Belgium,30,1992,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,1840e36d
+156,Jason Cummings,FW,au Australia,26,1995,1,35,35,9.7,0.4,0,,0,1,35,3,0.00,0,2,-2,-5.14,-5.14,Matches,e28fbd0e
+157,Aymen Dahmen,GK,tn Tunisia,25,1997,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,1,0,0.00,,Matches,8bf49030
+158,Diogo Dalot,DF,pt Portugal,23,1999,3,258,86,57.3,2.9,3,86,2,0,,2,1.00,7,4,+3,+1.05,-0.36,Matches,d9565625
+159,Mikkel Damsgaard,FW,dk Denmark,21,2000,3,150,50,55.6,1.7,1,72,0,2,39,0,0.33,1,2,-1,-0.60,+0.15,Matches,215f3907
+160,Danilo,DF,br Brazil,30,1991,3,281,94,58.5,3.1,3,94,2,0,,0,2.33,7,1,+6,+1.92,+2.37,Matches,94b2001f
+161,Achraf Dari,DF,ma Morocco,23,1999,3,187,62,28.3,2.1,2,77,1,1,34,4,1.00,1,4,-3,-1.44,-2.20,Matches,5069b796
+162,Jonathan David,FW,ca Canada,22,2000,3,192,64,71.1,2.1,2,81,1,1,31,0,0.00,1,4,-3,-1.41,+0.90,Matches,ce50fd99
+163,Adam Davies,GK,wls Wales,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,71894777
+164,Alphonso Davies,MFFW,ca Canada,21,2000,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,2,7,-5,-1.67,,Matches,d781d855
+165,Ben Davies,DF,wls Wales,29,1993,3,238,79,88.1,2.6,3,79,2,0,,0,0.33,1,5,-4,-1.51,+1.30,Matches,44781702
+166,Nasser Al-Dawsari,DFMF,sa Saudi Arabia,23,1998,1,5,5,1.9,0.1,0,,0,1,5,2,0.00,0,0,0,0.00,+0.68,Matches,7709e4a6
+167,Salem Al-Dawsari,FW,sa Saudi Arabia,30,1991,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,5,-2,-0.67,,Matches,60ee859c
+168,Kevin De Bruyne,FWMF,be Belgium,30,1991,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,e46012d4
+169,Charles De Ketelaere,FWMF,be Belgium,21,2001,1,16,16,5.9,0.2,0,,0,1,16,2,0.00,0,1,-1,-5.63,-5.63,Matches,2ef7c612
+170,Nicolás De La Cruz,MF,uy Uruguay,25,1997,2,38,19,14.1,0.4,0,,0,2,19,1,2.00,0,0,0,0.00,0.00,Matches,8fda5c72
+171,Rodrigo De Paul,MF,ar Argentina,28,1994,7,599,86,86.8,6.7,7,86,4,0,,0,2.00,13,5,+8,+1.20,+2.19,Matches,162efffd
+172,Zeno Debast,DF,be Belgium,18,2003,0,,,,,0,,0,0,,3,,,,,,,Matches,064461b7
+173,Miloš Degenek,DF,au Australia,28,1994,4,183,46,50.8,2.0,2,81,1,2,11,0,1.50,1,2,-1,-0.49,+0.02,Matches,c8e65157
+174,Thomas Delaney,MF,dk Denmark,30,1991,1,44,44,16.3,0.5,1,44,0,0,,0,1.00,0,0,0,0.00,+0.80,Matches,fe641c1a
+175,Ousmane Dembélé,MFFW,fr France,25,1997,7,433,62,65.6,4.8,6,70,0,1,12,0,2.29,11,5,+6,+1.25,+0.45,Matches,b19db005
+176,Leander Dendoncker,DF,be Belgium,27,1995,2,161,81,59.6,1.8,2,81,1,0,,1,2.00,1,0,+1,+0.56,+2.21,Matches,5a7301ae
+177,Thomas Deng,DF,au Australia,25,1997,0,,,,,0,,0,0,,4,,,,,,,Matches,dc9455d9
+178,Sergiño Dest,DF,us USA,21,2000,4,305,76,84.7,3.4,4,76,0,0,,0,1.25,2,2,0,0.00,+1.64,Matches,5976f83e
+179,Cammy Devlin,MF,au Australia,24,1998,0,,,,,0,,0,0,,4,,,,,,,Matches,fd53ed00
+180,Ángel Di María,MFFW,ar Argentina,34,1988,5,288,58,41.7,3.2,4,70,1,1,9,2,1.60,5,2,+3,+0.94,+0.04,Matches,19cda00b
+181,Boulaye Dia,FWMF,sn Senegal,25,1996,4,318,80,88.3,3.5,4,80,1,0,,0,1.50,5,5,0,0.00,+4.29,Matches,244bc2c8
+182,Abdou Diallo,DF,sn Senegal,26,1996,4,331,83,91.9,3.7,4,83,3,0,,0,1.50,5,5,0,0.00,+6.21,Matches,fc62f087
+183,Rúben Dias,DF,pt Portugal,25,1997,4,360,90,80.0,4.0,4,90,4,0,,1,2.25,11,4,+7,+1.75,+2.75,Matches,31c69ef1
+184,Krépin Diatta,MFFW,sn Senegal,23,1999,3,181,60,50.3,2.0,3,60,0,0,,1,1.00,2,2,0,0.00,+1.01,Matches,8104e41e
+185,Famara Diedhiou,FW,sn Senegal,29,1992,2,92,46,25.6,1.0,1,73,0,1,19,2,1.50,2,0,+2,+1.96,+3.30,Matches,e447352c
+186,Bamba Dieng,FW,sn Senegal,22,2000,4,100,25,27.8,1.1,0,,0,4,25,0,1.50,1,4,-3,-2.70,-3.05,Matches,40774c6b
+187,Seny Dieng,GK,sn Senegal,27,1994,0,,,,,0,,0,0,,4,,,,,,,Matches,c135cddd
+188,Eric Dier,DFMF,eng England,28,1994,2,36,18,8.0,0.4,0,,0,2,18,3,3.00,2,1,+1,+2.50,+0.76,Matches,ac861941
+189,Axel Disasi,DF,fr France,24,1998,3,92,31,13.9,1.0,1,90,1,2,1,4,1.33,0,2,-2,-1.96,-3.54,Matches,ad82197c
+190,Alexander Djiku,DF,gh Ghana,27,1994,2,97,49,35.9,1.1,1,89,0,1,8,1,1.50,2,3,-1,-0.93,-0.41,Matches,43e7a164
+191,Marko Dmitrović,GK,rs Serbia,30,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,ac295d9e
+192,Ritsu Doan,MFFW,jp Japan,23,1998,4,217,54,55.6,2.4,2,76,0,2,33,0,1.75,5,1,+4,+1.66,+3.22,Matches,d01bbb6f
+193,Jeremy Doku,FWMF,be Belgium,20,2002,1,19,19,7.0,0.2,0,,0,1,19,2,1.00,0,0,0,0.00,+0.36,Matches,fffea3e5
+194,Kasper Dolberg,FW,dk Denmark,24,1997,3,114,38,42.2,1.3,1,64,0,2,25,0,0.33,0,2,-2,-1.58,-1.58,Matches,cc83b74d
+195,Alexander Domínguez,GK,ec Ecuador,35,1987,0,,,,,0,,0,0,,3,,,,,,,Matches,84c22fa0
+196,Mohamed Dräger,MF,tn Tunisia,25,1996,2,132,66,48.9,1.5,2,66,0,0,,1,0.50,0,1,-1,-0.68,-1.33,Matches,8954fddc
+197,Óscar Duarte,DF,cr Costa Rica,33,1989,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,11,-8,-2.67,,Matches,aa0ac32d
+198,Mitchell Duke,FW,au Australia,31,1991,4,270,68,75.0,3.0,4,68,0,0,,0,1.50,3,4,-1,-0.33,+0.67,Matches,293f5bf9
+199,Denzel Dumfries,MF,nl Netherlands,26,1996,5,479,96,99.8,5.3,5,96,4,0,,0,2.20,10,4,+6,+1.13,+1.13,Matches,481c9ece
+200,Paulo Dybala,FWMF,ar Argentina,28,1993,2,18,9,2.6,0.2,0,,0,2,9,5,2.00,0,0,0,0.00,-0.94,Matches,e0921a4f
+201,Enzo Ebosse,DF,cm Cameroon,23,1999,1,90,90,33.3,1.0,1,90,1,0,,2,3.00,1,0,+1,+1.00,+1.50,Matches,9ba7b4fa
+202,Nico Elvedi,DF,ch Switzerland,25,1996,2,180,90,50.0,2.0,2,90,2,0,,1,1.50,1,1,0,0.00,+2.00,Matches,48035304
+203,Breel Embolo,FW,ch Switzerland,25,1997,4,323,81,89.7,3.6,4,81,0,0,,0,1.50,5,7,-2,-0.56,+4.31,Matches,0b4f388a
+204,Youssef En-Nesyri,FW,ma Morocco,25,1997,7,542,77,82.1,6.0,7,77,2,0,,0,1.57,5,4,+1,+0.17,+0.17,Matches,04e17fd5
+205,Wataru Endo,MF,jp Japan,29,1993,4,304,76,77.9,3.4,3,100,3,1,4,0,1.75,3,3,0,0.00,-1.05,Matches,c149016b
+206,Devis Epassy,GK,cm Cameroon,29,1993,2,180,90,66.7,2.0,2,90,2,0,,1,2.00,4,3,+1,+0.50,+1.50,Matches,e171b085
+207,Strahinja Eraković,DF,rs Serbia,21,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,ea770abf
+208,Christian Eriksen,MF,dk Denmark,30,1992,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,3,-2,-0.67,,Matches,980522ec
+209,Martin Erlić,DF,hr Croatia,24,1998,0,,,,,0,,0,0,,7,,,,,,,Matches,0fee6bda
+210,Michael Estrada,FW,ec Ecuador,26,1996,3,225,75,83.3,2.5,3,75,0,0,,0,1.33,3,2,+1,+0.40,+0.40,Matches,773f5f12
+211,Pervis Estupiñán,DFMF,ec Ecuador,24,1998,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,3,+1,+0.33,,Matches,d38fdf53
+212,Stephen Eustáquio,MF,ca Canada,25,1996,2,125,63,46.3,1.4,2,63,0,0,,1,0.00,1,3,-2,-1.44,+0.42,Matches,577efaec
+213,Saeid Ezatolahi,MF,ir IR Iran,25,1996,3,217,72,80.4,2.4,2,86,1,1,45,0,1.00,2,4,-2,-0.83,+0.87,Matches,314d95ac
+214,Abde Ezzalzouli,FWMF,ma Morocco,20,2001,3,93,31,14.1,1.0,0,,0,3,31,4,0.67,0,1,-1,-0.97,-1.29,Matches,bed68338
+215,Fabinho,MF,br Brazil,28,1993,1,90,90,18.8,1.0,1,90,1,0,,4,0.00,0,1,-1,-1.00,-2.38,Matches,7f3b388c
+216,Wout Faes,DF,be Belgium,24,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,9c221d14
+217,Collins Fai,DF,cm Cameroon,29,1992,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,4,0,0.00,,Matches,46e58246
+218,Salman Al-Faraj,MF,sa Saudi Arabia,32,1989,1,44,44,16.3,0.5,1,44,0,0,,0,3.00,0,1,-1,-2.05,-1.65,Matches,df145034
+219,Christian Fassnacht,FWMF,ch Switzerland,28,1993,1,8,8,2.2,0.1,0,,0,1,8,3,3.00,0,0,0,0.00,+1.02,Matches,0aeeed3f
+220,Abdul Fatawu Issahaku,FWMF,gh Ghana,18,2004,1,1,1,0.4,0.0,0,,0,1,1,2,0.00,0,0,0,0.00,+0.67,Matches,bceda5ff
+221,Ansu Fati,FWMF,es Spain,19,2002,2,46,23,11.8,0.5,0,,0,2,23,2,0.50,0,0,0,0.00,-1.57,Matches,0ba976e4
+222,João Félix,FW,pt Portugal,22,1999,4,331,83,73.6,3.7,4,83,1,0,,1,2.25,9,3,+6,+1.63,+1.63,Matches,8aafd64f
+223,Bruno Fernandes,FW,pt Portugal,27,1994,4,356,89,79.1,4.0,4,89,3,0,,1,2.25,10,4,+6,+1.52,+1.52,Matches,507c7bdf
+224,Edimilson Fernandes,MF,ch Switzerland,26,1996,3,145,48,40.3,1.6,1,90,1,2,28,1,1.00,1,7,-6,-3.72,-4.56,Matches,3bb625ac
+225,Enzo Fernández,MF,ar Argentina,21,2001,7,564,81,81.7,6.3,5,100,4,2,33,0,2.00,14,6,+8,+1.28,+1.99,Matches,5ff4ab71
+226,Jesús Ferreira,FW,us USA,21,2000,1,45,45,12.5,0.5,1,45,0,0,,3,0.00,0,2,-2,-4.00,-4.29,Matches,f61246d8
+227,Phil Foden,FWMF,eng England,22,2000,4,258,65,57.3,2.9,3,79,1,1,20,1,2.25,8,3,+5,+1.74,-0.13,Matches,ed1e53f3
+228,Youssouf Fofana,MF,fr France,23,1999,6,227,38,34.4,2.5,2,81,1,4,16,1,2.17,5,3,+2,+0.79,-0.45,Matches,822d51d7
+229,Juan Foyth,DF,ar Argentina,24,1998,1,5,5,0.7,0.1,0,,0,1,5,6,3.00,0,0,0,0.00,-0.92,Matches,6c7762c3
+230,Alan Franco,MF,ec Ecuador,23,1998,2,46,23,17.0,0.5,1,45,0,1,1,1,1.50,0,1,-1,-1.96,-2.76,Matches,c76b161b
+231,Przemysław Frankowski,MF,pl Poland,27,1995,4,240,60,66.7,2.7,3,74,1,1,19,0,1.00,2,3,-1,-0.37,+0.38,Matches,00a8d210
+232,Liam Fraser,MF,ca Canada,24,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,d784062b
+233,Fred,MF,br Brazil,29,1993,4,142,36,29.6,1.6,2,56,0,2,16,1,1.75,0,1,-1,-0.63,-2.23,Matches,b853e0ad
+234,Fabian Frei,DFMF,ch Switzerland,33,1989,2,25,13,6.9,0.3,0,,0,2,13,2,1.50,0,0,0,0.00,+1.07,Matches,9fb640a8
+235,Remo Freuler,MF,ch Switzerland,30,1992,4,323,81,89.7,3.6,4,81,3,0,,0,1.50,4,6,-2,-0.56,+4.31,Matches,98d2c2c4
+236,Jeremie Frimpong,DFMF,nl Netherlands,21,2000,0,,,,,0,,0,0,,5,,,,,,,Matches,74f2e748
+237,Keysher Fuller,DFMF,cr Costa Rica,27,1994,3,253,84,93.7,2.8,3,84,2,0,,0,1.00,3,9,-6,-2.13,+8.45,Matches,78019e88
+238,Niclas Füllkrug,FW,de Germany,29,1993,3,69,23,25.6,0.8,0,,0,3,23,0,1.33,4,3,+1,+1.30,+1.30,Matches,4f16405e
+239,Rogelio Funes Mori,FW,mx Mexico,31,1991,1,5,5,1.9,0.1,0,,0,1,5,2,3.00,0,1,-1,-18.00,-18.00,Matches,bf9a2406
+240,Jassem Gaber,MF,qa Qatar,20,2002,0,,,,,0,,0,0,,3,,,,,,,Matches,af9ef8aa
+241,Cody Gakpo,FWMF,nl Netherlands,23,1999,5,450,90,93.8,5.0,5,90,0,0,,0,2.20,9,4,+5,+1.00,-2.00,Matches,1971591f
+242,Hernán Galíndez,GK,ec Ecuador,35,1987,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,3,+1,+0.33,,Matches,89c136f6
+243,Conor Gallagher,MF,eng England,22,2000,0,,,,,0,,0,0,,5,,,,,,,Matches,c2731c10
+244,Jesús Gallardo,DF,mx Mexico,27,1994,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,3,-1,-0.33,,Matches,d0846b6c
+245,Eric García,DFMF,es Spain,21,2001,0,,,,,0,,0,0,,4,,,,,,,Matches,2bed3eab
+246,Gavi,MF,es Spain,17,2004,4,284,71,72.8,3.2,4,71,1,0,,0,1.25,9,2,+7,+2.22,+3.07,Matches,19cae58d
+247,Sultan Al-Ghanam,DF,sa Saudi Arabia,28,1994,3,126,42,46.7,1.4,1,87,0,2,20,0,1.00,0,3,-3,-2.14,-2.77,Matches,0ea89f8d
+248,Nader Ghandri,DF,tn Tunisia,27,1995,1,90,90,33.3,1.0,1,90,1,0,,2,3.00,1,0,+1,+1.00,+1.50,Matches,7f1c7219
+249,Saman Ghoddos,FWMF,ir IR Iran,28,1993,1,45,45,16.7,0.5,0,,0,1,45,2,0.00,0,0,0,0.00,+1.20,Matches,f7b1d4e0
+250,Ali Gholizadeh,MFFW,ir IR Iran,26,1996,3,199,66,73.7,2.2,2,77,0,1,45,0,1.00,2,4,-2,-0.90,+0.36,Matches,9fc0ac41
+251,Matthias Ginter,DFMF,de Germany,28,1994,1,1,1,0.4,0.0,0,,0,1,1,2,3.00,0,0,0,0.00,-0.33,Matches,f521b80a
+252,Olivier Giroud,FW,fr France,35,1986,6,419,70,63.5,4.7,6,70,1,0,,1,2.67,10,4,+6,+1.29,+0.54,Matches,16ceb862
+253,Kamil Glik,DF,pl Poland,34,1988,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,3,5,-2,-0.50,,Matches,c6056d58
+254,Serge Gnabry,MF,de Germany,26,1995,3,263,88,97.4,2.9,3,88,1,0,,0,1.33,6,5,+1,+0.34,+0.34,Matches,88e357ef
+255,Diego Godín,DF,uy Uruguay,36,1986,2,151,76,55.9,1.7,2,76,1,0,,1,0.50,0,1,-1,-0.60,-1.35,Matches,fc4f85b1
+256,Maxi Gómez,FW,uy Uruguay,25,1996,2,30,15,11.1,0.3,0,,0,2,15,1,1.50,0,1,-1,-3.00,-3.37,Matches,4c2e9442
+257,Papu Gómez,MFFW,ar Argentina,34,1988,2,107,54,15.5,1.2,2,54,0,0,,4,1.50,2,2,0,0.00,-1.08,Matches,6e4df551
+258,Alfred Gomis,GK,sn Senegal,28,1993,0,,,,,0,,0,0,,4,,,,,,,Matches,cecbce23
+259,Shūichi Gonda,GK,jp Japan,33,1989,4,390,98,100.0,4.3,4,98,4,0,,0,1.75,5,4,+1,+0.23,,Matches,d8e5492f
+260,Craig Goodwin,MF,au Australia,30,1991,4,234,59,65.0,2.6,3,67,0,1,33,0,1.50,3,4,-1,-0.38,+0.33,Matches,b2741e3d
+261,Leon Goretzka,MF,de Germany,27,1995,3,159,53,58.9,1.8,2,68,1,1,24,0,1.33,2,3,-1,-0.57,-2.19,Matches,cc86b9a3
+262,Mario Götze,FWMF,de Germany,30,1992,2,36,18,13.3,0.4,0,,0,2,18,1,1.50,3,2,+1,+2.50,+2.50,Matches,9efa1d25
+263,Kamil Grabara,GK,pl Poland,23,1999,0,,,,,0,,0,0,,4,,,,,,,Matches,62182b1d
+264,Ivo Grbić,GK,hr Croatia,26,1996,0,,,,,0,,0,0,,7,,,,,,,Matches,3f034750
+265,Jack Grealish,FWMF,eng England,26,1995,5,86,17,19.1,1.0,0,,0,5,17,0,2.00,1,1,0,0.00,-2.23,Matches,b0b4fd3e
+266,Antoine Griezmann,MF,fr France,31,1991,7,537,77,81.4,6.0,6,87,4,1,18,0,2.29,13,6,+7,+1.17,+0.44,Matches,df69b544
+267,Kamil Grosicki,FWMF,pl Poland,34,1988,1,4,4,1.1,0.0,0,,0,1,4,3,0.00,1,1,0,0.00,+0.51,Matches,81d8091f
+268,Carlos Gruezo,MF,ec Ecuador,27,1995,1,45,45,16.7,0.5,1,45,0,0,,2,0.00,0,1,-1,-2.00,-2.80,Matches,f2dd9a21
+269,Marko Grujić,MF,rs Serbia,26,1996,1,13,13,4.8,0.1,0,,0,1,13,2,1.00,0,0,0,0.00,+1.05,Matches,8b8e759d
+270,Andrés Guardado,MF,mx Mexico,35,1986,1,41,41,15.2,0.5,1,41,0,0,,2,0.00,0,0,0,0.00,+0.39,Matches,ef322658
+271,Nemanja Gudelj,MF,rs Serbia,30,1991,2,92,46,34.1,1.0,1,56,0,1,36,1,0.00,0,0,0,0.00,+1.52,Matches,0076ab7f
+272,Cho Gue-sung,FW,kr Korea Republic,24,1998,4,275,69,76.4,3.1,3,86,1,1,17,0,1.00,4,8,-4,-1.31,-2.37,Matches,ccfa8e5e
+273,Mattéo Guendouzi,FW,fr France,23,1999,1,78,78,11.8,0.9,1,78,0,0,,6,0.00,0,1,-1,-1.15,-2.55,Matches,5ea8ef20
+274,Raphaël Guerreiro,DF,pt Portugal,28,1993,4,279,70,62.0,3.1,3,77,2,1,49,1,2.25,11,4,+7,+2.26,+2.78,Matches,048a1cbc
+275,Idrissa Gueye,MF,sn Senegal,32,1989,3,270,90,75.0,3.0,3,90,3,0,,0,2.00,5,4,+1,+0.33,+3.33,Matches,72c812f3
+276,Pape Gueye,MF,sn Senegal,23,1999,3,153,51,42.5,1.7,1,90,1,2,32,1,1.00,2,4,-2,-1.18,-1.18,Matches,7155e3e1
+277,Hugo Guillamón,DFMF,es Spain,22,2000,0,,,,,0,,0,0,,4,,,,,,,Matches,f7c12fbf
+278,Bruno Guimarães,MF,br Brazil,24,1997,2,69,35,14.4,0.8,0,,0,2,35,3,1.50,1,1,0,0.00,-1.09,Matches,82518f62
+279,Robert Gumny,DF,pl Poland,24,1998,0,,,,,0,,0,0,,4,,,,,,,Matches,1df0c0b9
+280,İlkay Gündoğan,MF,de Germany,31,1990,3,189,63,70.0,2.1,3,63,0,0,,0,1.33,2,1,+1,+0.48,+0.48,Matches,819b3158
+281,Chris Gunter,DFMF,wls Wales,32,1989,0,,,,,0,,0,0,,3,,,,,,,Matches,303a53e1
+282,Christian Günter,DFMF,de Germany,29,1993,0,,,,,0,,0,0,,3,,,,,,,Matches,8593f88c
+283,Erick Gutiérrez,MF,mx Mexico,26,1995,1,49,49,18.1,0.5,0,,0,1,49,2,0.00,0,2,-2,-3.67,-4.08,Matches,c7842dab
+284,Joško Gvardiol,DF,hr Croatia,20,2002,7,690,99,100.0,7.7,7,99,7,0,,0,1.43,8,7,+1,+0.13,,Matches,5ad50391
+285,Naif Al-Hadhrami,MF,qa Qatar,20,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,2398ba7d
+286,Asiri Haitham,FW,sa Saudi Arabia,21,2001,1,2,2,0.7,0.0,0,,0,1,2,2,3.00,0,0,0,0.00,+0.67,Matches,9c08d5cd
+287,Salem Al-Hajri,MF,qa Qatar,26,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,d0d5bc2e
+288,Ehsan Hajsafi,MF,ir IR Iran,32,1990,3,237,79,87.8,2.6,3,79,1,0,,0,1.00,2,7,-5,-1.90,-7.35,Matches,b060e3b8
+289,Achraf Hakimi,DF,ma Morocco,23,1998,7,631,90,95.6,7.0,7,90,5,0,,0,1.57,4,5,-1,-0.14,-6.35,Matches,e42d61c7
+290,Abderrazak Hamdallah,FW,ma Morocco,31,1990,4,68,17,10.3,0.8,0,,0,4,17,3,1.75,1,1,0,0.00,-0.15,Matches,fe73f8c6
+291,Mark Harris,FW,wls Wales,23,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,fcc02804
+292,Abdelkarim Hassan,DF,qa Qatar,28,1993,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,1,7,-6,-2.00,,Matches,7380bccf
+293,Ali Al Hassan,MF,sa Saudi Arabia,25,1997,1,45,45,16.7,0.5,1,45,0,0,,2,0.00,0,0,0,0.00,+0.80,Matches,68b689fa
+294,Yousef Hassan,GK,qa Qatar,26,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,a7657823
+295,Mouez Hassen,GK,tn Tunisia,27,1995,0,,,,,0,,0,0,,3,,,,,,,Matches,fd481f3f
+296,Abdulaziz Hatem,MF,qa Qatar,32,1990,3,196,65,72.6,2.2,2,87,1,1,22,0,0.00,1,5,-4,-1.84,+0.60,Matches,c5065ef8
+297,Kai Havertz,FW,de Germany,23,1999,2,102,51,37.8,1.1,1,78,0,1,24,1,1.50,4,2,+2,+1.76,+2.30,Matches,fed7cb61
+298,Hassan Al-Haydos,MF,qa Qatar,31,1990,3,206,69,76.3,2.3,3,69,0,0,,0,0.00,0,6,-6,-2.62,-2.62,Matches,41bd6c64
+299,Eden Hazard,FW,be Belgium,31,1991,3,124,41,45.9,1.4,2,60,0,1,4,0,1.33,1,0,+1,+0.73,+1.96,Matches,a39bb753
+300,Thorgan Hazard,MF,be Belgium,29,1993,2,106,53,39.3,1.2,1,74,0,1,32,1,0.50,0,1,-1,-0.85,-0.85,Matches,50871bcc
+301,Hwang Hee-chan,MF,kr Korea Republic,26,1996,2,115,58,31.9,1.3,1,90,1,1,25,2,1.50,2,4,-2,-1.57,-1.20,Matches,169fd162
+302,Jordan Henderson,MF,eng England,31,1990,4,271,68,60.2,3.0,3,83,1,1,22,1,1.75,7,2,+5,+1.66,-0.35,Matches,935e6b8f
+303,Wayne Hennessey,GK,wls Wales,35,1987,2,175,88,64.8,1.9,2,88,1,0,,0,0.50,1,1,0,0.00,+4.74,Matches,76eca7e2
+304,Anthony Hernández,FW,cr Costa Rica,20,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,f2dfa4fe
+305,Lucas Hernández,DF,fr France,26,1996,1,12,12,1.8,0.1,1,12,0,0,,0,3.00,0,1,-1,-7.50,-8.75,Matches,c3ee18ef
+306,Theo Hernández,DF,fr France,24,1997,6,508,85,77.0,5.6,5,86,4,1,78,1,2.67,13,5,+8,+1.42,+1.42,Matches,d4c9725f
+307,Héctor Herrera,MF,mx Mexico,32,1990,2,160,80,59.3,1.8,2,80,1,0,,1,0.50,0,2,-2,-1.13,-1.94,Matches,a8542814
+308,Son Heung-min,MFFW,kr Korea Republic,29,1992,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,5,8,-3,-0.75,,Matches,92e7e919
+309,Piero Hincapié,DF,ec Ecuador,20,2002,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,3,+1,+0.33,,Matches,0c7a48f8
+310,Jonas Hofmann,MF,de Germany,29,1992,2,30,15,11.1,0.3,0,,0,2,15,1,0.50,0,2,-2,-6.00,-7.12,Matches,2903a856
+311,Junior Hoilett,MF,ca Canada,32,1990,3,161,54,59.6,1.8,2,66,0,1,29,0,0.00,1,5,-4,-2.24,-1.41,Matches,33af5b9e
+312,Martin Hongla,MF,cm Cameroon,24,1998,2,121,61,44.8,1.3,2,61,0,0,,0,0.50,1,4,-3,-2.23,-4.04,Matches,b85bf253
+313,Ricardo Horta,FW,pt Portugal,27,1994,3,119,40,26.4,1.3,1,90,1,2,15,2,1.00,2,2,0,0.00,-1.63,Matches,6603fed7
+314,Ethan Horvath,GK,us USA,27,1995,0,,,,,0,,0,0,,4,,,,,,,Matches,3f65d5ce
+315,Hossein Hosseini,GK,ir IR Iran,29,1992,2,161,81,59.6,1.8,1,90,1,1,71,1,1.50,4,6,-2,-1.12,-0.29,Matches,fb24817c
+316,Majid Hosseini,DF,ir IR Iran,25,1996,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,4,7,-3,-1.00,,Matches,d2161bae
+317,Ajdin Hrustic,MF,au Australia,25,1996,3,62,21,17.2,0.7,0,,0,3,21,1,2.00,1,0,+1,+1.45,+2.36,Matches,1f2d714c
+318,Atiba Hutchinson,MF,ca Canada,39,1983,3,159,53,58.9,1.8,2,64,0,1,31,0,0.00,1,4,-3,-1.70,-0.08,Matches,f1b55719
+319,Jo Hyeon-woo,GK,kr Korea Republic,30,1991,0,,,,,0,,0,0,,4,,,,,,,Matches,c75a3145
+320,Pierre Højbjerg,MF,dk Denmark,26,1995,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,3,-2,-0.67,,Matches,8b04d6c1
+321,Romario Ibarra,MF,ec Ecuador,27,1994,2,68,34,25.2,0.8,1,67,0,1,1,1,2.00,2,0,+2,+2.65,+3.09,Matches,b494ccf5
+322,Danlad Ibrahim,GK,gh Ghana,19,2002,0,,,,,0,,0,0,,3,,,,,,,Matches,e6515995
+323,Bilel Ifa,DF,tn Tunisia,32,1990,0,,,,,0,,0,0,,3,,,,,,,Matches,ddd1a27c
+324,Ivan Ilić,MF,rs Serbia,21,2001,1,34,34,12.6,0.4,0,,0,1,34,2,0.00,0,2,-2,-5.29,-4.91,Matches,bb376bed
+325,Hwang In-beom,MF,kr Korea Republic,25,1996,4,334,84,92.8,3.7,4,84,3,0,,0,1.00,4,8,-4,-1.08,-4.54,Matches,92fa5d28
+326,Jackson Irvine,MFFW,au Australia,29,1993,4,354,89,98.3,3.9,4,89,3,0,,0,1.50,4,6,-2,-0.51,-0.51,Matches,4637747c
+327,Ko Itakura,DF,jp Japan,25,1997,3,270,90,69.2,3.0,3,90,3,0,,0,2.00,4,3,+1,+0.33,+0.33,Matches,97d545ae
+328,Hiroki Ito,DF,jp Japan,23,1999,1,45,45,11.5,0.5,0,,0,1,45,3,0.00,0,1,-1,-2.00,-2.52,Matches,204dded0
+329,Junya Itō,MF,jp Japan,29,1993,4,324,81,83.1,3.6,3,100,3,1,24,0,1.75,5,4,+1,+0.28,+0.28,Matches,dbd3a428
+330,Ivica Ivušić,GK,hr Croatia,27,1995,0,,,,,0,,0,0,,7,,,,,,,Matches,6d0a2817
+331,Yahya Jabrane,MF,ma Morocco,30,1991,2,15,8,2.3,0.2,0,,0,2,8,5,3.00,0,0,0,0.00,-0.14,Matches,143efbd5
+332,Nicolas Jackson,FW,sn Senegal,20,2001,1,17,17,4.7,0.2,0,,0,1,17,3,0.00,0,2,-2,-10.59,-10.59,Matches,9c36ed83
+333,Lee Jae-sung,MFFW,kr Korea Republic,29,1992,3,211,70,58.6,2.3,3,70,0,0,,1,1.33,1,5,-4,-1.71,-2.31,Matches,34b0387f
+334,Alireza Jahanbakhsh,MF,ir IR Iran,28,1993,2,59,30,21.9,0.7,1,45,0,1,14,0,1.50,2,3,-1,-1.53,-0.67,Matches,08452314
+335,Kristijan Jakić,DFMF,hr Croatia,25,1997,1,1,1,0.1,0.0,0,,0,1,1,6,3.00,0,0,0,0.00,-0.13,Matches,a8ee54ad
+336,Ismail Jakobs,DF,sn Senegal,22,1999,4,278,70,77.2,3.1,3,83,1,1,29,0,1.50,4,6,-2,-0.65,-0.65,Matches,a0415710
+337,Abolfazl Jalali,DF,ir IR Iran,23,1998,1,19,19,7.0,0.2,0,,0,1,19,2,0.00,0,0,0,0.00,+1.08,Matches,d932eeee
+338,Daniel James,MFFW,wls Wales,24,1997,3,154,51,57.0,1.7,2,61,0,1,33,0,0.33,0,6,-6,-3.51,-4.28,Matches,c931d9f9
+339,Vincent Janssen,FW,nl Netherlands,27,1994,2,86,43,17.9,1.0,1,61,0,1,25,3,3.00,0,0,0,0.00,-1.37,Matches,31dce0c8
+340,Ardon Jashari,MF,ch Switzerland,19,2002,1,2,2,0.6,0.0,0,,0,1,2,3,0.00,0,1,-1,-45.00,-44.25,Matches,889588db
+341,Seifeddine Jaziri,FW,tn Tunisia,29,1993,0,,,,,0,,0,0,,3,,,,,,,Matches,712bae97
+342,Issam Jebali,FW,tn Tunisia,30,1991,3,182,61,67.4,2.0,2,76,0,1,31,0,1.33,0,1,-1,-0.49,-1.52,Matches,4b751020
+343,Artur Jędrzejczyk,DF,pl Poland,34,1987,1,19,19,5.3,0.2,0,,0,1,19,3,0.00,0,0,0,0.00,+0.53,Matches,d1943c8b
+344,Mathias Jensen,MF,dk Denmark,26,1996,2,84,42,31.1,0.9,1,58,0,1,26,1,0.50,0,0,0,0.00,+0.97,Matches,0f134faf
+345,Gabriel Jesus,FW,br Brazil,25,1997,3,93,31,19.4,1.0,1,63,0,2,15,0,2.00,1,0,+1,+0.97,+0.04,Matches,b66315ae
+346,Raúl Jiménez,FW,mx Mexico,31,1991,3,59,20,21.9,0.7,0,,0,3,20,0,1.33,0,2,-2,-3.05,-3.48,Matches,b561db50
+347,Kim Jin-su,DF,kr Korea Republic,30,1992,4,315,79,87.5,3.5,4,79,3,0,,0,1.00,4,8,-4,-1.14,-3.14,Matches,8e6ff136
+348,Brennan Johnson,FWMF,wls Wales,21,2001,3,91,30,33.7,1.0,0,,0,3,30,0,0.33,1,5,-4,-3.96,-3.45,Matches,0cd31129
+349,Sean Johnson,GK,us USA,33,1989,0,,,,,0,,0,0,,4,,,,,,,Matches,c164335e
+350,Alistair Johnston,DF,ca Canada,23,1998,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,2,7,-5,-1.67,,Matches,4fb17e20
+351,Frenkie de Jong,MF,nl Netherlands,25,1997,5,475,95,99.0,5.3,5,95,4,0,,0,2.20,10,4,+6,+1.14,+1.14,Matches,1bacc518
+352,Luuk de Jong,FW,nl Netherlands,31,1990,1,57,57,11.9,0.6,0,,0,1,57,4,1.00,2,1,+1,+1.58,+0.52,Matches,abb3bb95
+353,Yoon Jong-gyu,DFMF,kr Korea Republic,24,1998,0,,,,,0,,0,0,,4,,,,,,,Matches,5b6af1ad
+354,Luka Jović,FW,rs Serbia,24,1997,1,36,36,13.3,0.4,0,,0,1,36,1,0.50,3,3,0,0.00,+1.15,Matches,4d8cd038
+355,Son Jun-ho,MF,kr Korea Republic,30,1992,3,72,24,20.0,0.8,0,,0,3,24,1,1.33,2,0,+2,+2.50,+4.06,Matches,f7c7ba0d
+356,Vinicius Júnior,FWMF,br Brazil,21,2000,4,299,75,62.3,3.3,4,75,1,0,,1,2.50,7,0,+7,+2.11,+3.10,Matches,7111d552
+357,Josip Juranović,DF,hr Croatia,26,1995,6,600,100,87.0,6.7,6,100,6,0,,1,1.17,6,6,0,0.00,-1.00,Matches,0a084b35
+358,Daichi Kamada,MFFW,jp Japan,25,1996,4,322,81,82.6,3.6,4,81,2,0,,0,1.75,5,4,+1,+0.28,+0.28,Matches,15b287da
+359,Jakub Kamiński,MF,pl Poland,20,2002,4,233,58,64.7,2.6,2,80,1,2,37,0,1.00,1,2,-1,-0.39,+0.32,Matches,202b3b68
+360,Hossein Kanaanizadegan,DF,ir IR Iran,28,1994,1,45,45,16.7,0.5,0,,0,1,45,1,0.00,2,4,-2,-4.00,-3.60,Matches,24353c25
+361,Harry Kane,FW,eng England,28,1993,5,402,80,89.3,4.5,5,80,3,0,,0,2.00,11,3,+8,+1.79,-0.08,Matches,21a66f6a
+362,Lee Kang-in,MF,kr Korea Republic,21,2001,4,147,37,40.8,1.6,1,80,0,3,22,0,1.00,4,2,+2,+1.22,+3.34,Matches,8455ad90
+363,Mohamed Kanno,MF,sa Saudi Arabia,27,1994,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,5,-2,-0.67,,Matches,74ccf212
+364,Fran Karačić,DF,au Australia,26,1996,2,93,47,25.8,1.0,1,74,0,1,19,2,1.50,2,0,+2,+1.94,+3.28,Matches,e2f8c69c
+365,Ali Karimi,MF,ir IR Iran,28,1994,3,99,33,36.7,1.1,1,45,0,2,27,0,1.00,2,3,-1,-0.91,+0.14,Matches,3840bfb9
+366,Eiji Kawashima,GK,jp Japan,39,1983,0,,,,,0,,0,0,,4,,,,,,,Matches,a4527d33
+367,Mark-Anthony Kaye,MF,ca Canada,27,1994,1,59,59,21.9,0.7,1,59,0,0,,2,0.00,1,2,-1,-1.53,+0.18,Matches,36a38acd
+368,Wajdi Kechrida,MF,tn Tunisia,26,1995,3,111,37,41.1,1.2,1,90,1,2,11,0,1.33,1,0,+1,+0.81,+1.38,Matches,11962fe7
+369,Thilo Kehrer,DF,de Germany,25,1996,1,69,69,25.6,0.8,1,69,0,0,,2,1.00,0,1,-1,-1.30,-2.20,Matches,51dbeea9
+370,Shoja' Khalilzadeh,DF,ir IR Iran,33,1989,0,,,,,0,,0,0,,3,,,,,,,Matches,0aed29f1
+371,Bilal El Khannouss,MF,ma Morocco,18,2004,1,55,55,8.3,0.6,1,55,0,0,,6,0.00,1,2,-1,-1.64,-1.93,Matches,f7042636
+372,Wahbi Khazri,FW,tn Tunisia,31,1991,2,83,42,30.7,0.9,1,59,0,1,24,1,1.50,1,0,+1,+1.08,+1.57,Matches,2677a1de
+373,Musab Kheder,DF,qa Qatar,28,1993,1,6,6,2.2,0.1,0,,0,1,6,2,0.00,0,0,0,0.00,+2.05,Matches,d9261523
+374,Boualem Khoukhi,DF,qa Qatar,31,1990,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,1,7,-6,-2.00,,Matches,7be5ad52
+375,Joshua Kimmich,MFDF,de Germany,27,1995,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,6,5,+1,+0.33,,Matches,49296448
+376,Joel King,DF,au Australia,21,2000,0,,,,,0,,0,0,,4,,,,,,,Matches,33803829
+377,Jakub Kiwior,DF,pl Poland,22,2000,4,355,89,98.6,3.9,4,89,3,0,,0,1.00,2,4,-2,-0.51,-0.51,Matches,dc3e663e
+378,Simon Kjær,DF,dk Denmark,33,1989,1,64,64,23.7,0.7,1,64,0,0,,2,1.00,0,0,0,0.00,+0.87,Matches,8b8a56ce
+379,Davy Klaassen,MF,nl Netherlands,29,1993,4,190,48,39.6,2.1,3,59,0,1,12,1,2.50,7,1,+6,+2.84,+2.84,Matches,15fd5593
+380,Lukas Klostermann,DFMF,de Germany,26,1996,2,66,33,24.4,0.7,0,,0,2,33,1,2.00,4,2,+2,+2.73,+3.17,Matches,ca8033cb
+381,Gregor Kobel,GK,ch Switzerland,24,1997,1,90,90,25.0,1.0,1,90,1,0,,3,3.00,3,2,+1,+1.00,+2.67,Matches,cd59b9df
+382,Philipp Köhn,GK,ch Switzerland,24,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,ff74841d
+383,Koke,MF,es Spain,30,1992,2,52,26,13.3,0.6,0,,0,2,26,2,2.00,3,1,+2,+3.46,+2.40,Matches,55126f3b
+384,Randal Kolo Muani,FW,fr France,23,1998,3,182,61,27.6,2.0,1,90,1,2,46,4,1.33,3,2,+1,+0.49,-0.82,Matches,c0b3669f
+385,Ibrahima Konaté,DF,fr France,23,1999,5,294,59,44.5,3.3,3,90,3,2,12,2,2.00,8,2,+6,+1.84,+1.34,Matches,5ed9b537
+386,Ismaël Koné,MF,ca Canada,19,2002,3,109,36,40.4,1.2,0,,0,3,36,0,0.00,0,2,-2,-1.65,+0.03,Matches,e0220b70
+387,Teun Koopmeiners,MF,nl Netherlands,24,1998,5,219,44,45.6,2.4,1,78,0,4,35,0,2.20,6,3,+3,+1.23,+0.20,Matches,a26fb8aa
+388,Filip Kostić,MF,rs Serbia,29,1992,2,179,90,66.3,2.0,2,90,1,0,,1,0.50,5,6,-1,-0.50,+1.48,Matches,b1cd37e6
+389,Kalidou Koulibaly,DF,sn Senegal,30,1991,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,5,7,-2,-0.50,,Matches,da974c7b
+390,Jules Koundé,DF,fr France,23,1998,6,480,80,72.7,5.3,5,96,3,1,2,1,2.67,11,5,+6,+1.13,+0.13,Matches,4d1666ff
+391,Cheikhou Kouyaté,MF,sn Senegal,32,1989,1,72,72,20.0,0.8,1,72,0,0,,0,0.00,0,0,0,0.00,+0.62,Matches,8d3c902d
+392,Mateo Kovačić,MF,hr Croatia,28,1994,7,635,91,92.0,7.1,7,91,2,0,,0,1.43,6,7,-1,-0.14,-3.41,Matches,79c0821a
+393,Andrej Kramarić,FW,hr Croatia,30,1991,7,474,68,68.7,5.3,7,68,0,0,,0,1.43,6,6,0,0.00,-0.42,Matches,603cb947
+394,Rasmus Kristensen,MFDF,dk Denmark,24,1997,3,224,75,83.0,2.5,3,75,1,0,,0,0.33,1,2,-1,-0.40,+1.55,Matches,39769cff
+395,Grzegorz Krychowiak,MF,pl Poland,32,1990,4,332,83,92.2,3.7,4,83,2,0,,0,1.00,2,3,-1,-0.27,+2.94,Matches,580d52dd
+396,Takefusa Kubo,MFFW,jp Japan,21,2001,2,90,45,23.1,1.0,2,45,0,0,,1,3.00,0,2,-2,-2.00,-2.90,Matches,16aa3654
+397,Mohammed Kudus,MFFW,gh Ghana,21,2000,3,247,82,91.5,2.7,3,82,0,0,,0,1.00,4,5,-1,-0.36,+3.55,Matches,b62878a5
+398,Pierre Kunde,MF,cm Cameroon,26,1995,2,131,66,48.5,1.5,2,66,0,0,,1,2.00,3,3,0,0.00,0.00,Matches,9ceb7642
+399,Garang Kuol,MF,au Australia,17,2004,2,37,19,10.3,0.4,0,,0,2,19,2,0.00,1,0,+1,+2.43,+3.27,Matches,a8a80be7
+400,Daniel Kyereh,FWMF,gh Ghana,26,1996,3,33,11,12.2,0.4,0,,0,3,11,0,1.00,0,0,0,0.00,+0.76,Matches,2770726a
+401,Kwon Kyung-won,DF,kr Korea Republic,30,1992,2,91,46,25.3,1.0,1,90,1,1,1,2,1.50,2,1,+1,+0.99,+2.33,Matches,ad1516af
+402,Luca de la Torre,MF,us USA,24,1998,0,,,,,0,,0,0,,4,,,,,,,Matches,e9241b40
+403,Aïssa Laïdouni,MF,tn Tunisia,25,1996,3,243,81,90.0,2.7,3,81,1,0,,0,1.33,1,1,0,0.00,0.00,Matches,22798128
+404,Tariq Lamptey,DF,gh Ghana,21,2000,2,102,51,37.8,1.1,1,77,0,1,25,1,1.50,5,4,+1,+0.88,+2.49,Matches,f4e433d4
+405,Noa Lang,FWMF,nl Netherlands,22,1999,1,8,8,1.7,0.1,0,,0,1,8,4,1.00,0,0,0,0.00,-1.14,Matches,8e034340
+406,Aymeric Laporte,DF,es Spain,28,1994,3,300,100,76.9,3.3,3,100,3,0,,1,1.67,8,1,+7,+2.10,+3.10,Matches,119b9a8e
+407,Cyle Larin,FW,ca Canada,27,1995,3,137,46,50.7,1.5,2,52,0,1,33,0,0.00,2,4,-2,-1.31,+0.72,Matches,e7af9060
+408,Richie Laryea,MFDF,ca Canada,27,1995,3,160,53,59.3,1.8,2,67,0,1,26,0,0.00,1,3,-2,-1.13,+1.33,Matches,276fdbe4
+409,Darko Lazović,MF,rs Serbia,31,1990,1,25,25,9.3,0.3,0,,0,1,25,2,0.00,0,1,-1,-3.60,-2.87,Matches,5128bde4
+410,Rafael Leão,FWMF,pt Portugal,23,1999,5,88,18,19.6,1.0,0,,0,5,18,0,1.80,4,2,+2,+2.05,+1.05,Matches,20730eae
+411,Mathew Leckie,MF,au Australia,31,1991,4,333,83,92.5,3.7,4,83,1,0,,0,1.50,3,6,-3,-0.81,-4.14,Matches,b93b7882
+412,Dylan Levitt,MF,wls Wales,21,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,b12d5243
+413,Robert Lewandowski,FW,pl Poland,33,1988,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,3,5,-2,-0.50,,Matches,8d78e732
+414,Matthijs de Ligt,DF,nl Netherlands,22,1999,2,91,46,19.0,1.0,1,90,1,1,1,3,3.00,2,0,+2,+1.98,+1.05,Matches,d6e53a3a
+415,Jesper Lindstrøm,FW,dk Denmark,22,2000,3,200,67,74.1,2.2,2,87,1,1,26,0,0.33,1,2,-1,-0.45,+0.84,Matches,37dc1a48
+416,Marko Livaja,FW,hr Croatia,28,1993,6,241,40,34.9,2.7,3,62,0,3,18,1,1.50,4,2,+2,+0.75,+0.95,Matches,6e5497ca
+417,Dominik Livaković,GK,hr Croatia,27,1995,7,690,99,100.0,7.7,7,99,7,0,,0,1.43,8,7,+1,+0.13,,Matches,58f077c0
+418,Marcos Llorente,DF,es Spain,27,1995,1,120,120,30.8,1.3,1,120,1,0,,3,1.00,0,0,0,0.00,-2.00,Matches,02c15616
+419,Hugo Lloris,GK,fr France,35,1986,6,570,95,86.4,6.3,6,95,6,0,,1,2.67,16,7,+9,+1.42,+2.42,Matches,8f62b6ee
+420,Tom Lockyer,DFMF,wls Wales,27,1994,0,,,,,0,,0,0,,3,,,,,,,Matches,37118440
+421,Aaron Long,DF,us USA,29,1992,0,,,,,0,,0,0,,4,,,,,,,Matches,46b89640
+422,Douglas López,MF,cr Costa Rica,23,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,64db0cb1
+423,Mamadou Loum,DFMF,sn Senegal,25,1996,0,,,,,0,,0,0,,4,,,,,,,Matches,bcfc4473
+424,Dejan Lovren,DF,hr Croatia,32,1989,6,600,100,87.0,6.7,6,100,6,0,,1,1.17,6,6,0,0.00,-1.00,Matches,1a2935f6
+425,Hirving Lozano,FWMF,mx Mexico,26,1995,3,252,84,93.3,2.8,3,84,2,0,,0,1.33,2,2,0,0.00,+5.00,Matches,a69e4806
+426,José Luis Rodríguez,DF,uy Uruguay,25,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,6f1a7f76
+427,Romelu Lukaku,FW,be Belgium,29,1993,2,55,28,20.4,0.6,0,,0,2,28,0,0.50,0,1,-1,-1.64,-1.64,Matches,5eae500a
+428,Saša Lukić,MF,rs Serbia,25,1996,3,245,82,90.7,2.7,3,82,2,0,,0,0.33,5,7,-2,-0.73,+2.87,Matches,c6e8cf1f
+429,Ali Maâloul,MF,tn Tunisia,32,1990,1,90,90,33.3,1.0,1,90,1,0,,2,3.00,1,0,+1,+1.00,+1.50,Matches,c69ff23a
+430,Awer Mabil,FWMF,au Australia,26,1995,2,24,12,6.7,0.3,0,,0,2,12,2,1.50,0,0,0,0.00,+0.54,Matches,922da988
+431,Alexis Mac Allister,MF,ar Argentina,23,1998,6,550,92,79.7,6.1,6,92,1,0,,1,2.33,13,5,+8,+1.31,+1.95,Matches,83d074ff
+432,Shuto Machino,FW,jp Japan,22,1999,0,,,,,0,,0,0,,4,,,,,,,Matches,964dde35
+433,Jamie Maclaren,FW,au Australia,28,1993,3,55,18,15.3,0.6,0,,0,3,18,1,2.00,1,0,+1,+1.64,+2.52,Matches,2a8ba67e
+434,James Maddison,FWMF,eng England,25,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,ee38d9c5
+435,Assim Madibo,MF,qa Qatar,25,1996,2,153,77,56.7,1.7,2,77,1,0,,1,0.00,1,5,-4,-2.35,-0.81,Matches,2b1d2ada
+436,Abdullah Madu,DF,sa Saudi Arabia,28,1993,1,45,45,16.7,0.5,0,,0,1,45,2,0.00,1,2,-1,-2.00,-1.60,Matches,9c3523a4
+437,Daizen Maeda,FW,jp Japan,24,1997,3,180,60,46.2,2.0,3,60,0,0,,1,2.33,3,3,0,0.00,-0.43,Matches,395451fc
+438,Harry Maguire,DF,eng England,29,1993,5,429,86,95.3,4.8,5,86,4,0,,0,2.00,11,3,+8,+1.68,-2.61,Matches,d8931174
+439,Lovro Majer,MF,hr Croatia,24,1998,7,130,19,18.8,1.4,1,65,0,6,11,0,1.43,4,1,+3,+2.08,+2.40,Matches,fc46aab1
+440,Nemanja Maksimović,MF,rs Serbia,27,1995,3,122,41,45.2,1.4,1,90,1,2,16,0,0.33,3,3,0,0.00,+1.82,Matches,00b28772
+441,Tyrell Malacia,DF,nl Netherlands,22,1999,0,,,,,0,,0,0,,5,,,,,,,Matches,6b6c793c
+442,Abdulellah Al-Malki,MF,sa Saudi Arabia,27,1994,2,174,87,64.4,1.9,2,87,1,0,,0,1.50,2,3,-1,-0.52,+0.42,Matches,3bcd2730
+443,Steve Mandanda,GK,fr France,37,1985,1,90,90,13.6,1.0,1,90,1,0,,6,0.00,0,1,-1,-1.00,-2.42,Matches,1d2d5cc8
+444,José María Giménez,DF,uy Uruguay,27,1995,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,2,0,0.00,,Matches,f0da930c
+445,João Mário,MF,pt Portugal,29,1993,2,84,42,18.7,0.9,1,81,0,1,3,3,1.50,1,2,-1,-1.07,-2.79,Matches,f0021247
+446,Marquinhos,DF,br Brazil,28,1994,5,426,85,88.8,4.7,4,98,4,1,36,0,2.00,8,3,+5,+1.06,+1.06,Matches,d5f2f82b
+447,Henry Martín,FW,mx Mexico,29,1992,2,146,73,54.1,1.6,2,73,0,0,,1,2.00,2,0,+2,+1.23,+3.41,Matches,b585c991
+448,Gabriel Martinelli,FW,br Brazil,20,2001,3,113,38,23.5,1.3,1,90,1,2,12,2,2.00,0,2,-2,-1.59,-3.31,Matches,48a5a5d6
+449,Carlos Martínez,DF,cr Costa Rica,23,1999,1,45,45,16.7,0.5,1,45,0,0,,2,0.00,0,3,-3,-6.00,-4.00,Matches,9acb9d76
+450,Emiliano Martínez,GK,ar Argentina,29,1992,7,690,99,100.0,7.7,7,99,7,0,,0,2.00,15,8,+7,+0.91,,Matches,7956236f
+451,Lautaro Martínez,FW,ar Argentina,24,1997,6,241,40,34.9,2.7,2,76,1,4,22,1,1.83,2,6,-4,-1.49,-3.70,Matches,f7036e1c
+452,Lisandro Martínez,DF,ar Argentina,24,1998,5,303,61,43.9,3.4,2,101,1,3,34,2,2.00,6,3,+3,+0.89,-0.04,Matches,bac46a10
+453,Pape Matar Sarr,MF,sn Senegal,19,2002,2,59,30,16.4,0.7,0,,0,2,30,2,1.50,1,2,-1,-1.53,-1.23,Matches,feb5d972
+454,Rónald Matarrita,DFMF,cr Costa Rica,27,1994,2,26,13,9.6,0.3,0,,0,2,13,1,0.00,0,4,-4,-13.85,-12.37,Matches,491862dd
+455,Aymen Mathlouthi,GK,tn Tunisia,37,1984,0,,,,,0,,0,0,,3,,,,,,,Matches,dd1abe1b
+456,Eric Maxim Choupo-Moting,FW,cm Cameroon,33,1989,3,253,84,93.7,2.8,3,84,2,0,,0,1.33,4,4,0,0.00,0.00,Matches,0e6bc38c
+457,Noussair Mazraoui,DF,ma Morocco,24,1997,5,365,73,55.3,4.1,5,73,2,0,,0,1.60,4,2,+2,+0.49,+0.80,Matches,b74277a0
+458,Olivier Mbaizo,DF,cm Cameroon,24,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,f6315619
+459,Kylian Mbappé,MFFW,fr France,23,1998,7,598,85,90.6,6.6,6,95,6,1,28,0,2.29,16,7,+9,+1.35,+2.81,Matches,42fd9c7f
+460,Bryan Mbeumo,FWMF,cm Cameroon,22,1999,3,233,78,86.3,2.6,3,78,1,0,,0,1.33,3,4,-1,-0.39,-2.82,Matches,6afaebf2
+461,Riley McGree,MFFW,au Australia,23,1998,4,265,66,73.6,2.9,4,66,0,0,,0,1.50,3,6,-3,-1.02,-1.97,Matches,59d61727
+462,Weston McKennie,MF,us USA,23,1998,4,271,68,75.3,3.0,4,68,0,0,,0,1.25,2,2,0,0.00,+1.01,Matches,01c3aff5
+463,Hannibal Mejbri,MF,tn Tunisia,19,2003,1,11,11,4.1,0.1,0,,0,1,11,2,1.00,0,0,0,0.00,0.00,Matches,ca22ccb0
+464,Memphis,FW,nl Netherlands,28,1994,5,297,59,61.9,3.3,3,74,0,2,37,0,2.20,7,4,+3,+0.91,-0.57,Matches,8f696594
+465,Ángel Mena,FWMF,ec Ecuador,34,1988,0,,,,,0,,0,0,,3,,,,,,,Matches,ea83f5c2
+466,Nuno Mendes,DF,pt Portugal,19,2002,1,41,41,9.1,0.5,1,41,0,0,,0,3.00,0,0,0,0.00,-1.32,Matches,f20e4cc9
+467,Jhegson Méndez,MF,ec Ecuador,25,1997,2,180,90,66.7,2.0,2,90,2,0,,0,2.00,3,1,+2,+1.00,+2.00,Matches,db0c5324
+468,Édouard Mendy,GK,sn Senegal,30,1992,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,5,7,-2,-0.50,,Matches,33887998
+469,Formose Mendy,DF,sn Senegal,21,2001,0,,,,,0,,0,0,,4,,,,,,,Matches,c21983bf
+470,Nampalys Mendy,MF,sn Senegal,29,1992,4,272,68,75.6,3.0,3,85,2,1,16,0,1.50,2,5,-3,-0.99,-2.02,Matches,1598599e
+471,Gideon Mensah,DF,gh Ghana,23,1998,1,87,87,32.2,1.0,1,87,0,0,,2,3.00,3,2,+1,+1.03,+2.51,Matches,9bdd8118
+472,Chris Mepham,DF,wls Wales,24,1997,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,6,-5,-1.67,,Matches,fed96827
+473,Yassine Meriah,DF,tn Tunisia,28,1993,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,1,0,0.00,,Matches,3640af28
+474,Dries Mertens,FW,be Belgium,35,1987,2,76,38,28.1,0.8,1,45,0,1,31,1,0.50,0,2,-2,-2.37,-2.83,Matches,89b2c8a9
+475,Mostafa Meshaal,MF,qa Qatar,21,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,44a166e1
+476,Lionel Messi,FW,ar Argentina,34,1987,7,690,99,100.0,7.7,7,99,7,0,,0,2.00,15,8,+7,+0.91,,Matches,d70ce98e
+477,Thomas Meunier,MF,be Belgium,30,1991,3,211,70,78.1,2.3,2,83,0,1,45,0,1.33,0,1,-1,-0.43,-0.43,Matches,e162b013
+478,Simon Mignolet,GK,be Belgium,34,1988,0,,,,,0,,0,0,,3,,,,,,,Matches,d436eb94
+479,Nikola Milenković,DF,rs Serbia,24,1997,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,5,8,-3,-1.00,,Matches,bee704fc
+480,Arkadiusz Milik,FW,pl Poland,28,1994,3,101,34,28.1,1.1,1,70,0,2,16,1,1.33,2,2,0,0.00,+0.69,Matches,85613cf0
+481,Sergej Milinković-Savić,MFFW,rs Serbia,27,1995,3,233,78,86.3,2.6,3,78,1,0,,0,0.33,5,8,-3,-1.16,-1.16,Matches,4e6dbac4
+482,Vanja Milinković-Savić,GK,rs Serbia,25,1997,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,5,8,-3,-1.00,,Matches,9fa26bc2
+483,Éder Militão,DF,br Brazil,24,1998,4,347,87,72.3,3.9,4,87,2,0,,1,1.75,6,1,+5,+1.30,+1.30,Matches,2784f898
+484,Liam Millar,FWMF,ca Canada,22,1999,1,10,10,3.7,0.1,0,,0,1,10,2,0.00,0,0,0,0.00,+1.73,Matches,983515f8
+485,Kamal Miller,DF,ca Canada,25,1997,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,2,7,-5,-1.67,,Matches,0646bd8a
+486,Kim Min-jae,DF,kr Korea Republic,25,1996,3,269,90,74.7,3.0,3,90,2,0,,1,0.33,3,7,-4,-1.34,-2.33,Matches,e0f8151c
+487,Takumi Minamino,FWMF,jp Japan,27,1995,3,60,20,15.4,0.7,0,,0,3,20,1,1.33,2,0,+2,+3.00,+3.27,Matches,f833a830
+488,Song Minkyu,FWMF,kr Korea Republic,22,1999,0,,,,,0,,0,0,,4,,,,,,,Matches,97d38555
+489,Kaoru Mitoma,FWMF,jp Japan,25,1997,4,165,41,42.3,1.8,0,,0,4,41,0,1.75,4,1,+3,+1.64,+2.44,Matches,74618572
+490,Aleksandar Mitrović,FW,rs Serbia,27,1994,3,262,87,97.0,2.9,3,87,2,0,,0,0.33,5,8,-3,-1.03,-1.03,Matches,3925dbd6
+491,Stefan Mitrović,DF,rs Serbia,32,1990,1,35,35,13.0,0.4,0,,0,1,35,2,1.00,0,2,-2,-5.14,-4.76,Matches,e6777e6b
+492,Filip Mladenović,MF,rs Serbia,30,1991,1,65,65,24.1,0.7,1,65,0,0,,2,0.00,0,1,-1,-1.38,-0.51,Matches,a3eabee0
+493,Luka Modrić,MF,hr Croatia,36,1985,7,653,93,94.6,7.3,7,93,4,0,,0,1.43,7,7,0,0.00,-2.43,Matches,6025fab1
+494,Ismaeel Mohammad,DF,qa Qatar,32,1990,2,174,87,64.4,1.9,2,87,1,0,,1,0.00,1,5,-4,-2.07,-0.19,Matches,b554011a
+495,Milad Mohammadi,DF,ir IR Iran,28,1993,3,196,65,72.6,2.2,3,65,1,0,,0,1.00,2,5,-3,-1.38,-1.38,Matches,740a0e28
+496,Sadegh Moharrami,DF,ir IR Iran,26,1996,1,90,90,33.3,1.0,1,90,1,0,,2,0.00,2,6,-4,-4.00,-4.50,Matches,25b74470
+497,Nahuel Molina,DFMF,ar Argentina,24,1998,7,567,81,82.2,6.3,6,90,2,1,28,0,2.00,14,7,+7,+1.11,+1.11,Matches,23610943
+498,César Montes,DF,mx Mexico,25,1997,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,3,-1,-0.33,,Matches,28e957d7
+499,Gonzalo Montiel,DF,ar Argentina,25,1997,4,118,30,17.1,1.3,1,62,0,3,19,2,2.00,1,1,0,0.00,-1.10,Matches,374d5158
+500,Kim Moon-hwan,DF,kr Korea Republic,26,1995,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,5,8,-3,-0.75,,Matches,6bce7dd8
+501,Kieffer Moore,FW,wls Wales,29,1992,3,225,75,83.3,2.5,2,90,2,1,45,0,0.33,1,5,-4,-1.60,+0.40,Matches,01ce9e70
+502,Shaq Moore,DFMF,us USA,25,1996,2,22,11,6.1,0.2,0,,0,2,11,2,2.00,0,0,0,0.00,+0.27,Matches,3b9f859b
+503,Aaron Mooy,MF,au Australia,31,1990,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,4,6,-2,-0.50,,Matches,47b7e3af
+504,Ederson Moraes,GK,br Brazil,28,1993,1,90,90,18.8,1.0,1,90,1,0,,4,0.00,0,1,-1,-1.00,-2.38,Matches,3bb7b8b4
+505,Álvaro Morata,FW,es Spain,29,1992,4,185,46,47.4,2.1,1,56,0,3,43,0,1.25,5,3,+2,+0.97,-0.78,Matches,129af0db
+506,Héctor Moreno,DF,mx Mexico,34,1988,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,3,-1,-0.33,,Matches,5d311e8d
+507,Hidemasa Morita,MF,jp Japan,27,1995,3,285,95,73.1,3.2,3,95,2,0,,1,1.33,3,3,0,0.00,-0.86,Matches,a650c75b
+508,Joe Morrell,FWMF,wls Wales,25,1997,2,33,17,12.2,0.4,0,,0,2,17,1,0.50,0,1,-1,-2.73,-1.21,Matches,3b935a91
+509,Jordan Morris,FWMF,us USA,27,1994,2,4,2,1.1,0.0,0,,0,2,2,2,0.50,0,0,0,0.00,+0.25,Matches,bd298d0d
+510,Youssoufa Moukoko,FW,de Germany,17,2004,1,1,1,0.4,0.0,0,,0,1,1,2,0.00,0,0,0,0.00,-0.33,Matches,6ce43701
+511,Mason Mount,MF,eng England,23,1999,4,186,47,41.3,2.1,2,80,1,2,13,1,1.75,5,1,+4,+1.94,+0.23,Matches,9674002f
+512,Youssef Msakni,FW,tn Tunisia,31,1990,2,169,85,62.6,1.9,2,85,1,0,,1,0.50,0,1,-1,-0.53,-1.42,Matches,0083e371
+513,Thomas Müller,FWMF,de Germany,32,1989,3,201,67,74.4,2.2,3,67,0,0,,0,1.33,2,2,0,0.00,-1.30,Matches,3c6089ab
+514,Khalid Muneer,FW,qa Qatar,24,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,410f8b85
+515,Munir,GK,ma Morocco,33,1989,1,90,90,13.6,1.0,1,90,1,0,,6,3.00,2,0,+2,+2.00,+2.16,Matches,fc8287db
+516,Mohammed Muntari,FW,qa Qatar,28,1993,3,63,21,23.3,0.7,0,,0,3,21,0,0.00,1,1,0,0.00,+2.61,Matches,da38f46e
+517,Yunus Musah,MF,us USA,19,2002,4,343,86,95.3,3.8,4,86,3,0,,0,1.25,3,3,0,0.00,+5.29,Matches,b51b1b9c
+518,Jamal Musiala,MF,de Germany,19,2003,3,258,86,95.6,2.9,3,86,2,0,,0,1.33,6,4,+2,+0.70,+8.20,Matches,2c0558b8
+519,Fernando Muslera,GK,uy Uruguay,35,1986,0,,,,,0,,0,0,,3,,,,,,,Matches,a2abe631
+520,Joakim Mæhle,MFDF,dk Denmark,25,1997,3,249,83,92.2,2.8,3,83,2,0,,0,0.33,1,3,-2,-0.72,-0.72,Matches,c459a650
+521,Moussa N'Diaye,DF,sn Senegal,19,2002,0,,,,,0,,0,0,,4,,,,,,,Matches,b28edf04
+522,Georges-Kévin N'Koudou,FWMF,cm Cameroon,27,1995,2,27,14,10.0,0.3,0,,0,2,14,1,0.50,0,0,0,0.00,0.00,Matches,76c131da
+523,Yūto Nagatomo,MFDF,jp Japan,35,1986,4,209,52,53.6,2.3,4,52,0,0,,0,1.75,1,3,-2,-0.86,-2.35,Matches,4b6960d2
+524,Sami Al-Najei,MF,sa Saudi Arabia,25,1997,1,45,45,16.7,0.5,1,45,0,0,,2,0.00,0,1,-1,-2.00,-1.60,Matches,978e29d3
+525,Moustapha Name,MF,sn Senegal,27,1995,0,,,,,0,,0,0,,4,,,,,,,Matches,38ce48b7
+526,Keylor Navas,GK,cr Costa Rica,35,1986,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,11,-8,-2.67,,Matches,ecada4fc
+527,Iliman Ndiaye,MFFW,sn Senegal,22,2000,3,135,45,37.5,1.5,2,60,0,1,16,1,2.00,3,4,-1,-0.67,-0.27,Matches,5ed97752
+528,Victor Nelsson,DF,dk Denmark,23,1998,1,90,90,33.3,1.0,1,90,1,0,,2,0.00,1,2,-1,-1.00,-0.50,Matches,e53b5534
+529,Manuel Neuer,GK,de Germany,36,1986,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,6,5,+1,+0.33,,Matches,8778c910
+530,Rúben Neves,MF,pt Portugal,25,1997,5,268,54,59.6,3.0,4,65,0,1,10,0,1.80,4,3,+1,+0.34,-2.14,Matches,44bfb6c5
+531,Neymar,MFFW,br Brazil,30,1992,3,279,93,58.1,3.1,3,93,1,0,,0,2.33,7,2,+5,+1.61,+1.61,Matches,69384e5d
+532,Moumi Ngamaleu,MF,cm Cameroon,27,1994,2,95,48,35.2,1.1,1,85,0,1,10,1,1.50,0,0,0,0.00,0.00,Matches,0193a8bf
+533,Simon Ngapandouetnbu,GK,cm Cameroon,19,2003,0,,,,,0,,0,0,,3,,,,,,,Matches,18563ea7
+534,Jerome Ngom Mbekeli,MF,cm Cameroon,23,1998,1,5,5,1.9,0.1,0,,0,1,5,2,3.00,1,0,+1,+18.00,+18.34,Matches,32bb1138
+535,Payam Niazmand,GK,ir IR Iran,27,1995,0,,,,,0,,0,0,,3,,,,,,,Matches,7b2ed47e
+536,Nicolas Nkoulou,DF,cm Cameroon,32,1990,2,180,90,66.7,2.0,2,90,2,0,,0,0.50,3,4,-1,-0.50,-1.50,Matches,93cf32a8
+537,Andries Noppert,GK,nl Netherlands,28,1994,5,480,96,100.0,5.3,5,96,5,0,,0,2.20,10,4,+6,+1.13,,Matches,2dc9d6fb
+538,Ahmad Nourollahi,MF,ir IR Iran,29,1993,3,223,74,82.6,2.5,3,74,0,0,,0,1.00,1,6,-5,-2.02,-5.85,Matches,2c5273b8
+539,Jean-Pierre Nsame,FW,cm Cameroon,29,1993,0,,,,,0,,0,0,,3,,,,,,,Matches,12e6d21a
+540,Olivier Ntcham,MF,cm Cameroon,26,1996,1,25,25,9.3,0.3,0,,0,1,25,2,3.00,1,0,+1,+3.60,+3.97,Matches,6554bb97
+541,Matheus Nunes,MF,pt Portugal,23,1998,2,73,37,16.2,0.8,1,64,0,1,9,3,1.50,2,1,+1,+1.23,+0.04,Matches,e6af02e0
+542,Darwin Núñez,FW,uy Uruguay,22,1999,3,240,80,88.9,2.7,3,80,1,0,,0,1.33,2,1,+1,+0.37,+3.37,Matches,4d77b365
+543,Manaf Nurudeen,GK,gh Ghana,23,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,4152a80c
+544,Christian Nørgaard,MF,dk Denmark,28,1994,1,6,6,2.2,0.1,0,,0,1,6,2,0.00,0,1,-1,-15.00,-14.66,Matches,df0a4c90
+545,Guillermo Ochoa,GK,mx Mexico,36,1985,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,3,-1,-0.33,,Matches,1e9bde92
+546,Denis Odoi,DFMF,gh Ghana,34,1988,1,13,13,4.8,0.1,0,,0,1,13,2,3.00,0,0,0,0.00,+0.70,Matches,f7750aa0
+547,Noah Okafor,FWMF,ch Switzerland,22,2000,3,45,15,12.5,0.5,0,,0,3,15,0,2.00,0,2,-2,-4.00,-3.43,Matches,ca607d59
+548,Mathías Olivera,DFMF,uy Uruguay,24,1997,3,253,84,93.7,2.8,3,84,1,0,,0,1.33,2,1,+1,+0.36,+5.65,Matches,41c12f75
+549,Dani Olmo,FW,es Spain,24,1998,4,367,92,94.1,4.1,4,92,3,0,,0,1.25,9,3,+6,+1.47,+1.47,Matches,ae44e8e2
+550,Jonas Omlin,GK,ch Switzerland,28,1994,0,,,,,0,,0,0,,4,,,,,,,Matches,c631f952
+551,Amadou Onana,MF,be Belgium,20,2001,2,104,52,38.5,1.2,1,59,0,1,45,0,1.50,0,0,0,0.00,+0.54,Matches,828657ff
+552,André Onana,GK,cm Cameroon,26,1996,1,80,80,29.6,0.9,1,80,0,0,,0,0.00,0,1,-1,-1.13,-1.60,Matches,e9c0c1b2
+553,Gaël Ondoua,MF,cm Cameroon,26,1995,2,47,24,17.4,0.5,0,,0,2,24,1,0.50,0,0,0,0.00,0.00,Matches,7c41b738
+554,Loïs Openda,FW,be Belgium,22,2000,1,13,13,4.8,0.1,0,,0,1,13,2,3.00,0,0,0,0.00,+0.35,Matches,8652a85c
+555,Mislav Oršić,MF,hr Croatia,29,1992,6,162,27,23.5,1.8,1,89,0,5,15,1,1.50,4,2,+2,+1.11,+1.28,Matches,ee950928
+556,Jonathan Osorio,MF,ca Canada,30,1992,3,119,40,44.1,1.3,1,64,0,2,28,0,0.00,1,4,-3,-2.27,-1.08,Matches,70106ff6
+557,Nicolás Otamendi,DF,ar Argentina,34,1988,7,690,99,100.0,7.7,7,99,7,0,,0,2.00,15,8,+7,+0.91,,Matches,0d267745
+558,Otávio,MF,pt Portugal,27,1995,3,196,65,43.6,2.2,3,65,0,0,,0,2.00,5,2,+3,+1.38,+0.31,Matches,28b1f3ce
+559,Abdullah Otayf,MF,sa Saudi Arabia,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,508d44cf
+560,Samuel Oum Gouet,MF,cm Cameroon,24,1997,2,100,50,37.0,1.1,1,90,1,1,10,1,0.50,0,1,-1,-0.90,-1.43,Matches,b82359be
+561,Azzedine Ounahi,MF,ma Morocco,22,2000,7,568,81,86.1,6.3,6,89,2,1,35,0,1.57,4,3,+1,+0.16,+0.16,Matches,83299cc0
+562,Bryan Oviedo,DF,cr Costa Rica,32,1990,3,260,87,96.3,2.9,3,87,1,0,,0,1.00,3,9,-6,-2.08,+15.92,Matches,31faf295
+563,Mohammed Al-Owais,GK,sa Saudi Arabia,30,1991,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,3,5,-2,-0.67,,Matches,f2c060c6
+564,Elisha Owusu,MF,gh Ghana,24,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,e2781082
+565,Juan Pablo Vargas,DF,cr Costa Rica,27,1995,1,90,90,33.3,1.0,1,90,1,0,,2,0.00,2,4,-2,-2.00,+1.00,Matches,e22564a0
+566,Willian Pacho,DF,ec Ecuador,20,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,ecbe2839
+567,Diego Palacios,DF,ec Ecuador,22,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,6ec37f2e
+568,Exequiel Palacios,DFMF,ar Argentina,23,1998,3,50,17,7.2,0.6,0,,0,3,17,4,3.00,1,0,+1,+1.80,+0.96,Matches,e82adcab
+569,João Palhinha,MF,pt Portugal,26,1995,3,38,13,8.4,0.4,0,,0,3,13,2,2.00,1,2,-1,-2.37,-3.90,Matches,a78ff07f
+570,James Pantemis,GK,ca Canada,25,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,901408ac
+571,Lucas Paquetá,MF,br Brazil,24,1997,4,314,79,65.4,3.5,4,79,1,0,,1,2.50,7,1,+6,+1.72,+2.26,Matches,9b6f7fd5
+572,Leandro Paredes,MF,ar Argentina,27,1994,5,225,45,32.6,2.5,2,60,0,3,35,2,1.60,6,5,+1,+0.40,-0.76,Matches,dff153a4
+573,Thomas Partey,MF,gh Ghana,29,1993,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,5,7,-2,-0.67,,Matches,529f49ab
+574,Mario Pašalić,FW,hr Croatia,27,1995,7,271,39,39.3,3.0,2,58,0,5,31,0,1.43,1,2,-1,-0.33,-0.76,Matches,e599253a
+575,Remko Pasveer,GK,nl Netherlands,38,1983,0,,,,,0,,0,0,,5,,,,,,,Matches,3392603d
+576,Rui Patrício,GK,pt Portugal,34,1988,0,,,,,0,,0,0,,5,,,,,,,Matches,79b0d6a0
+577,Benjamin Pavard,DF,fr France,26,1996,1,88,88,13.3,1.0,1,88,0,0,,6,3.00,4,1,+3,+3.07,+2.28,Matches,45a03961
+578,Strahinja Pavlović,DF,rs Serbia,21,2001,3,235,78,87.0,2.6,3,78,2,0,,0,0.33,5,6,-1,-0.38,+4.76,Matches,25146df0
+579,Pedri,MF,es Spain,19,2002,4,356,89,91.3,4.0,4,89,3,0,,0,1.25,6,3,+3,+0.76,-7.18,Matches,0d9b2d31
+580,Pedro,FW,br Brazil,24,1997,2,64,32,13.3,0.7,0,,0,2,32,3,0.50,1,2,-1,-1.41,-2.70,Matches,1ab6fad3
+581,Facundo Pellistri,MFFW,uy Uruguay,20,2001,3,181,60,67.0,2.0,2,76,0,1,29,0,1.33,2,1,+1,+0.50,+1.51,Matches,ac7e7b1c
+582,Pepe,DF,pt Portugal,39,1983,4,360,90,80.0,4.0,4,90,4,0,,1,1.50,9,4,+5,+1.25,+0.25,Matches,c906ce0f
+583,Danilo Pereira,DF,pt Portugal,30,1991,1,90,90,20.0,1.0,1,90,1,0,,0,3.00,3,2,+1,+1.00,-0.25,Matches,8fd9996f
+584,Ivan Perišić,FWMF,hr Croatia,33,1989,7,669,96,97.0,7.4,7,96,4,0,,0,1.43,7,7,0,0.00,-4.29,Matches,6fe90922
+585,Bruno Petković,FW,hr Croatia,27,1994,6,234,39,33.9,2.6,1,61,0,5,35,1,1.50,4,3,+1,+0.38,+0.38,Matches,24228180
+586,Germán Pezzella,DF,ar Argentina,30,1991,3,60,20,8.7,0.7,0,,0,3,20,4,1.67,0,3,-3,-4.50,-5.93,Matches,8c725b43
+587,Kalvin Phillips,DFMF,eng England,26,1995,2,42,21,9.3,0.5,0,,0,2,21,3,3.00,1,0,+1,+2.14,+0.38,Matches,4f565d77
+588,Krzysztof Piątek,FW,pl Poland,26,1995,2,28,14,7.8,0.3,0,,0,2,14,2,1.50,1,0,+1,+3.21,+4.03,Matches,17f3620a
+589,Jordan Pickford,GK,eng England,28,1994,5,450,90,100.0,5.0,5,90,5,0,,0,2.00,13,4,+9,+1.80,,Matches,4806ec67
+590,Samuel Piette,MF,ca Canada,27,1994,0,,,,,0,,0,0,,3,,,,,,,Matches,bc33c73b
+591,Orbelín Pineda,MF,mx Mexico,26,1996,1,76,76,28.1,0.8,1,76,0,0,,2,3.00,2,0,+2,+2.37,+3.76,Matches,411fabd7
+592,Yéremy Pino,FWMF,es Spain,19,2002,0,,,,,0,,0,0,,4,,,,,,,Matches,540ec57b
+593,Gonzalo Plata,FWMF,ec Ecuador,21,2000,3,269,90,99.6,3.0,3,90,2,0,,0,1.33,4,3,+1,+0.33,+0.33,Matches,54bcdeb0
+594,Nick Pope,GK,eng England,30,1992,0,,,,,0,,0,0,,5,,,,,,,Matches,4b40d9ca
+595,Jackson Porozo,DF,ec Ecuador,21,2000,2,96,48,35.6,1.1,1,90,1,1,6,1,0.50,1,1,0,0.00,-0.52,Matches,7d704e92
+596,Yussuf Poulsen,FWMF,dk Denmark,27,1994,0,,,,,0,,0,0,,3,,,,,,,Matches,d2416c2e
+597,Morteza Pouraliganji,DF,ir IR Iran,30,1992,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,4,7,-3,-1.00,,Matches,2c2066f4
+598,Ángelo Preciado,DFMF,ec Ecuador,24,1998,3,264,88,97.8,2.9,3,88,2,0,,0,1.33,4,3,+1,+0.34,+0.34,Matches,eadc8e4f
+599,Ayrton Preciado,MF,ec Ecuador,27,1994,0,,,,,0,,0,0,,3,,,,,,,Matches,5df18014
+600,Christian Pulisic,FWMF,us USA,23,1998,4,315,79,87.5,3.5,4,79,3,0,,0,1.25,3,4,-1,-0.29,-0.29,Matches,1bf33a9a
+601,Adrien Rabiot,MF,fr France,27,1995,6,483,81,73.2,5.4,5,91,4,1,28,0,2.17,13,6,+7,+1.30,+0.80,Matches,8794e251
+602,Uroš Račić,MF,rs Serbia,24,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,faed84db
+603,Nemanja Radonjić,FWMF,rs Serbia,26,1996,3,60,20,22.2,0.7,0,,0,3,20,0,0.33,0,2,-2,-3.00,-2.57,Matches,0630eb63
+604,Abdul Rahman Baba,MFDF,gh Ghana,27,1994,3,183,61,67.8,2.0,2,90,2,1,3,0,1.00,2,5,-3,-1.48,-2.51,Matches,e4086af3
+605,Predrag Rajković,GK,rs Serbia,26,1995,0,,,0.0,0.0,0,,0,0,,2,0.00,2,3,-1,,,Matches,58ad9383
+606,Moisés Ramírez,GK,ec Ecuador,21,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,edf42402
+607,Gonçalo Ramos,FW,pt Portugal,20,2001,4,152,38,33.8,1.7,2,70,0,2,6,1,2.25,6,3,+3,+1.78,+0.87,Matches,f63cda26
+608,Aaron Ramsdale,GK,eng England,24,1998,0,,,,,0,,0,0,,5,,,,,,,Matches,466fb2c5
+609,Aaron Ramsey,MF,wls Wales,31,1990,3,266,89,98.5,3.0,3,89,2,0,,0,0.33,1,4,-3,-1.02,+43.98,Matches,ef619b0b
+610,Raphinha,FWMF,br Brazil,25,1996,5,315,63,65.6,3.5,4,76,1,1,12,0,2.00,6,2,+4,+1.14,+0.60,Matches,3423f250
+611,Marcus Rashford,MF,eng England,24,1997,5,140,28,31.1,1.6,1,74,0,4,17,0,2.00,5,1,+4,+2.57,+1.12,Matches,a1d5bd30
+612,David Raum,DF,de Germany,24,1998,3,242,81,89.6,2.7,3,81,1,0,,0,1.33,3,4,-1,-0.37,-6.80,Matches,7d450ed3
+613,Bassam Al-Rawi,DF,qa Qatar,24,1997,1,90,90,33.3,1.0,1,90,1,0,,0,0.00,0,2,-2,-2.00,0.00,Matches,d59acc5e
+614,David Raya,GK,es Spain,26,1995,0,,,,,0,,0,0,,4,,,,,,,Matches,98ea5115
+615,Tim Ream,DF,us USA,34,1987,4,360,90,100.0,4.0,4,90,4,0,,0,1.25,3,4,-1,-0.25,,Matches,28b40c9c
+616,Djorkaeff Reasco,FW,ec Ecuador,23,1999,1,27,27,10.0,0.3,0,,0,1,27,2,0.00,1,1,0,0.00,-0.37,Matches,5d7b7f0e
+617,Ahmed Reda Tagnaouti,GK,ma Morocco,26,1996,0,,,,,0,,0,0,,7,,,,,,,Matches,12e12fd9
+618,Andrew Redmayne,GK,au Australia,33,1989,0,,,,,0,,0,0,,4,,,,,,,Matches,04548293
+619,Gio Reyna,MF,us USA,19,2002,2,53,27,14.7,0.6,0,,0,2,27,2,0.50,1,1,0,0.00,+0.29,Matches,7fa4e703
+620,Ramin Rezaeian,DF,ir IR Iran,32,1990,2,180,90,66.7,2.0,2,90,2,0,,1,1.50,2,1,+1,+0.50,+4.50,Matches,c0ae3446
+621,Everton Ribeiro,MF,br Brazil,33,1989,1,36,36,7.5,0.4,0,,0,1,36,4,0.00,0,1,-1,-2.50,-3.72,Matches,68fb50a2
+622,Declan Rice,MF,eng England,23,1999,5,417,83,92.7,4.6,5,83,4,0,,0,2.00,12,4,+8,+1.73,-1.00,Matches,1c7012b8
+623,Richarlison,FW,br Brazil,25,1997,4,323,81,67.3,3.6,4,81,1,0,,1,2.50,6,1,+5,+1.39,+1.39,Matches,fa031b34
+624,Fabian Rieder,MF,ch Switzerland,20,2002,2,68,34,18.9,0.8,1,58,0,1,10,2,1.50,0,0,0,0.00,+1.23,Matches,c2bd8585
+625,Ró-Ró,DFMF,qa Qatar,31,1990,3,262,87,97.0,2.9,3,87,2,0,,0,0.00,1,6,-5,-1.72,+9.53,Matches,8735fe66
+626,Connor Roberts,MFDF,wls Wales,26,1995,3,200,67,74.1,2.2,2,73,1,1,54,0,0.33,1,4,-3,-1.35,+1.22,Matches,24fae784
+627,Antonee Robinson,DF,us USA,24,1997,4,359,90,99.7,4.0,4,90,3,0,,0,1.25,3,4,-1,-0.25,-0.25,Matches,289601e6
+628,Sergio Rochet,GK,uy Uruguay,29,1993,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,2,0,0.00,,Matches,81b99b9e
+629,Joe Rodon,DF,wls Wales,24,1997,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,6,-5,-1.67,,Matches,8d62d31a
+630,Rodri,DF,es Spain,25,1996,4,390,98,100.0,4.3,4,98,4,0,,0,1.25,9,3,+6,+1.38,,Matches,6434f10d
+631,Charly Rodríguez,MF,mx Mexico,25,1997,2,34,17,12.6,0.4,0,,0,2,17,1,2.00,0,1,-1,-2.65,-2.65,Matches,f0acf582
+632,Guido Rodríguez,MF,ar Argentina,28,1994,1,56,56,8.1,0.6,1,56,0,0,,6,3.00,0,0,0,0.00,-0.99,Matches,34e393f2
+633,Kevin Rodríguez,FW,ec Ecuador,22,2000,2,2,1,0.7,0.0,0,,0,2,1,1,2.00,0,0,0,0.00,-0.34,Matches,189fb038
+634,Ricardo Rodríguez,DF,ch Switzerland,29,1992,4,359,90,99.7,4.0,4,90,3,0,,0,1.50,5,9,-4,-1.00,-1.00,Matches,7f78ad23
+635,Rodrygo,MF,br Brazil,21,2001,5,181,36,37.7,2.0,1,54,0,4,32,0,2.00,2,1,+1,+0.50,-0.71,Matches,8f5e92a6
+636,Cristian Roldan,MF,us USA,27,1995,0,,,,,0,,0,0,,4,,,,,,,Matches,48875649
+637,Mohamed Ali Ben Romdhane,FW,tn Tunisia,22,1999,1,73,73,27.0,0.8,1,73,0,0,,2,3.00,1,0,+1,+1.23,+1.69,Matches,b4db6d4d
+638,Cristian Romero,DF,ar Argentina,24,1998,7,547,78,79.3,6.1,6,88,4,1,22,0,2.00,14,6,+8,+1.32,+1.95,Matches,a3d94a58
+639,Luis Romo,DFMF,mx Mexico,27,1995,0,,,,,0,,0,0,,3,,,,,,,Matches,e590bb10
+640,Cristiano Ronaldo,FW,pt Portugal,37,1985,5,290,58,64.4,3.2,3,77,0,2,29,0,1.80,6,2,+4,+1.24,+0.12,Matches,dea698d9
+641,Marten de Roon,MF,nl Netherlands,31,1991,5,184,37,38.3,2.0,3,57,0,2,7,0,2.20,5,1,+4,+1.96,+1.35,Matches,2a1beb34
+642,Kye Rowles,DF,au Australia,23,1998,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,4,6,-2,-0.50,,Matches,8caf6772
+643,Antonio Rüdiger,DF,de Germany,29,1993,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,6,5,+1,+0.33,,Matches,18b896d6
+644,Bryan Ruiz,FWMF,cr Costa Rica,36,1985,1,30,30,11.1,0.3,0,,0,1,30,2,0.00,0,3,-3,-9.00,-7.13,Matches,fa6292e2
+645,Gerónimo Rulli,GK,ar Argentina,30,1992,0,,,,,0,,0,0,,7,,,,,,,Matches,625c144a
+646,Mathew Ryan,GK,au Australia,30,1992,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,4,6,-2,-0.50,,Matches,4535e4bb
+647,Frederik Rønnow,GK,dk Denmark,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,a70b8345
+648,José Sá,GK,pt Portugal,29,1993,0,,,,,0,,0,0,,5,,,,,,,Matches,903b6e8b
+649,Youssouf Sabaly,DF,sn Senegal,29,1993,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,5,7,-2,-0.50,,Matches,fbbb9269
+650,Abdelhamid Sabiri,MF,ma Morocco,25,1996,5,181,36,27.4,2.0,2,55,0,3,24,2,1.60,5,3,+2,+0.99,+1.18,Matches,4830e0af
+651,Romain Saïss,DF,ma Morocco,32,1990,6,466,78,70.6,5.2,6,78,4,0,,1,1.83,5,2,+3,+0.58,+1.51,Matches,9fbbcf39
+652,Bukayo Saka,FWMF,eng England,20,2001,4,288,72,64.0,3.2,4,72,0,0,,1,1.75,8,3,+5,+1.56,-0.66,Matches,bc7dc64d
+653,Hiroki Sakai,DF,jp Japan,32,1990,2,119,60,30.5,1.3,1,73,0,1,46,2,2.00,0,1,-1,-0.76,-1.42,Matches,d63e2912
+654,Youstin Salas,DF,cr Costa Rica,25,1996,2,47,24,17.4,0.5,0,,0,2,24,1,1.50,2,3,-1,-1.91,+0.91,Matches,055dd4d3
+655,William Saliba,DF,fr France,21,2001,1,28,28,4.2,0.3,0,,0,1,28,6,0.00,0,0,0,0.00,-1.14,Matches,972aeb2a
+656,Mohammed Salisu,DF,gh Ghana,23,1999,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,5,7,-2,-0.67,,Matches,0b33f6ad
+657,Tarek Salman,DFMF,qa Qatar,24,1997,1,8,8,3.0,0.1,0,,0,1,8,2,0.00,0,1,-1,-11.25,-9.53,Matches,420f4985
+658,Jorge Sánchez,DF,mx Mexico,24,1997,2,175,88,64.8,1.9,2,88,1,0,,1,2.00,2,0,+2,+1.03,+3.87,Matches,c8d1c3a5
+659,Robert Sánchez,GK,es Spain,24,1997,0,,,,,0,,0,0,,4,,,,,,,Matches,6a713852
+660,Alex Sandro,DF,br Brazil,31,1991,3,190,63,39.6,2.1,2,88,1,1,15,0,2.33,3,1,+2,+0.95,+0.02,Matches,0d82903c
+661,Leroy Sané,MF,de Germany,26,1996,2,111,56,41.1,1.2,1,90,1,1,21,1,2.00,5,2,+3,+2.43,+3.56,Matches,2b114be3
+662,Na Sang-ho,MF,kr Korea Republic,25,1996,2,119,60,33.1,1.3,1,74,0,1,45,2,0.50,2,1,+1,+0.76,+2.25,Matches,6af38cdd
+663,Pablo Sarabia,FWMF,es Spain,30,1992,1,3,3,0.8,0.0,0,,0,1,3,3,1.00,0,0,0,0.00,-1.40,Matches,9744ff80
+664,Josh Sargent,FW,us USA,22,2000,3,157,52,43.6,1.7,2,75,0,1,8,1,1.67,2,0,+2,+1.15,+2.48,Matches,a8d4428b
+665,Jeremy Sarmiento,MF,ec Ecuador,19,2002,3,85,28,31.5,0.9,0,,0,3,28,0,1.33,1,1,0,0.00,-0.49,Matches,ac0d576d
+666,Ismaila Sarr,MFFW,sn Senegal,24,1998,4,344,86,95.6,3.8,4,86,3,0,,0,1.50,4,6,-2,-0.52,-0.52,Matches,bfdb33aa
+667,Ferjani Sassi,DFMF,tn Tunisia,30,1992,2,48,24,17.8,0.5,0,,0,2,24,1,0.50,0,0,0,0.00,0.00,Matches,35bf6065
+668,Joe Scally,DFMF,us USA,19,2002,0,,,,,0,,0,0,,4,,,,,,,Matches,236f02cd
+669,Fabian Schär,DF,ch Switzerland,30,1991,2,135,68,37.5,1.5,2,68,1,0,,2,1.50,3,4,-1,-0.67,+0.53,Matches,c8aa95da
+670,Nico Schlotterbeck,DF,de Germany,22,1999,2,94,47,34.8,1.0,1,90,1,1,4,1,0.50,1,2,-1,-0.96,-1.98,Matches,34e12499
+671,Kasper Schmeichel,GK,dk Denmark,35,1986,3,270,90,100.0,3.0,3,90,3,0,,0,0.33,1,3,-2,-0.67,,Matches,53af52f3
+672,Daniel Schmidt,GK,jp Japan,30,1992,0,,,,,0,,0,0,,4,,,,,,,Matches,a82d64e7
+673,Haris Seferović,FW,ch Switzerland,30,1992,3,71,24,19.7,0.8,0,,0,3,24,1,1.00,1,4,-3,-3.80,-3.49,Matches,a45eac1f
+674,Alidu Seidu,MFDF,gh Ghana,22,2000,2,155,78,57.4,1.7,2,78,1,0,,1,0.00,0,3,-3,-1.74,-2.52,Matches,cea59f02
+675,Antoine Semenyo,FWMF,gh Ghana,22,2000,2,20,10,7.4,0.2,0,,0,2,10,1,0.00,0,0,0,0.00,+0.72,Matches,efd2ec23
+676,Patrick Sequeira,GK,cr Costa Rica,23,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,6f21e773
+677,Kim Seung-gyu,GK,kr Korea Republic,31,1990,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,5,8,-3,-0.75,,Matches,eabaafa6
+678,Paik Seung-ho,MF,kr Korea Republic,25,1997,1,26,26,7.2,0.3,0,,0,1,26,3,0.00,1,0,+1,+3.46,+4.54,Matches,1e1bea09
+679,Yasser Al-Shahrani,DF,sa Saudi Arabia,30,1992,1,89,89,33.0,1.0,1,89,0,0,,0,3.00,2,1,+1,+1.01,+2.50,Matches,251c164e
+680,Xherdan Shaqiri,FWMF,ch Switzerland,30,1991,3,229,76,63.6,2.5,3,76,1,0,,1,2.00,5,8,-3,-1.18,-0.49,Matches,6421ec64
+681,Riyadh Sharahili,MF,sa Saudi Arabia,29,1993,1,54,54,20.0,0.6,0,,0,1,54,0,0.00,1,2,-1,-1.67,-1.25,Matches,3e8326a9
+682,Luke Shaw,DF,eng England,26,1995,5,424,85,94.2,4.7,5,85,4,0,,0,2.00,12,4,+8,+1.70,-1.76,Matches,9c94165b
+683,Saad Al Sheeb,GK,qa Qatar,32,1990,1,90,90,33.3,1.0,1,90,1,0,,2,0.00,0,2,-2,-2.00,0.00,Matches,e00ad66a
+684,Saleh Al-Shehri,FW,sa Saudi Arabia,28,1993,3,223,74,82.6,2.5,3,74,0,0,,0,1.00,2,5,-3,-1.21,-3.13,Matches,f4377d0f
+685,Gaku Shibasaki,MF,jp Japan,30,1992,0,,,,,0,,0,0,,4,,,,,,,Matches,d2ac648c
+686,André Silva,FW,pt Portugal,26,1995,1,26,26,5.8,0.3,0,,0,1,26,4,0.00,0,1,-1,-3.46,-4.95,Matches,3effaa34
+687,António Silva,DF,pt Portugal,18,2003,1,90,90,20.0,1.0,1,90,1,0,,4,0.00,1,2,-1,-1.00,-2.75,Matches,8f0435c7
+688,Bernardo Silva,MF,pt Portugal,27,1994,5,356,71,79.1,4.0,4,87,2,1,9,0,1.80,10,4,+6,+1.52,+1.52,Matches,3eb22ec9
+689,Thiago Silva,DF,br Brazil,37,1984,4,390,98,81.3,4.3,4,98,4,0,,1,2.50,8,2,+6,+1.38,+2.38,Matches,86e7deaf
+690,Unai Simón,GK,es Spain,25,1997,4,390,98,100.0,4.3,4,98,4,0,,0,1.25,9,3,+6,+1.38,,Matches,5dcf3e90
+691,Xavi Simons,FWMF,nl Netherlands,19,2003,1,9,9,1.9,0.1,0,,0,1,9,4,3.00,0,0,0,0.00,-1.15,Matches,da4d670f
+692,Ellyes Skhiri,MF,tn Tunisia,27,1995,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,1,0,0.00,,Matches,c2211709
+693,Michał Skóraś,MF,pl Poland,22,2000,1,45,45,12.5,0.5,0,,0,1,45,3,0.00,0,1,-1,-2.00,-1.71,Matches,5a80aea3
+694,Łukasz Skorupski,GK,pl Poland,31,1991,0,,,,,0,,0,0,,4,,,,,,,Matches,ab4449d6
+695,Andreas Skov Olsen,FW,dk Denmark,22,1999,2,132,66,48.9,1.5,2,66,0,0,,1,0.50,0,1,-1,-0.68,-0.03,Matches,c50cee19
+696,Robert Skov,FWMF,dk Denmark,26,1996,1,22,22,8.1,0.2,0,,0,1,22,2,0.00,0,0,0,0.00,+0.73,Matches,ff98492b
+697,Naïm Sliti,FW,tn Tunisia,29,1992,2,114,57,42.2,1.3,1,90,1,1,24,1,0.50,0,1,-1,-0.79,-1.37,Matches,2e0367a6
+698,Matthew Smith,MF,wls Wales,22,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,bb095d7f
+699,Carlos Soler,MF,es Spain,25,1997,2,92,46,23.6,1.0,0,,0,2,46,2,2.00,3,0,+3,+2.93,+2.03,Matches,fed17f5a
+700,Yuki Soma,MF,jp Japan,25,1997,1,81,81,20.8,0.9,1,81,0,0,,3,0.00,0,1,-1,-1.11,-1.69,Matches,e997f52f
+701,Yann Sommer,GK,ch Switzerland,33,1988,3,270,90,75.0,3.0,3,90,3,0,,0,1.00,2,7,-5,-1.67,-2.67,Matches,420c18a1
+702,Borna Sosa,DF,hr Croatia,24,1998,5,424,85,61.4,4.7,5,85,3,0,,1,1.20,4,4,0,0.00,-0.34,Matches,af0d79a9
+703,Sebastián Sosa,GK,uy Uruguay,35,1986,0,,,,,0,,0,0,,3,,,,,,,Matches,34074967
+704,Marou Souaibou,FW,cm Cameroon,21,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,eac37f4d
+705,Harry Souttar,DF,au Australia,23,1998,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,4,6,-2,-0.50,,Matches,0a6cb1b1
+706,Djibril Sow,MF,ch Switzerland,25,1997,4,264,66,73.3,2.9,4,66,0,0,,0,1.50,4,5,-1,-0.34,+2.47,Matches,4c6facae
+707,Kamal Sowah,FWMF,gh Ghana,22,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,74b7375f
+708,Dayne St. Clair,GK,ca Canada,25,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,3f41d25f
+709,Josip Stanišić,DF,hr Croatia,22,2000,1,90,90,13.0,1.0,1,90,1,0,,5,3.00,2,1,+1,+1.00,+1.00,Matches,7ed08d5c
+710,Renato Steffen,FWMF,ch Switzerland,30,1991,1,32,32,8.9,0.4,0,,0,1,32,2,0.00,0,1,-1,-2.81,-1.99,Matches,dd669209
+711,Raheem Sterling,MFFW,eng England,27,1994,3,149,50,33.1,1.7,2,69,0,1,12,1,1.33,5,1,+4,+2.42,+0.92,Matches,b400bde0
+712,John Stones,DF,eng England,28,1994,5,434,87,96.4,4.8,5,87,3,0,,0,2.00,13,4,+9,+1.87,+1.87,Matches,5eecec3d
+713,Jens Stryger Larsen,DFMF,dk Denmark,31,1991,0,,,,,0,,0,0,,3,,,,,,,Matches,f91e81c9
+714,Luis Suárez,FW,uy Uruguay,35,1987,3,146,49,54.1,1.6,2,64,0,1,18,0,1.33,2,1,+1,+0.62,+1.34,Matches,a6154613
+715,Luka Sučić,FWMF,hr Croatia,19,2002,0,,,,,0,,0,0,,7,,,,,,,Matches,1e1378e1
+716,Niklas Süle,DF,de Germany,26,1995,3,269,90,99.6,3.0,3,90,2,0,,0,1.33,6,5,+1,+0.33,+0.33,Matches,e33c06cf
+717,Kamaldeen Sulemana,FWMF,gh Ghana,20,2002,2,58,29,21.5,0.6,0,,0,2,29,1,1.50,0,0,0,0.00,+0.85,Matches,a62f8bf1
+718,Josip Šutalo,DF,hr Croatia,22,2000,1,90,90,13.0,1.0,1,90,1,0,,6,3.00,2,1,+1,+1.00,+1.00,Matches,33a6a650
+719,Karol Świderski,MF,pl Poland,25,1997,1,45,45,12.5,0.5,1,45,0,0,,3,0.00,0,1,-1,-2.00,-1.71,Matches,41723204
+720,Wojciech Szczęsny,GK,pl Poland,32,1990,4,360,90,100.0,4.0,4,90,4,0,,0,1.00,3,5,-2,-0.50,,Matches,01b8a2b2
+721,Damian Szymański,MF,pl Poland,26,1995,1,29,29,8.1,0.3,0,,0,1,29,3,0.00,0,1,-1,-3.10,-2.83,Matches,e935dbbf
+722,Sebastian Szymański,MF,pl Poland,23,1999,2,134,67,37.2,1.5,2,67,0,0,,2,0.50,0,1,-1,-0.67,-0.27,Matches,bb718263
+723,Dušan Tadić,MFFW,rs Serbia,33,1988,3,257,86,95.2,2.9,3,86,2,0,,0,0.33,5,8,-3,-1.05,-1.05,Matches,2475dcc6
+724,Kim Tae-hwan,DFMF,kr Korea Republic,32,1989,0,,,,,0,,0,0,,4,,,,,,,Matches,2e2f2a1c
+725,Nicolás Tagliafico,DF,ar Argentina,29,1992,6,373,62,54.1,4.1,3,93,1,3,31,1,1.83,8,8,0,0.00,-1.99,Matches,f0661424
+726,Alfredo Talavera,GK,mx Mexico,39,1982,0,,,,,0,,0,0,,3,,,,,,,Matches,5c7fc905
+727,Montassar Talbi,DF,tn Tunisia,24,1998,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,1,0,0.00,,Matches,a4a44eb0
+728,Hassan Al Tambakti,DF,sa Saudi Arabia,23,1999,2,180,90,66.7,2.0,2,90,2,0,,1,1.50,3,3,0,0.00,+2.00,Matches,6d78c320
+729,Ao Tanaka,MF,jp Japan,23,1998,3,171,57,43.8,1.9,2,78,0,1,15,1,2.33,2,2,0,0.00,-0.41,Matches,1d36d6b6
+730,Shogo Taniguchi,DF,jp Japan,30,1991,2,210,105,53.8,2.3,2,105,2,0,,2,2.00,3,2,+1,+0.43,+0.43,Matches,828a9c47
+731,Mehdi Taremi,FWMF,ir IR Iran,29,1992,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,4,7,-3,-1.00,,Matches,4c2a5d34
+732,Kenneth Taylor,MF,nl Netherlands,20,2002,1,5,5,1.0,0.1,0,,0,1,5,4,3.00,0,0,0,0.00,-1.14,Matches,ad9b2747
+733,Aurélien Tchouaméni,MF,fr France,22,2000,7,621,89,94.1,6.9,7,89,5,0,,0,2.29,14,7,+7,+1.01,-1.29,Matches,4f255115
+734,Yeltsin Tejeda,MF,cr Costa Rica,30,1992,3,269,90,99.6,3.0,3,90,2,0,,0,1.00,3,11,-8,-2.68,-2.68,Matches,74319b04
+735,Alex Telles,DF,br Brazil,29,1992,2,59,30,12.3,0.7,1,54,0,1,5,1,1.50,0,0,0,0.00,-1.07,Matches,e73c9bb2
+736,Marc-André ter Stegen,GK,de Germany,30,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,6f51e382
+737,Arthur Theate,DF,be Belgium,22,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,df8d6029
+738,Sorba Thomas,FWMF,wls Wales,22,1999,1,1,1,0.4,0.0,0,,0,1,1,2,1.00,0,0,0,0.00,+1.67,Matches,8725a42e
+739,Marcus Thuram,FWMF,fr France,24,1997,5,151,30,22.9,1.7,0,,0,5,30,2,2.60,6,3,+3,+1.79,+0.90,Matches,6f8cd6d0
+740,Youri Tielemans,MF,be Belgium,25,1997,3,95,32,35.2,1.1,1,45,0,2,25,0,1.33,1,2,-1,-0.95,-0.95,Matches,56f7a928
+741,Marco Tilio,MF,au Australia,20,2001,0,,,,,0,,0,0,,4,,,,,,,Matches,188b5803
+742,Jurriën Timber,DF,nl Netherlands,20,2001,4,390,98,81.3,4.3,4,98,4,0,,1,2.00,8,4,+4,+0.92,-1.08,Matches,41034650
+743,Karl Toko Ekambi,FW,cm Cameroon,29,1992,3,166,55,61.5,1.8,2,70,0,1,27,0,1.33,4,4,0,0.00,0.00,Matches,5ceba7fc
+744,Nouhou Tolo,DF,cm Cameroon,24,1997,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,4,0,0.00,,Matches,0796512f
+745,Takehiro Tomiyasu,DF,jp Japan,23,1998,3,187,62,47.9,2.1,1,120,1,2,34,1,2.33,3,1,+2,+0.96,+1.41,Matches,b3af9be1
+746,Mehdi Torabi,MF,ir IR Iran,27,1994,3,62,21,23.0,0.7,0,,0,3,21,0,1.00,4,2,+2,+2.90,+5.07,Matches,74567feb
+747,Lucas Torreira,MF,uy Uruguay,26,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,52611641
+748,Félix Torres Caicedo,DF,ec Ecuador,25,1997,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,4,3,+1,+0.33,,Matches,c0a8860f
+749,Facundo Torres,FWMF,uy Uruguay,22,2000,0,,,,,0,,0,0,,3,,,,,,,Matches,4de3b2c0
+750,Ferran Torres,FW,es Spain,22,2000,4,217,54,55.6,2.4,3,61,0,1,34,0,1.25,4,0,+4,+1.66,+0.62,Matches,9e1035f8
+751,Gerson Torres,MF,cr Costa Rica,24,1997,1,64,64,23.7,0.7,1,64,0,0,,2,3.00,0,0,0,0.00,+3.50,Matches,d56713ff
+752,Pau Torres,DF,es Spain,25,1997,1,90,90,23.1,1.0,1,90,1,0,,3,0.00,1,2,-1,-1.00,-3.10,Matches,532e1e4f
+753,Kevin Trapp,GK,de Germany,31,1990,0,,,,,0,,0,0,,3,,,,,,,Matches,ce17b5eb
+754,Kieran Trippier,DF,eng England,31,1990,3,206,69,45.8,2.3,2,90,2,1,26,2,2.33,7,2,+5,+2.18,+0.71,Matches,21512407
+755,Leandro Trossard,FW,be Belgium,27,1994,3,103,34,38.1,1.1,1,58,0,2,23,0,1.33,0,1,-1,-0.87,-0.87,Matches,38ceb24a
+756,Matt Turner,GK,us USA,27,1994,4,360,90,100.0,4.0,4,90,4,0,,0,1.25,3,4,-1,-0.25,,Matches,4a51ba65
+757,Ayase Ueda,FW,jp Japan,23,1998,1,45,45,11.5,0.5,1,45,0,0,,3,0.00,0,0,0,0.00,-0.26,Matches,c0295327
+758,Manuel Ugarte,MF,uy Uruguay,21,2001,0,,,,,0,,0,0,,3,,,,,,,Matches,c9817014
+759,Ike Ugbo,FW,ca Canada,23,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,8a53d24b
+760,Hwang Ui-jo,FW,kr Korea Republic,29,1992,4,106,27,29.4,1.2,1,73,0,3,11,0,1.00,1,0,+1,+0.85,+2.27,Matches,a2d873dd
+761,Dayot Upamecano,DF,fr France,23,1998,5,480,96,72.7,5.3,5,96,5,0,,2,2.60,14,7,+7,+1.31,+0.81,Matches,d248cd8f
+762,Enner Valencia,FW,ec Ecuador,32,1989,3,255,85,94.4,2.8,3,85,1,0,,0,1.33,4,3,+1,+0.35,+0.35,Matches,fb485406
+763,Federico Valverde,MF,uy Uruguay,23,1998,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,2,2,0,0.00,,Matches,0959c2a2
+764,Virgil van Dijk,DF,nl Netherlands,30,1991,5,480,96,100.0,5.3,5,96,5,0,,0,2.20,10,4,+6,+1.13,,Matches,e06683ca
+765,Hans Vanaken,MF,be Belgium,29,1992,0,,,,,0,,0,0,,3,,,,,,,Matches,392a7aea
+766,Raphaël Varane,DF,fr France,29,1993,6,518,86,78.5,5.8,6,86,3,0,,1,2.17,10,7,+3,+0.52,-2.65,Matches,9f8e9423
+767,Guillermo Varela,MFDF,uy Uruguay,29,1993,3,183,61,67.8,2.0,2,90,2,1,3,0,1.33,2,2,0,0.00,0.00,Matches,5c961282
+768,Ruben Vargas,MFFW,ch Switzerland,23,1998,4,285,71,79.2,3.2,4,71,0,0,,0,1.50,5,6,-1,-0.32,+3.28,Matches,6ecbddf6
+769,Johan Vásquez,DF,mx Mexico,23,1998,0,,,,,0,,0,0,,3,,,,,,,Matches,5eaed77a
+770,Matías Vecino,MF,uy Uruguay,30,1991,3,195,65,72.2,2.2,2,69,0,1,57,0,1.33,0,1,-1,-0.46,-1.66,Matches,44ac04e9
+771,Alexis Vega,FWMF,mx Mexico,24,1997,3,193,64,71.5,2.1,3,64,0,0,,0,1.33,0,1,-1,-0.47,-0.47,Matches,f40f4c38
+772,Miloš Veljković,DF,rs Serbia,26,1995,3,221,74,81.9,2.5,3,74,1,0,,0,0.33,5,8,-3,-1.22,-1.22,Matches,a5ae8f8e
+773,Johan Venegas,FW,cr Costa Rica,33,1988,1,73,73,27.0,0.8,1,73,0,0,,2,0.00,2,2,0,0.00,+3.65,Matches,5eadd340
+774,Jordan Veretout,MF,fr France,29,1993,1,62,62,9.4,0.7,1,62,0,0,,6,0.00,0,1,-1,-1.45,-2.81,Matches,4a56052c
+775,Jan Vertonghen,DF,be Belgium,35,1987,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,ba23a904
+776,Domagoj Vida,DFMF,hr Croatia,33,1989,0,,,,,0,,0,0,,6,,,,,,,Matches,3f359b33
+777,Matías Viña,DFMF,uy Uruguay,24,1997,2,17,9,6.3,0.2,0,,0,2,9,1,0.50,0,1,-1,-5.29,-5.65,Matches,08eb3b58
+778,Vitinha,FW,pt Portugal,22,2000,3,120,40,26.7,1.3,1,81,0,2,20,2,1.00,2,1,+1,+0.75,-0.61,Matches,3b029691
+779,Steven Vitória,DF,ca Canada,35,1987,3,270,90,100.0,3.0,3,90,3,0,,0,0.00,2,7,-5,-1.67,,Matches,9bc450e6
+780,Dušan Vlahović,FW,rs Serbia,22,2000,2,79,40,29.3,0.9,1,54,0,1,25,1,0.00,2,4,-2,-2.28,-1.81,Matches,79443529
+781,Nikola Vlašić,FW,hr Croatia,24,1997,6,209,35,30.3,2.3,1,45,0,5,33,1,1.50,2,2,0,0.00,-0.19,Matches,aa8e289e
+782,Stefan de Vrij,DF,nl Netherlands,30,1992,0,,,,,0,,0,0,,5,,,,,,,Matches,d0d8dd44
+783,Danny Vukovic,GK,au Australia,37,1985,0,,,,,0,,0,0,,4,,,,,,,Matches,38cd5b8f
+784,Mohammed Waad,MF,qa Qatar,22,1999,2,28,14,10.4,0.3,0,,0,2,14,1,0.00,0,1,-1,-3.21,-1.35,Matches,94e8df02
+785,Kyle Walker,DF,eng England,32,1990,3,236,79,52.4,2.6,3,79,2,0,,2,2.00,6,2,+4,+1.53,-0.58,Matches,86dd77d1
+786,Danny Ward,GK,wls Wales,28,1993,2,94,47,34.8,1.0,1,90,1,1,4,1,0.00,0,5,-5,-4.79,-4.79,Matches,d3ce0e89
+787,Daniel Wass,DFMF,dk Denmark,33,1989,0,,,,,0,,0,0,,3,,,,,,,Matches,d83bbc54
+788,Kendall Waston,DF,cr Costa Rica,34,1988,3,225,75,83.3,2.5,2,90,2,1,45,0,1.00,3,8,-5,-2.00,+4.00,Matches,02ea59b0
+789,Joel Waterman,DF,ca Canada,26,1996,0,,,,,0,,0,0,,3,,,,,,,Matches,47ddcc22
+790,Timothy Weah,FW,us USA,22,2000,4,316,79,87.8,3.5,4,79,0,0,,0,1.25,2,3,-1,-0.28,-0.28,Matches,8eec784d
+791,Wout Weghorst,FW,nl Netherlands,29,1992,4,64,16,13.3,0.7,0,,0,4,16,1,2.00,2,0,+2,+2.81,+1.95,Matches,c4e87b8b
+792,Wéverton,GK,br Brazil,34,1987,1,11,11,2.3,0.1,0,,0,1,11,4,3.00,0,0,0,0.00,-0.96,Matches,81be82e9
+793,Ben White,DF,eng England,24,1997,0,,,,,0,,0,0,,2,,,,,,,Matches,35e413f1
+794,Silvan Widmer,DF,ch Switzerland,29,1993,3,265,88,73.6,2.9,3,88,2,0,,0,2.00,4,3,+1,+0.34,+5.08,Matches,f68b64fc
+795,Mateusz Wieteska,DF,pl Poland,25,1997,0,,,,,0,,0,0,,4,,,,,,,Matches,3ecc8c5f
+796,Iñaki Williams,FWMF,gh Ghana,27,1994,3,270,90,100.0,3.0,3,90,3,0,,0,1.00,5,7,-2,-0.67,,Matches,6a99e0b1
+797,Jonny Williams,FWMF,wls Wales,28,1993,0,,,,,0,,0,0,,3,,,,,,,Matches,49b8432c
+798,Neco Williams,DFMF,wls Wales,21,2001,3,204,68,75.6,2.3,3,68,1,0,,0,0.33,0,3,-3,-1.32,+1.40,Matches,dd323728
+799,Nico Williams,FW,es Spain,19,2002,4,146,37,37.4,1.6,1,56,0,3,30,0,1.25,4,3,+1,+0.62,-1.23,Matches,afdc14d7
+800,Callum Wilson,FW,eng England,30,1992,2,48,24,10.7,0.5,0,,0,2,24,3,3.00,2,1,+1,+1.87,+0.08,Matches,c596fcb0
+801,Harry Wilson,MF,wls Wales,25,1997,3,160,53,59.3,1.8,2,73,0,1,14,0,0.33,1,1,0,0.00,+4.09,Matches,c6dc9ecd
+802,Roan Wilson,FW,cr Costa Rica,20,2002,1,1,1,0.4,0.0,0,,0,1,1,2,0.00,0,0,0,0.00,+2.68,Matches,719300f2
+803,Jonas Wind,FWMF,dk Denmark,23,1999,0,,,,,0,,0,0,,3,,,,,,,Matches,2077ae86
+804,Axel Witsel,MF,be Belgium,33,1989,3,270,90,100.0,3.0,3,90,3,0,,0,1.33,1,2,-1,-0.33,,Matches,5dfc6ad5
+805,Jeong Woo-yeong,MF,kr Korea Republic,22,1999,1,45,45,12.5,0.5,1,45,0,0,,3,0.00,0,2,-2,-4.00,-3.71,Matches,6190474d
+806,Jung Woo-young,MF,kr Korea Republic,32,1989,4,303,76,84.2,3.4,4,76,2,0,,0,1.00,4,8,-4,-1.19,-2.77,Matches,858a34b8
+807,Christopher Wooh,DF,cm Cameroon,20,2001,1,90,90,33.3,1.0,1,90,1,0,,2,3.00,1,0,+1,+1.00,+1.50,Matches,b003239d
+808,David Wotherspoon,MF,ca Canada,32,1990,1,15,15,5.6,0.2,0,,0,1,15,2,0.00,0,0,0,0.00,+1.76,Matches,e9a9b1fa
+809,Bailey Wright,DF,au Australia,29,1992,1,17,17,4.7,0.2,0,,0,1,17,3,3.00,0,0,0,0.00,+0.52,Matches,4be70ecf
+810,Haji Wright,FW,us USA,24,1998,4,137,34,38.1,1.5,1,82,0,3,18,0,1.25,1,2,-1,-0.66,-0.66,Matches,91cd37b7
+811,Granit Xhaka,MF,ch Switzerland,29,1992,4,360,90,100.0,4.0,4,90,4,0,,0,1.50,5,9,-4,-1.00,,Matches,e61b8aee
+812,Miki Yamane,DF,jp Japan,28,1993,1,61,61,15.6,0.7,1,61,0,0,,3,0.00,0,0,0,0.00,-0.27,Matches,b712e02d
+813,Mohammed Al Yami,GK,sa Saudi Arabia,24,1997,0,,,,,0,,0,0,,3,,,,,,,Matches,0bb0f7c6
+814,Jawad El Yamiq,DF,ma Morocco,30,1992,6,309,52,46.8,3.4,3,82,2,3,21,1,1.67,3,4,-1,-0.29,-0.80,Matches,f6f6b6e8
+815,Taha Yassine Khenissi,FW,tn Tunisia,30,1992,2,29,15,10.7,0.3,0,,0,2,15,1,0.50,0,0,0,0.00,0.00,Matches,44d6aedb
+816,DeAndre Yedlin,DFMF,us USA,28,1993,2,33,17,9.2,0.4,0,,0,2,17,2,0.50,1,2,-1,-2.73,-2.73,Matches,ae0a7ddf
+817,Maya Yoshida,DF,jp Japan,33,1988,4,390,98,100.0,4.3,4,98,4,0,,0,1.75,5,4,+1,+0.23,,Matches,caffaf5a
+818,Kim Young-gwon,DF,kr Korea Republic,32,1990,4,350,88,97.2,3.9,4,88,3,0,,0,1.00,4,8,-4,-1.03,-10.03,Matches,9459ace1
+819,Cho Yu-min,DF,kr Korea Republic,25,1996,1,1,1,0.3,0.0,0,,0,1,1,3,3.00,0,0,0,0.00,+0.75,Matches,7a4529dc
+820,Denis Zakaria,DFMF,ch Switzerland,25,1996,2,59,30,16.4,0.7,0,,0,2,30,2,1.50,1,3,-2,-3.05,-2.45,Matches,384d58d9
+821,Nicola Zalewski,MF,pl Poland,20,2002,2,65,33,18.1,0.7,1,45,0,1,20,2,0.50,1,2,-1,-1.38,-1.08,Matches,45191c29
+822,Álvaro Zamora,FW,cr Costa Rica,20,2002,1,30,30,11.1,0.3,0,,0,1,30,2,0.00,0,3,-3,-9.00,-7.13,Matches,d050756d
+823,Anass Zaroury,FWMF,ma Morocco,21,2000,1,27,27,4.1,0.3,0,,0,1,27,6,0.00,0,0,0,0.00,-0.14,Matches,07d65234
+824,Piotr Zieliński,MF,pl Poland,28,1994,4,328,82,91.1,3.6,4,82,2,0,,0,1.00,2,5,-3,-0.82,-3.64,Matches,a5296e55
+825,Walker Zimmerman,DF,us USA,29,1993,4,279,70,77.5,3.1,3,90,3,1,9,0,1.25,2,4,-2,-0.65,-1.76,Matches,220fa883
+826,Andrija Živković,MF,rs Serbia,25,1996,3,210,70,77.8,2.3,3,70,0,0,,0,0.33,5,6,-1,-0.43,+2.57,Matches,321f83a2
+827,Hakim Ziyech,FWMF,ma Morocco,29,1993,7,635,91,96.2,7.1,7,91,5,0,,0,1.57,6,5,+1,+0.14,+0.14,Matches,6622454d
+828,Szymon Żurkowski,MF,pl Poland,24,1997,0,,,,,0,,0,0,,4,,,,,,,Matches,4e1d5e59
+829,Filip Đuričić,FWMF,rs Serbia,30,1992,2,14,7,5.2,0.2,0,,0,2,7,1,0.50,0,0,0,0.00,+1.05,Matches,eccbe56a
