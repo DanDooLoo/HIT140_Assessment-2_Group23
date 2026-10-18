@@ -1,0 +1,11 @@
+venue_id,venue_name,city,country,capacity,avg_temperature,humidity,pitch_quality_score
+V01,MetLife,New York,USA,82500,24.5,55,9.2
+V02,SoFi,LA,USA,70000,26.0,48,9.5
+V03,AT&T,Dallas,USA,80000,28.5,62,8.8
+V04,Azteca,Mexico City,Mexico,87000,27.0,58,9.0
+V05,BC Place,Vancouver,Canada,54000,19.0,65,8.5
+V06,Levis,SF,USA,68500,22.0,60,9.1
+V07,Mercedes,Atlanta,USA,71000,27.5,52,8.9
+V08,NRG,Houston,USA,72000,29.0,70,8.7
+V09,Hard Rock,Miami,USA,65000,30.5,75,9.3
+V10,BMO Field,Toronto,Canada,45000,21.0,58,8.6

@@ -1,0 +1,49 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+import numpy as np
+
+df = pd.read_csv('L_R_2.1.csv')
+
+x = df.iloc[:,:-1]
+y = df.iloc[:,-1]
+
+# Build the linear regression 
+x = sm.add_constant(x)
+model = sm.OLS(y,x).fit()
+model.predict(x)
+model_report = model.summary()
+print(model_report)
+
+
+"""Non-linear transformation of LSTAT variable"""
+
+# Re-read dataset into a DataFrame
+df = pd.read_csv("L_R_2.1.csv")
+
+# Apply non-linear transformation
+df["Team_1_Score"] = df["Team_2_Score"].apply(np.log)
+
+# Rearrange the variables so that Goal Difference appears as the last column
+df = df['Team_1_Score'	'Team_2_Score'	'Score_First_Half_Team_1'	'Score_First_Half_Team_2'	
+        'Possession_Team_1'	'Possession_Team_2'	'Attempts_at_Goal_Team_1	Attempts_at_Goal_Team_2'	'Goals_Conceded_Team_1'
+        'Goals_Conceded_Team_2'	'Goal_Difference']
+
+# Visualise the effect of the transformation
+plt.figure(figsize=(20,10))
+
+plt.subplot(1,2,1)
+plt.scatter(df["Team_1_Score"], df["Goal_Difference"], color="green")
+plt.title("Team_1_Score")
+plt.xlabel("Team_1_Score")
+plt.ylabel("Goal_Difference")
+plt.plot([0,40],[30,0])
+
+plt.subplot(1,2,2)
+plt.scatter(df["Team_2_Score"], df["Goal_Difference"], color="red")
+plt.title("Log Transformed Team_2_Score")
+plt.xlabel("Team_2_Score")
+plt.ylabel("Goal_Difference")
+plt.plot([0,4],[50,0])
+
+plt.show()
